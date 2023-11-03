@@ -1,0 +1,454 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.t_flutter.host"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/app/src/main/AndroidManifest.xml
+10
+11    <!--
+12         The INTERNET permission is required for development. Specifically,
+13         flutter needs it to communicate with the running application
+14         to allow setting breakpoints, to provide hot reload, etc.
+15    -->
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->/Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/app/src/main/AndroidManifest.xml:9:5-66
+16-->/Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/app/src/main/AndroidManifest.xml:9:22-64
+17
+18    <queries>
+18-->[:talkjs_flutter_inappwebview] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/talkjs_flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-13:15
+19        <intent>
+19-->[:talkjs_flutter_inappwebview] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/talkjs_flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:18
+20            <action android:name="android.support.customtabs.action.CustomTabsService" />
+20-->[:talkjs_flutter_inappwebview] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/talkjs_flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-90
+20-->[:talkjs_flutter_inappwebview] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/talkjs_flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:11:21-87
+21        </intent>
+22    </queries>
+23
+24    <uses-permission android:name="android.permission.WAKE_LOCK" />
+24-->[:firebase_messaging] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+24-->[:firebase_messaging] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-65
+25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Permissions options for the `notification` group -->
+25-->[:firebase_messaging] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
+25-->[:firebase_messaging] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-76
+26    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+26-->[:firebase_messaging] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-77
+26-->[:firebase_messaging] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:13:22-74
+27    <uses-permission android:name="android.permission.VIBRATE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+27-->[:flutter_local_notifications] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-66
+27-->[:flutter_local_notifications] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-63
+28    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+28-->[com.google.firebase:firebase-iid:21.1.0] /Users/lucas.siqueira/.gradle/caches/transforms-3/59763aa1d6ae3e2f09628a4724cc5003/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:26:5-82
+28-->[com.google.firebase:firebase-iid:21.1.0] /Users/lucas.siqueira/.gradle/caches/transforms-3/59763aa1d6ae3e2f09628a4724cc5003/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:26:22-79
+29
+30    <permission
+30-->[androidx.core:core:1.10.1] /Users/lucas.siqueira/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+31        android:name="com.example.t_flutter.host.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+31-->[androidx.core:core:1.10.1] /Users/lucas.siqueira/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+32        android:protectionLevel="signature" />
+32-->[androidx.core:core:1.10.1] /Users/lucas.siqueira/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+33
+34    <uses-permission android:name="com.example.t_flutter.host.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+34-->[androidx.core:core:1.10.1] /Users/lucas.siqueira/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+34-->[androidx.core:core:1.10.1] /Users/lucas.siqueira/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+35
+36    <application
+36-->/Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/app/src/main/AndroidManifest.xml:11:5-39:19
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.10.1] /Users/lucas.siqueira/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+38        android:debuggable="true"
+39        android:icon="@mipmap/ic_launcher"
+39-->/Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/app/src/main/AndroidManifest.xml:13:9-43
+40        android:label="t_flutter" >
+40-->/Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/app/src/main/AndroidManifest.xml:12:9-34
+41        <activity
+41-->/Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/app/src/main/AndroidManifest.xml:14:9-33:20
+42            android:name="com.example.t_flutter.host.MainActivity"
+42-->/Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/app/src/main/AndroidManifest.xml:15:13-41
+43            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+43-->/Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/app/src/main/AndroidManifest.xml:19:13-163
+44            android:exported="true"
+44-->/Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/app/src/main/AndroidManifest.xml:18:13-36
+45            android:hardwareAccelerated="true"
+45-->/Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/app/src/main/AndroidManifest.xml:20:13-47
+46            android:launchMode="singleTop"
+46-->/Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/app/src/main/AndroidManifest.xml:16:13-43
+47            android:theme="@style/LaunchTheme"
+47-->/Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/app/src/main/AndroidManifest.xml:17:13-47
+48            android:windowSoftInputMode="adjustResize" >
+48-->/Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/app/src/main/AndroidManifest.xml:21:13-55
+49
+50            <!--
+51                 This keeps the window background of the activity showing
+52                 until Flutter renders its first frame. It can be removed if
+53                 there is no splash screen (such as the default splash screen
+54                 defined in @style/LaunchTheme).
+55            -->
+56            <meta-data
+56-->/Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/app/src/main/AndroidManifest.xml:26:13-28:40
+57                android:name="io.flutter.app.android.SplashScreenUntilFirstFrame"
+57-->/Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/app/src/main/AndroidManifest.xml:27:17-82
+58                android:value="true" />
+58-->/Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/app/src/main/AndroidManifest.xml:28:17-37
+59
+60            <intent-filter>
+60-->/Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/app/src/main/AndroidManifest.xml:29:13-32:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->/Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/app/src/main/AndroidManifest.xml:30:17-68
+61-->/Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/app/src/main/AndroidManifest.xml:30:25-66
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->/Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/app/src/main/AndroidManifest.xml:31:17-76
+63-->/Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/app/src/main/AndroidManifest.xml:31:27-74
+64            </intent-filter>
+65        </activity>
+66        <!--
+67             Don't delete the meta-data below.
+68             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+69        -->
+70        <meta-data
+70-->/Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/app/src/main/AndroidManifest.xml:36:9-38:33
+71            android:name="flutterEmbedding"
+71-->/Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/app/src/main/AndroidManifest.xml:37:13-44
+72            android:value="2" />
+72-->/Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/app/src/main/AndroidManifest.xml:38:13-30
+73        <meta-data
+73-->[:flutter] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/Flutter/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-16:38
+74            android:name="flutterProjectType"
+74-->[:flutter] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/Flutter/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-46
+75            android:value="module" />
+75-->[:flutter] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/Flutter/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-35
+76
+77        <activity
+77-->[:talkjs_flutter_inappwebview] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/talkjs_flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-20:47
+78            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+78-->[:talkjs_flutter_inappwebview] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/talkjs_flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-104
+79            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+79-->[:talkjs_flutter_inappwebview] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/talkjs_flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-137
+80            android:exported="false"
+80-->[:talkjs_flutter_inappwebview] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/talkjs_flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
+81            android:theme="@style/AppTheme" />
+81-->[:talkjs_flutter_inappwebview] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/talkjs_flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-44
+82        <activity
+82-->[:talkjs_flutter_inappwebview] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/talkjs_flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:21:9-24:55
+83            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+83-->[:talkjs_flutter_inappwebview] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/talkjs_flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-112
+84            android:exported="false"
+84-->[:talkjs_flutter_inappwebview] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/talkjs_flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-37
+85            android:theme="@style/ThemeTransparent" />
+85-->[:talkjs_flutter_inappwebview] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/talkjs_flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-52
+86        <activity
+86-->[:talkjs_flutter_inappwebview] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/talkjs_flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-28:55
+87            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+87-->[:talkjs_flutter_inappwebview] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/talkjs_flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-106
+88            android:exported="false"
+88-->[:talkjs_flutter_inappwebview] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/talkjs_flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-37
+89            android:theme="@style/ThemeTransparent" />
+89-->[:talkjs_flutter_inappwebview] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/talkjs_flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-52
+90        <activity
+90-->[:talkjs_flutter_inappwebview] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/talkjs_flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:29:9-33:55
+91            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+91-->[:talkjs_flutter_inappwebview] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/talkjs_flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-126
+92            android:exported="false"
+92-->[:talkjs_flutter_inappwebview] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/talkjs_flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:31:13-37
+93            android:launchMode="singleInstance"
+93-->[:talkjs_flutter_inappwebview] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/talkjs_flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:32:13-48
+94            android:theme="@style/ThemeTransparent" />
+94-->[:talkjs_flutter_inappwebview] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/talkjs_flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-52
+95        <activity
+95-->[:talkjs_flutter_inappwebview] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/talkjs_flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-38:55
+96            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+96-->[:talkjs_flutter_inappwebview] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/talkjs_flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-120
+97            android:exported="false"
+97-->[:talkjs_flutter_inappwebview] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/talkjs_flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-37
+98            android:launchMode="singleInstance"
+98-->[:talkjs_flutter_inappwebview] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/talkjs_flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-48
+99            android:theme="@style/ThemeTransparent" />
+99-->[:talkjs_flutter_inappwebview] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/talkjs_flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-52
+100
+101        <receiver
+101-->[:talkjs_flutter_inappwebview] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/talkjs_flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:40:9-43:40
+102            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+102-->[:talkjs_flutter_inappwebview] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/talkjs_flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-111
+103            android:enabled="true"
+103-->[:talkjs_flutter_inappwebview] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/talkjs_flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-35
+104            android:exported="false" />
+104-->[:talkjs_flutter_inappwebview] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/talkjs_flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:43:13-37
+105
+106        <meta-data
+106-->[:talkjs_flutter_inappwebview] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/talkjs_flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:45:9-47:36
+107            android:name="io.flutter.embedded_views_preview"
+107-->[:talkjs_flutter_inappwebview] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/talkjs_flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:46:13-61
+108            android:value="true" />
+108-->[:talkjs_flutter_inappwebview] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/talkjs_flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:47:13-33
+109
+110        <service
+110-->[:firebase_messaging] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-19:72
+111            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+111-->[:firebase_messaging] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-107
+112            android:exported="false"
+112-->[:firebase_messaging] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+113            android:permission="android.permission.BIND_JOB_SERVICE" />
+113-->[:firebase_messaging] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-69
+114        <service
+114-->[:firebase_messaging] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-26:19
+115            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+115-->[:firebase_messaging] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-97
+116            android:exported="false" >
+116-->[:firebase_messaging] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-37
+117            <intent-filter>
+117-->[:firebase_messaging] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:29
+118                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+118-->[:firebase_messaging] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-78
+118-->[:firebase_messaging] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:25-75
+119            </intent-filter>
+120        </service>
+121
+122        <receiver
+122-->[:firebase_messaging] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-35:20
+123            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+123-->[:firebase_messaging] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-98
+124            android:exported="true"
+124-->[:firebase_messaging] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-36
+125            android:permission="com.google.android.c2dm.permission.SEND" >
+125-->[:firebase_messaging] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:31:13-73
+126            <intent-filter>
+126-->[:firebase_messaging] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:32:13-34:29
+127                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+127-->[:firebase_messaging] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:17-81
+127-->[:firebase_messaging] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:25-78
+128            </intent-filter>
+129        </receiver>
+130
+131        <service
+131-->[:firebase_messaging] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:37:9-41:19
+132            android:name="com.google.firebase.components.ComponentDiscoveryService"
+132-->[:firebase_messaging] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:37:18-89
+133            android:directBootAware="true"
+133-->[com.google.firebase:firebase-common:20.4.2] /Users/lucas.siqueira/.gradle/caches/transforms-3/e7d9dc77e05549f012842a2b34d6bb45/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:32:13-43
+134            android:exported="false" >
+134-->[com.google.firebase:firebase-iid:21.1.0] /Users/lucas.siqueira/.gradle/caches/transforms-3/59763aa1d6ae3e2f09628a4724cc5003/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:31:13-37
+135            <meta-data
+135-->[:firebase_messaging] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-40:85
+136                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+136-->[:firebase_messaging] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:39:17-128
+137                android:value="com.google.firebase.components.ComponentRegistrar" />
+137-->[:firebase_messaging] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:40:17-82
+138            <meta-data
+138-->[:firebase_core] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+139                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+139-->[:firebase_core] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+140                android:value="com.google.firebase.components.ComponentRegistrar" />
+140-->[:firebase_core] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+141            <meta-data
+141-->[com.google.firebase:firebase-iid:21.1.0] /Users/lucas.siqueira/.gradle/caches/transforms-3/59763aa1d6ae3e2f09628a4724cc5003/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+142                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+142-->[com.google.firebase:firebase-iid:21.1.0] /Users/lucas.siqueira/.gradle/caches/transforms-3/59763aa1d6ae3e2f09628a4724cc5003/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+143                android:value="com.google.firebase.components.ComponentRegistrar" />
+143-->[com.google.firebase:firebase-iid:21.1.0] /Users/lucas.siqueira/.gradle/caches/transforms-3/59763aa1d6ae3e2f09628a4724cc5003/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+144            <meta-data
+144-->[com.google.firebase:firebase-messaging:23.3.1] /Users/lucas.siqueira/.gradle/caches/transforms-3/824d9827bcbbf2ab133fdd9882894bf1/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:57:13-59:85
+145                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+145-->[com.google.firebase:firebase-messaging:23.3.1] /Users/lucas.siqueira/.gradle/caches/transforms-3/824d9827bcbbf2ab133fdd9882894bf1/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:58:17-122
+146                android:value="com.google.firebase.components.ComponentRegistrar" />
+146-->[com.google.firebase:firebase-messaging:23.3.1] /Users/lucas.siqueira/.gradle/caches/transforms-3/824d9827bcbbf2ab133fdd9882894bf1/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:59:17-82
+147            <meta-data
+147-->[com.google.firebase:firebase-messaging:23.3.1] /Users/lucas.siqueira/.gradle/caches/transforms-3/824d9827bcbbf2ab133fdd9882894bf1/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:60:13-62:85
+148                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+148-->[com.google.firebase:firebase-messaging:23.3.1] /Users/lucas.siqueira/.gradle/caches/transforms-3/824d9827bcbbf2ab133fdd9882894bf1/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:61:17-119
+149                android:value="com.google.firebase.components.ComponentRegistrar" />
+149-->[com.google.firebase:firebase-messaging:23.3.1] /Users/lucas.siqueira/.gradle/caches/transforms-3/824d9827bcbbf2ab133fdd9882894bf1/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:62:17-82
+150            <meta-data
+150-->[com.google.firebase:firebase-installations:17.2.0] /Users/lucas.siqueira/.gradle/caches/transforms-3/024ddff1a0345ac914ee9673a85f6efa/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:15:13-17:85
+151                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+151-->[com.google.firebase:firebase-installations:17.2.0] /Users/lucas.siqueira/.gradle/caches/transforms-3/024ddff1a0345ac914ee9673a85f6efa/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:16:17-130
+152                android:value="com.google.firebase.components.ComponentRegistrar" />
+152-->[com.google.firebase:firebase-installations:17.2.0] /Users/lucas.siqueira/.gradle/caches/transforms-3/024ddff1a0345ac914ee9673a85f6efa/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:17:17-82
+153            <meta-data
+153-->[com.google.firebase:firebase-installations:17.2.0] /Users/lucas.siqueira/.gradle/caches/transforms-3/024ddff1a0345ac914ee9673a85f6efa/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:18:13-20:85
+154                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+154-->[com.google.firebase:firebase-installations:17.2.0] /Users/lucas.siqueira/.gradle/caches/transforms-3/024ddff1a0345ac914ee9673a85f6efa/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:19:17-127
+155                android:value="com.google.firebase.components.ComponentRegistrar" />
+155-->[com.google.firebase:firebase-installations:17.2.0] /Users/lucas.siqueira/.gradle/caches/transforms-3/024ddff1a0345ac914ee9673a85f6efa/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:20:17-82
+156            <meta-data
+156-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/lucas.siqueira/.gradle/caches/transforms-3/3716f3774b9df13860dc280c4dfee53a/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:12:13-14:85
+157                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+157-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/lucas.siqueira/.gradle/caches/transforms-3/3716f3774b9df13860dc280c4dfee53a/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:13:17-116
+158                android:value="com.google.firebase.components.ComponentRegistrar" />
+158-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/lucas.siqueira/.gradle/caches/transforms-3/3716f3774b9df13860dc280c4dfee53a/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:14:17-82
+159            <meta-data
+159-->[com.google.firebase:firebase-common:20.4.2] /Users/lucas.siqueira/.gradle/caches/transforms-3/e7d9dc77e05549f012842a2b34d6bb45/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:35:13-37:85
+160                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+160-->[com.google.firebase:firebase-common:20.4.2] /Users/lucas.siqueira/.gradle/caches/transforms-3/e7d9dc77e05549f012842a2b34d6bb45/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:36:17-109
+161                android:value="com.google.firebase.components.ComponentRegistrar" />
+161-->[com.google.firebase:firebase-common:20.4.2] /Users/lucas.siqueira/.gradle/caches/transforms-3/e7d9dc77e05549f012842a2b34d6bb45/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:37:17-82
+162            <meta-data
+162-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/lucas.siqueira/.gradle/caches/transforms-3/1b4ad2325bb4a983f364027acea0daeb/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+163                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+163-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/lucas.siqueira/.gradle/caches/transforms-3/1b4ad2325bb4a983f364027acea0daeb/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+164                android:value="com.google.firebase.components.ComponentRegistrar" />
+164-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/lucas.siqueira/.gradle/caches/transforms-3/1b4ad2325bb4a983f364027acea0daeb/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+165        </service>
+166
+167        <provider
+167-->[:firebase_messaging] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:43:9-47:38
+168            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+168-->[:firebase_messaging] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:44:13-102
+169            android:authorities="com.example.t_flutter.host.flutterfirebasemessaginginitprovider"
+169-->[:firebase_messaging] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:45:13-88
+170            android:exported="false"
+170-->[:firebase_messaging] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:46:13-37
+171            android:initOrder="99" />
+171-->[:firebase_messaging] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:47:13-35
+172
+173        <activity
+173-->[:url_launcher_android] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-13:74
+174            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+174-->[:url_launcher_android] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+175            android:exported="false"
+175-->[:url_launcher_android] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+176            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+176-->[:url_launcher_android] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-71
+177
+178        <receiver
+178-->[com.google.firebase:firebase-messaging:23.3.1] /Users/lucas.siqueira/.gradle/caches/transforms-3/824d9827bcbbf2ab133fdd9882894bf1/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:29:9-40:20
+179            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+179-->[com.google.firebase:firebase-messaging:23.3.1] /Users/lucas.siqueira/.gradle/caches/transforms-3/824d9827bcbbf2ab133fdd9882894bf1/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:30:13-78
+180            android:exported="true"
+180-->[com.google.firebase:firebase-messaging:23.3.1] /Users/lucas.siqueira/.gradle/caches/transforms-3/824d9827bcbbf2ab133fdd9882894bf1/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:31:13-36
+181            android:permission="com.google.android.c2dm.permission.SEND" >
+181-->[com.google.firebase:firebase-messaging:23.3.1] /Users/lucas.siqueira/.gradle/caches/transforms-3/824d9827bcbbf2ab133fdd9882894bf1/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:32:13-73
+182            <intent-filter>
+182-->[:firebase_messaging] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:32:13-34:29
+183                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+183-->[:firebase_messaging] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:17-81
+183-->[:firebase_messaging] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:25-78
+184            </intent-filter>
+185
+186            <meta-data
+186-->[com.google.firebase:firebase-messaging:23.3.1] /Users/lucas.siqueira/.gradle/caches/transforms-3/824d9827bcbbf2ab133fdd9882894bf1/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:37:13-39:40
+187                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+187-->[com.google.firebase:firebase-messaging:23.3.1] /Users/lucas.siqueira/.gradle/caches/transforms-3/824d9827bcbbf2ab133fdd9882894bf1/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:38:17-92
+188                android:value="true" />
+188-->[com.google.firebase:firebase-messaging:23.3.1] /Users/lucas.siqueira/.gradle/caches/transforms-3/824d9827bcbbf2ab133fdd9882894bf1/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:39:17-37
+189        </receiver>
+190        <!--
+191             FirebaseMessagingService performs security checks at runtime,
+192             but set to not exported to explicitly avoid allowing another app to call it.
+193        -->
+194        <service
+194-->[com.google.firebase:firebase-messaging:23.3.1] /Users/lucas.siqueira/.gradle/caches/transforms-3/824d9827bcbbf2ab133fdd9882894bf1/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:46:9-53:19
+195            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+195-->[com.google.firebase:firebase-messaging:23.3.1] /Users/lucas.siqueira/.gradle/caches/transforms-3/824d9827bcbbf2ab133fdd9882894bf1/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:47:13-82
+196            android:directBootAware="true"
+196-->[com.google.firebase:firebase-messaging:23.3.1] /Users/lucas.siqueira/.gradle/caches/transforms-3/824d9827bcbbf2ab133fdd9882894bf1/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:48:13-43
+197            android:exported="false" >
+197-->[com.google.firebase:firebase-messaging:23.3.1] /Users/lucas.siqueira/.gradle/caches/transforms-3/824d9827bcbbf2ab133fdd9882894bf1/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:49:13-37
+198            <intent-filter android:priority="-500" >
+198-->[:firebase_messaging] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:29
+199                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+199-->[:firebase_messaging] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-78
+199-->[:firebase_messaging] /Users/lucas.siqueira/Documents/GetNinjas/t_flutter/.android/plugins_build_output/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:25-75
+200            </intent-filter>
+201        </service>
+202
+203        <provider
+203-->[com.google.firebase:firebase-common:20.4.2] /Users/lucas.siqueira/.gradle/caches/transforms-3/e7d9dc77e05549f012842a2b34d6bb45/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
+204            android:name="com.google.firebase.provider.FirebaseInitProvider"
+204-->[com.google.firebase:firebase-common:20.4.2] /Users/lucas.siqueira/.gradle/caches/transforms-3/e7d9dc77e05549f012842a2b34d6bb45/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
+205            android:authorities="com.example.t_flutter.host.firebaseinitprovider"
+205-->[com.google.firebase:firebase-common:20.4.2] /Users/lucas.siqueira/.gradle/caches/transforms-3/e7d9dc77e05549f012842a2b34d6bb45/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
+206            android:directBootAware="true"
+206-->[com.google.firebase:firebase-common:20.4.2] /Users/lucas.siqueira/.gradle/caches/transforms-3/e7d9dc77e05549f012842a2b34d6bb45/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
+207            android:exported="false"
+207-->[com.google.firebase:firebase-common:20.4.2] /Users/lucas.siqueira/.gradle/caches/transforms-3/e7d9dc77e05549f012842a2b34d6bb45/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:27:13-37
+208            android:initOrder="100" />
+208-->[com.google.firebase:firebase-common:20.4.2] /Users/lucas.siqueira/.gradle/caches/transforms-3/e7d9dc77e05549f012842a2b34d6bb45/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:28:13-36
+209
+210        <activity
+210-->[com.google.android.gms:play-services-base:18.0.1] /Users/lucas.siqueira/.gradle/caches/transforms-3/aba8f806953ea3dd8f794da3aeb78a12/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+211            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+211-->[com.google.android.gms:play-services-base:18.0.1] /Users/lucas.siqueira/.gradle/caches/transforms-3/aba8f806953ea3dd8f794da3aeb78a12/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+212            android:exported="false"
+212-->[com.google.android.gms:play-services-base:18.0.1] /Users/lucas.siqueira/.gradle/caches/transforms-3/aba8f806953ea3dd8f794da3aeb78a12/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+213            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+213-->[com.google.android.gms:play-services-base:18.0.1] /Users/lucas.siqueira/.gradle/caches/transforms-3/aba8f806953ea3dd8f794da3aeb78a12/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+214
+215        <uses-library
+215-->[androidx.window:window:1.0.0-beta04] /Users/lucas.siqueira/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+216            android:name="androidx.window.extensions"
+216-->[androidx.window:window:1.0.0-beta04] /Users/lucas.siqueira/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+217            android:required="false" />
+217-->[androidx.window:window:1.0.0-beta04] /Users/lucas.siqueira/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+218        <uses-library
+218-->[androidx.window:window:1.0.0-beta04] /Users/lucas.siqueira/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+219            android:name="androidx.window.sidecar"
+219-->[androidx.window:window:1.0.0-beta04] /Users/lucas.siqueira/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+220            android:required="false" />
+220-->[androidx.window:window:1.0.0-beta04] /Users/lucas.siqueira/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+221
+222        <meta-data
+222-->[com.google.android.gms:play-services-basement:18.1.0] /Users/lucas.siqueira/.gradle/caches/transforms-3/58aa1384bde170d075503b845cfcf44c/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+223            android:name="com.google.android.gms.version"
+223-->[com.google.android.gms:play-services-basement:18.1.0] /Users/lucas.siqueira/.gradle/caches/transforms-3/58aa1384bde170d075503b845cfcf44c/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+224            android:value="@integer/google_play_services_version" />
+224-->[com.google.android.gms:play-services-basement:18.1.0] /Users/lucas.siqueira/.gradle/caches/transforms-3/58aa1384bde170d075503b845cfcf44c/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+225
+226        <provider
+226-->[androidx.emoji2:emoji2:1.2.0] /Users/lucas.siqueira/.gradle/caches/transforms-3/e04bc3769bedd8dd6f8ca688986b0355/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+227            android:name="androidx.startup.InitializationProvider"
+227-->[androidx.emoji2:emoji2:1.2.0] /Users/lucas.siqueira/.gradle/caches/transforms-3/e04bc3769bedd8dd6f8ca688986b0355/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+228            android:authorities="com.example.t_flutter.host.androidx-startup"
+228-->[androidx.emoji2:emoji2:1.2.0] /Users/lucas.siqueira/.gradle/caches/transforms-3/e04bc3769bedd8dd6f8ca688986b0355/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+229            android:exported="false" >
+229-->[androidx.emoji2:emoji2:1.2.0] /Users/lucas.siqueira/.gradle/caches/transforms-3/e04bc3769bedd8dd6f8ca688986b0355/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+230            <meta-data
+230-->[androidx.emoji2:emoji2:1.2.0] /Users/lucas.siqueira/.gradle/caches/transforms-3/e04bc3769bedd8dd6f8ca688986b0355/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+231                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+231-->[androidx.emoji2:emoji2:1.2.0] /Users/lucas.siqueira/.gradle/caches/transforms-3/e04bc3769bedd8dd6f8ca688986b0355/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+232                android:value="androidx.startup" />
+232-->[androidx.emoji2:emoji2:1.2.0] /Users/lucas.siqueira/.gradle/caches/transforms-3/e04bc3769bedd8dd6f8ca688986b0355/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+233            <meta-data
+233-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/lucas.siqueira/.gradle/caches/transforms-3/8c1e738388b632b23acecc5b0cf3e292/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+234                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+234-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/lucas.siqueira/.gradle/caches/transforms-3/8c1e738388b632b23acecc5b0cf3e292/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+235                android:value="androidx.startup" />
+235-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/lucas.siqueira/.gradle/caches/transforms-3/8c1e738388b632b23acecc5b0cf3e292/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+236        </provider>
+237
+238        <service
+238-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/lucas.siqueira/.gradle/caches/transforms-3/a5f1ff8179a51cad08637ffc69855391/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+239            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+239-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/lucas.siqueira/.gradle/caches/transforms-3/a5f1ff8179a51cad08637ffc69855391/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+240            android:exported="false" >
+240-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/lucas.siqueira/.gradle/caches/transforms-3/a5f1ff8179a51cad08637ffc69855391/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+241            <meta-data
+241-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/lucas.siqueira/.gradle/caches/transforms-3/a5f1ff8179a51cad08637ffc69855391/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+242                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+242-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/lucas.siqueira/.gradle/caches/transforms-3/a5f1ff8179a51cad08637ffc69855391/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+243                android:value="cct" />
+243-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/lucas.siqueira/.gradle/caches/transforms-3/a5f1ff8179a51cad08637ffc69855391/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+244        </service>
+245        <service
+245-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/lucas.siqueira/.gradle/caches/transforms-3/6e5a1cbd6e3d2c42bcc7c2731873333e/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+246            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+246-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/lucas.siqueira/.gradle/caches/transforms-3/6e5a1cbd6e3d2c42bcc7c2731873333e/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+247            android:exported="false"
+247-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/lucas.siqueira/.gradle/caches/transforms-3/6e5a1cbd6e3d2c42bcc7c2731873333e/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+248            android:permission="android.permission.BIND_JOB_SERVICE" >
+248-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/lucas.siqueira/.gradle/caches/transforms-3/6e5a1cbd6e3d2c42bcc7c2731873333e/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+249        </service>
+250
+251        <receiver
+251-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/lucas.siqueira/.gradle/caches/transforms-3/6e5a1cbd6e3d2c42bcc7c2731873333e/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+252            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+252-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/lucas.siqueira/.gradle/caches/transforms-3/6e5a1cbd6e3d2c42bcc7c2731873333e/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+253            android:exported="false" />
+253-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/lucas.siqueira/.gradle/caches/transforms-3/6e5a1cbd6e3d2c42bcc7c2731873333e/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+254    </application>
+255
+256</manifest>

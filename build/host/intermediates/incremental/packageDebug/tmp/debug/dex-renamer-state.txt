@@ -1,0 +1,4 @@
+#Fri Nov 03 11:35:03 BRT 2023
+base.0=/Users/lucas.siqueira/Documents/GetNinjas/t_flutter/build/host/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
