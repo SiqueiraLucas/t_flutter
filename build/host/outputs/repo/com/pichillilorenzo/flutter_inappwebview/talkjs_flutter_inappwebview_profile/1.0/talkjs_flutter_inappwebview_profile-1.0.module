@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.pichillilorenzo.flutter_inappwebview",
+    "module": "talkjs_flutter_inappwebview_profile",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "talkjs_flutter_inappwebview_profile-1.0.aar",
+          "url": "talkjs_flutter_inappwebview_profile-1.0.aar",
+          "size": 502742,
+          "sha512": "04f061803d42526b9f04cacb9881143da4dfdef3a1bb5d659551d73822c449dd7fcdf1810d2219250d3fdfe7a9b78064fb50251a2d5edd58a36441456765bceb",
+          "sha256": "7ecfa90dc8d4a7a7634d322624bac22befaa2914c40c5588e8f027fd4fa1384e",
+          "sha1": "db2768c26dc6021c9cad2fdc2c3d4c79a3db338e",
+          "md5": "6ad7ca203ba617c4f3db620bf894b5a2"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad"
+          }
+        },
+        {
+          "group": "androidx.webkit",
+          "module": "webkit",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.browser",
+          "module": "browser",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "androidx.swiperefreshlayout",
+          "module": "swiperefreshlayout",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "talkjs_flutter_inappwebview_profile-1.0.aar",
+          "url": "talkjs_flutter_inappwebview_profile-1.0.aar",
+          "size": 502742,
+          "sha512": "04f061803d42526b9f04cacb9881143da4dfdef3a1bb5d659551d73822c449dd7fcdf1810d2219250d3fdfe7a9b78064fb50251a2d5edd58a36441456765bceb",
+          "sha256": "7ecfa90dc8d4a7a7634d322624bac22befaa2914c40c5588e8f027fd4fa1384e",
+          "sha1": "db2768c26dc6021c9cad2fdc2c3d4c79a3db338e",
+          "md5": "6ad7ca203ba617c4f3db620bf894b5a2"
+        }
+      ]
+    }
+  ]
+}
