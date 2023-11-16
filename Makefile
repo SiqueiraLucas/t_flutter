@@ -42,8 +42,10 @@ generate-aar:
 
 generate-ios-plugins:
 	@echo $(SCRIPT-HEADER-WORKING) "GENERATING IOS PLUGINS" $(SCRIPT-FOOTER)
+	@rm -rf .ios
+	@flutter create -i swift .
 	@cd .ios && pod install > /dev/null 2>&1 || true
-	@ for folder in .ios/.symlinks/plugins/*; do \
+	@for folder in .ios/.symlinks/plugins/*; do \
 		new_folder="$$folder"2 && \
 		mkdir -p "$$new_folder" && \
 		cp -R "$$folder"/* "$$new_folder" && \
