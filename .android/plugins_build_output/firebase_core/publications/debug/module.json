@@ -35,11 +35,11 @@
         {
           "name": "firebase_core_debug-1.0.aar",
           "url": "firebase_core_debug-1.0.aar",
-          "size": 31063,
-          "sha512": "4698156358e800891c95bc2a036f1fe829f27c8358a1292da9576df03ca66adf16846da36a59158a55ef3cde700c406a57027f4a026407fc163a9f63c228bc85",
-          "sha256": "727216732c786b0b42a969394d89f69089024d9b97f449eb344fcf49041a0c09",
-          "sha1": "42f34fb5a6ffaf7e1656283bd334f10b5c4aec22",
-          "md5": "f4083529c9f0c4e294f42e3a76a98078"
+          "size": 31058,
+          "sha512": "03804ee9c975cfb9926e1614d7c2c87229f80db579de82bfb1251c69043eded004a57a5e9927936b1b478fed052856110dbabb73c5482bb0dea9e7c1aec89758",
+          "sha256": "1eb2079d1f94786c22f340e39d62f969a905009aa4b7865163ffcf7ad184e625",
+          "sha1": "0c4c497f8a6d4eeda3b72e010e4ec1674f8854f8",
+          "md5": "434f8ca0fe93dd3da4b02dbff0b9e7a9"
         }
       ]
     },
@@ -63,7 +63,7 @@
           "group": "com.google.firebase",
           "module": "firebase-bom",
           "version": {
-            "requires": "32.5.0"
+            "requires": "32.3.1"
           },
           "attributes": {
             "org.gradle.category": "platform"
@@ -86,11 +86,11 @@
         {
           "name": "firebase_core_debug-1.0.aar",
           "url": "firebase_core_debug-1.0.aar",
-          "size": 31063,
-          "sha512": "4698156358e800891c95bc2a036f1fe829f27c8358a1292da9576df03ca66adf16846da36a59158a55ef3cde700c406a57027f4a026407fc163a9f63c228bc85",
-          "sha256": "727216732c786b0b42a969394d89f69089024d9b97f449eb344fcf49041a0c09",
-          "sha1": "42f34fb5a6ffaf7e1656283bd334f10b5c4aec22",
-          "md5": "f4083529c9f0c4e294f42e3a76a98078"
+          "size": 31058,
+          "sha512": "03804ee9c975cfb9926e1614d7c2c87229f80db579de82bfb1251c69043eded004a57a5e9927936b1b478fed052856110dbabb73c5482bb0dea9e7c1aec89758",
+          "sha256": "1eb2079d1f94786c22f340e39d62f969a905009aa4b7865163ffcf7ad184e625",
+          "sha1": "0c4c497f8a6d4eeda3b72e010e4ec1674f8854f8",
+          "md5": "434f8ca0fe93dd3da4b02dbff0b9e7a9"
         }
       ]
     }

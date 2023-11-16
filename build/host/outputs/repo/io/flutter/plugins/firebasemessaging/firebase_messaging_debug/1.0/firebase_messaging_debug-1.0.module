@@ -42,11 +42,11 @@
         {
           "name": "firebase_messaging_debug-1.0.aar",
           "url": "firebase_messaging_debug-1.0.aar",
-          "size": 51602,
-          "sha512": "c9bf872d1a7af4a00250ef61b682b9f30baf1d8ecf3bae3b48671c5e7d6a285c6fa29b84880f92a94f6a5be81ae86658d47fd4713068daee3b11b0bd884e3d05",
-          "sha256": "93438bc92f031e2cee99c4c9c03def18cd4119a9c177f6f51f56d5a8e2eb2dc1",
-          "sha1": "4cf91b1cf02120960cff51c50cbe070eaa159892",
-          "md5": "febf5b5e4efddd099a55659f1440ee35"
+          "size": 51601,
+          "sha512": "e33a3a75eb4d15dba259ede182ea3ba53612f0499a4e132c90b31182ac86c102a7bebb594b73d31b0be1457135f72ec489f5ac55d7cbfc52c88412f710a770e6",
+          "sha256": "cced7301d51d1e54d8e740dc2fdc642b17f114381a81b4dcf67516843a4d19e7",
+          "sha1": "6de9eed67c79d174593cbfce85af9aeb0f46f9b7",
+          "md5": "0344f40b39c85963ce800215e2fa1acb"
         }
       ]
     },
@@ -70,7 +70,7 @@
           "group": "com.google.firebase",
           "module": "firebase-bom",
           "version": {
-            "requires": "32.5.0"
+            "requires": "32.3.1"
           },
           "attributes": {
             "org.gradle.category": "platform"
@@ -114,11 +114,11 @@
         {
           "name": "firebase_messaging_debug-1.0.aar",
           "url": "firebase_messaging_debug-1.0.aar",
-          "size": 51602,
-          "sha512": "c9bf872d1a7af4a00250ef61b682b9f30baf1d8ecf3bae3b48671c5e7d6a285c6fa29b84880f92a94f6a5be81ae86658d47fd4713068daee3b11b0bd884e3d05",
-          "sha256": "93438bc92f031e2cee99c4c9c03def18cd4119a9c177f6f51f56d5a8e2eb2dc1",
-          "sha1": "4cf91b1cf02120960cff51c50cbe070eaa159892",
-          "md5": "febf5b5e4efddd099a55659f1440ee35"
+          "size": 51601,
+          "sha512": "e33a3a75eb4d15dba259ede182ea3ba53612f0499a4e132c90b31182ac86c102a7bebb594b73d31b0be1457135f72ec489f5ac55d7cbfc52c88412f710a770e6",
+          "sha256": "cced7301d51d1e54d8e740dc2fdc642b17f114381a81b4dcf67516843a4d19e7",
+          "sha1": "6de9eed67c79d174593cbfce85af9aeb0f46f9b7",
+          "md5": "0344f40b39c85963ce800215e2fa1acb"
         }
       ]
     }

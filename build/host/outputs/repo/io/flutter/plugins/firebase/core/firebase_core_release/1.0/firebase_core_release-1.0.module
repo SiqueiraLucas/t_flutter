@@ -35,11 +35,11 @@
         {
           "name": "firebase_core_release-1.0.aar",
           "url": "firebase_core_release-1.0.aar",
-          "size": 29542,
-          "sha512": "54c36c8d4cd3263dd4d4be0288fbb431b377faa077dce17e22046f7a28a12bab5f96db369930f9bdeffbfdd3ae8919c38dfa165349cfd88b2fd8da076ca0ff45",
-          "sha256": "e003694c3307ee13139045956d7fd49114a63c0e9ce7ef6e1a6b96a5599e3da0",
-          "sha1": "739c979d13c11306481b753191ffb671fee30dae",
-          "md5": "0ccd7a419ec092b6ae420ca4152a5896"
+          "size": 29543,
+          "sha512": "a8cd6b9467f9e473fc7accd1092fbeaa3c4ab9eea4e18e36eb334c0cfb139d93ec2a82d1cfc38a3c73e0d3df22ac454a43273f2fef93ff9d7b6bd984ddfdd0a9",
+          "sha256": "ab3a537b6ca0199566ae2520735abd2b108fe321d1726aef0447a42e825977d2",
+          "sha1": "55b3f620fbfd6abcb51bc704412a0fd58a8f275a",
+          "md5": "b506f9c3b2a7363ded86a0ce05f8e9c7"
         }
       ]
     },
@@ -63,7 +63,7 @@
           "group": "com.google.firebase",
           "module": "firebase-bom",
           "version": {
-            "requires": "32.5.0"
+            "requires": "32.3.1"
           },
           "attributes": {
             "org.gradle.category": "platform"
@@ -86,11 +86,11 @@
         {
           "name": "firebase_core_release-1.0.aar",
           "url": "firebase_core_release-1.0.aar",
-          "size": 29542,
-          "sha512": "54c36c8d4cd3263dd4d4be0288fbb431b377faa077dce17e22046f7a28a12bab5f96db369930f9bdeffbfdd3ae8919c38dfa165349cfd88b2fd8da076ca0ff45",
-          "sha256": "e003694c3307ee13139045956d7fd49114a63c0e9ce7ef6e1a6b96a5599e3da0",
-          "sha1": "739c979d13c11306481b753191ffb671fee30dae",
-          "md5": "0ccd7a419ec092b6ae420ca4152a5896"
+          "size": 29543,
+          "sha512": "a8cd6b9467f9e473fc7accd1092fbeaa3c4ab9eea4e18e36eb334c0cfb139d93ec2a82d1cfc38a3c73e0d3df22ac454a43273f2fef93ff9d7b6bd984ddfdd0a9",
+          "sha256": "ab3a537b6ca0199566ae2520735abd2b108fe321d1726aef0447a42e825977d2",
+          "sha1": "55b3f620fbfd6abcb51bc704412a0fd58a8f275a",
+          "md5": "b506f9c3b2a7363ded86a0ce05f8e9c7"
         }
       ]
     }

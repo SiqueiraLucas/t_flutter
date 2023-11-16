@@ -25,19 +25,31 @@ build-project:
 
 finish-version:
 	@make build-project || exit 1; \
-	make generate-aar || exit 1; \
 	make test-project || exit 1; \
+	make generate-aar || exit 1; \
+	make generate-ios-plugins || exit 1; \
 	make increase-version || exit 1; \
 	make push-changes || exit 1; \
 	make push-tags || exit 1; \
+
+test-project:
+	@echo $(SCRIPT-HEADER-WORKING) "TESTING PROJECT" $(SCRIPT-FOOTER)
+	flutter test
 
 generate-aar:
 	@echo $(SCRIPT-HEADER-WORKING) "GENERATING AAR" $(SCRIPT-FOOTER)
 	flutter build aar
 
-test-project:
-	@echo $(SCRIPT-HEADER-WORKING) "TESTING PROJECT" $(SCRIPT-FOOTER)
-	flutter test
+generate-ios-plugins:
+	@echo $(SCRIPT-HEADER-WORKING) "GENERATING IOS PLUGINS" $(SCRIPT-FOOTER)
+	@cd .ios && pod install > /dev/null 2>&1 || true
+	@ for folder in .ios/.symlinks/plugins/*; do \
+		new_folder="$$folder"2 && \
+		mkdir -p "$$new_folder" && \
+		cp -R "$$folder"/* "$$new_folder" && \
+		rm -rf "$$folder" && \
+		mv "$$new_folder" "$$folder"; \
+	done
 
 increase-version:
 	@echo $(SCRIPT-HEADER-WORKING) "INCREASING VERSION" $(SCRIPT-FOOTER)
