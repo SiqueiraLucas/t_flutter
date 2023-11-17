@@ -65,12 +65,14 @@ generate-ios-plugins:
 	done
 
 replace-flutter-config-path:
-	@cd .ios/Flutter && sed -i.bak 's|FLUTTER_ROOT=.*|FLUTTER_ROOT=~/Documents/Flutter/flutter|; s|FLUTTER_APPLICATION_PATH=.*|FLUTTER_APPLICATION_PATH=../../../t_flutter|' Generated.xcconfig
-	@rm -f Generated.xcconfig.bak
+	@cd .ios/Flutter && sed -i.bak 's|FLUTTER_ROOT=.*|FLUTTER_ROOT=~/Documents/Flutter/flutter|; s|FLUTTER_APPLICATION_PATH=.*|FLUTTER_APPLICATION_PATH=../../../t_flutter|' Generated.xcconfig && \
+	rm -f Generated.xcconfig.bak && \
+	sed -i.bak 's|FLUTTER_ROOT=.*|FLUTTER_ROOT=~/Documents/Flutter/flutter|; s|FLUTTER_APPLICATION_PATH=.*|FLUTTER_APPLICATION_PATH=../../../t_flutter|' flutter_export_environment.sh && \
+	rm -f flutter_export_environment.sh.bak; \
 
 replace-plugins-dependencies-path:
 	@sed -i.bak 's|\"name\":\"\([^"]*\)\",\"path\":\"[^\"]*\"|\"name\":\"\1\",\"path\":\"../../plugins/\1\"|g' .flutter-plugins-dependencies
-	@rm -f .flutter-plugins-dependencies.bak
+	@rm -rf .flutter-plugins-dependencies.bak
 
 push-changes:
 	@echo $(SCRIPT-HEADER-WORKING) "PUSHING CHANGES" $(SCRIPT-FOOTER)
