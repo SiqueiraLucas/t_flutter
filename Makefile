@@ -53,13 +53,24 @@ generate-ios-plugins:
 	@rm -rf .ios
 	@flutter create -i swift .
 	@cd .ios && pod install > /dev/null 2>&1 || true
+	@make replace-flutter-config-path
+	@make replace-plugins-dependencies-path
+	@mkdir -p .ios/plugins
 	@for folder in .ios/.symlinks/plugins/*; do \
-		new_folder="$$folder"2 && \
+		plugin_name=$$(basename "$$folder") && \
+		new_folder=".ios/plugins/$$plugin_name" && \
 		mkdir -p "$$new_folder" && \
 		cp -R "$$folder"/* "$$new_folder" && \
-		rm -rf "$$folder" && \
-		mv "$$new_folder" "$$folder"; \
+		rm -rf "$$folder"; \
 	done
+
+replace-flutter-config-path:
+	@cd .ios/Flutter && sed -i.bak 's|FLUTTER_ROOT=.*|FLUTTER_ROOT=~/Documents/Flutter/flutter|; s|FLUTTER_APPLICATION_PATH=.*|FLUTTER_APPLICATION_PATH=../../../t_flutter|' Generated.xcconfig
+	@rm -f Generated.xcconfig.bak
+
+replace-plugins-dependencies-path:
+	@sed -i.bak 's|\"name\":\"\([^"]*\)\",\"path\":\"[^\"]*\"|\"name\":\"\1\",\"path\":\"../../plugins/\1\"|g' .flutter-plugins-dependencies
+	@rm -f .flutter-plugins-dependencies.bak
 
 push-changes:
 	@echo $(SCRIPT-HEADER-WORKING) "PUSHING CHANGES" $(SCRIPT-FOOTER)
