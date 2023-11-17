@@ -26,15 +26,23 @@ build-project:
 finish-version:
 	@make build-project || exit 1; \
 	make test-project || exit 1; \
+	make increase-version || exit 1; \
 	make generate-aar || exit 1; \
 	make generate-ios-plugins || exit 1; \
-	make increase-version || exit 1; \
 	make push-changes || exit 1; \
 	make push-tags || exit 1; \
 
 test-project:
 	@echo $(SCRIPT-HEADER-WORKING) "TESTING PROJECT" $(SCRIPT-FOOTER)
 	flutter test
+
+increase-version:
+	@echo $(SCRIPT-HEADER-WORKING) "INCREASING VERSION" $(SCRIPT-FOOTER)
+	@echo "Current version:" $(PUBSPEC_VERSION) \
+	read -p "Enter new version number: " new_version; \
+	sed -i '' "s/^version: .*/version: $$new_version/" $(PUBSPEC_PATCH); \
+	echo "Version updated to $$new_version"; \
+	export Version=$$new_version
 
 generate-aar:
 	@echo $(SCRIPT-HEADER-WORKING) "GENERATING AAR" $(SCRIPT-FOOTER)
@@ -52,14 +60,6 @@ generate-ios-plugins:
 		rm -rf "$$folder" && \
 		mv "$$new_folder" "$$folder"; \
 	done
-
-increase-version:
-	@echo $(SCRIPT-HEADER-WORKING) "INCREASING VERSION" $(SCRIPT-FOOTER)
-	@echo "Current version:" $(PUBSPEC_VERSION) \
-	read -p "Enter new version number: " new_version; \
-	sed -i '' "s/^version: .*/version: $$new_version/" $(PUBSPEC_PATCH); \
-	echo "Version updated to $$new_version"; \
-	export Version=$$new_version
 
 push-changes:
 	@echo $(SCRIPT-HEADER-WORKING) "PUSHING CHANGES" $(SCRIPT-FOOTER)
