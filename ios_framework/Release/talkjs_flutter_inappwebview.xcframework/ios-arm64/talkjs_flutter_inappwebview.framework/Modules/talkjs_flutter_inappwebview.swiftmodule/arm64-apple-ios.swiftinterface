@@ -1,0 +1,1068 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name talkjs_flutter_inappwebview
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import AuthenticationServices
+import Flutter
+import Foundation
+import OrderedSet
+import SafariServices
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_exported import talkjs_flutter_inappwebview
+@available(iOS 15.0, *)
+extension SafariServices.SFSafariViewController.ActivityButton {
+  public static func fromMap(map: [Swift.String : Any?]?) -> SafariServices.SFSafariViewController.ActivityButton?
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class BaseCallbackResult<T> : talkjs_flutter_inappwebview.CallbackResult<T> {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class CallbackResult<T> : talkjs_flutter_inappwebview.MethodChannelResult {
+  public var notImplemented: () -> Swift.Void
+  public var success: (Any?) -> Swift.Void
+  public var error: (Swift.String, Swift.String?, Any?) -> Swift.Void
+  public var nonNullSuccess: (T) -> Swift.Bool
+  public var nullSuccess: () -> Swift.Bool
+  public var defaultBehaviour: (T?) -> Swift.Void
+  public var decodeResult: (Any?) -> T?
+  @objc deinit
+}
+extension CoreFoundation.CGRect {
+  public static func fromMap(map: [Swift.String : Swift.Double]) -> CoreFoundation.CGRect
+  public func toMap() -> [Swift.String : Any?]
+}
+extension CoreFoundation.CGSize {
+  public static func fromMap(map: [Swift.String : Swift.Double]) -> CoreFoundation.CGSize
+  public func toMap() -> [Swift.String : Any?]
+}
+@objc public class ChannelDelegate : talkjs_flutter_inappwebview.FlutterMethodCallDelegate, talkjs_flutter_inappwebview.Disposable {
+  public init(channel: Flutter.FlutterMethodChannel)
+  override public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+  public func dispose()
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers public class ChromeSafariBrowserManager : talkjs_flutter_inappwebview.ChannelDelegate {
+  override public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+  public func open(id: Swift.String, url: Swift.String, settings: [Swift.String : Any?], menuItemList: [[Swift.String : Any]], result: @escaping Flutter.FlutterResult)
+  override public func dispose()
+  @objc deinit
+}
+@objc public class ClientCertChallenge : ObjectiveC.NSObject {
+  public init(fromChallenge: Foundation.URLAuthenticationChallenge)
+  public func toMap() -> [Swift.String : Any?]
+  @objc deinit
+}
+@objc public class ClientCertResponse : ObjectiveC.NSObject {
+  public init(certificatePath: Swift.String, certificatePassword: Swift.String? = nil, keyStoreType: Swift.String? = nil, action: Swift.Int? = nil)
+  public static func fromMap(map: [Swift.String : Any?]?) -> talkjs_flutter_inappwebview.ClientCertResponse?
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class ContextMenuSettings : talkjs_flutter_inappwebview.ISettings<ObjectiveC.NSObject> {
+  @objc deinit
+}
+@objc public class CreateWindowAction : ObjectiveC.NSObject {
+  public init(navigationAction: WebKit.WKNavigationAction, windowId: Swift.Int64, windowFeatures: WebKit.WKWindowFeatures, isDialog: Swift.Bool? = nil)
+  public func toMap() -> [Swift.String : Any?]
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers public class CredentialDatabase : talkjs_flutter_inappwebview.ChannelDelegate {
+  override public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+  override public func dispose()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @available(iOS 11.0, *)
+public class CustomSchemeHandler : ObjectiveC.NSObject, WebKit.WKURLSchemeHandler {
+  @objc public func webView(_ webView: WebKit.WKWebView, start urlSchemeTask: any WebKit.WKURLSchemeTask)
+  @objc public func webView(_ webView: WebKit.WKWebView, stop urlSchemeTask: any WebKit.WKURLSchemeTask)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public class CustomSchemeResponse : ObjectiveC.NSObject {
+  public init(data: Foundation.Data, contentType: Swift.String, contentEncoding: Swift.String)
+  public static func fromMap(map: [Swift.String : Any?]?) -> talkjs_flutter_inappwebview.CustomSchemeResponse?
+  @objc deinit
+}
+@objc @_Concurrency.MainActor(unsafe) public class CustomUIPrintPageRenderer : UIKit.UIPrintPageRenderer {
+  @_Concurrency.MainActor(unsafe) public init(numberOfPage: Swift.Int? = nil, forceRenderingQuality: Swift.Int? = nil)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var numberOfPages: Swift.Int {
+    @objc get
+  }
+  @available(iOS 14.5, *)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func currentRenderingQuality(forRequested requestedRenderingQuality: UIKit.UIPrintRenderingQuality) -> UIKit.UIPrintRenderingQuality
+  @objc deinit
+}
+public protocol Disposable {
+  func dispose()
+}
+@objc public class DownloadStartRequest : ObjectiveC.NSObject {
+  public init(url: Swift.String, userAgent: Swift.String?, contentDisposition: Swift.String?, mimeType: Swift.String?, contentLength: Swift.Int64, suggestedFilename: Swift.String?, textEncodingName: Swift.String?)
+  public func toMap() -> [Swift.String : Any?]
+  @objc deinit
+}
+@objc public class FindInteractionChannelDelegate : talkjs_flutter_inappwebview.ChannelDelegate {
+  public init(findInteractionController: talkjs_flutter_inappwebview.FindInteractionController, channel: Flutter.FlutterMethodChannel)
+  override public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+  public func onFindResultReceived(activeMatchOrdinal: Swift.Int, numberOfMatches: Swift.Int, isDoneCounting: Swift.Bool)
+  override public func dispose()
+  @objc deinit
+}
+@objc public class FindInteractionController : ObjectiveC.NSObject, talkjs_flutter_inappwebview.Disposable {
+  public init(registrar: any Flutter.FlutterPluginRegistrar, id: Any, webView: talkjs_flutter_inappwebview.InAppWebView, settings: talkjs_flutter_inappwebview.FindInteractionSettings?)
+  public func prepare()
+  public func findAll(find: Swift.String?, completionHandler: ((Any?, (any Swift.Error)?) -> Swift.Void)?)
+  public func findNext(forward: Swift.Bool, completionHandler: ((Any?, (any Swift.Error)?) -> Swift.Void)?)
+  public func clearMatches(completionHandler: ((Any?, (any Swift.Error)?) -> Swift.Void)?)
+  public func dispose()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class FindInteractionSettings : talkjs_flutter_inappwebview.ISettings<talkjs_flutter_inappwebview.FindInteractionController> {
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class FlutterMethodCallDelegate : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+  @objc deinit
+}
+extension Flutter.FlutterMethodChannel {
+  public func invokeMethod(_ method: Swift.String, arguments: Any, callback: any talkjs_flutter_inappwebview.MethodChannelResult)
+}
+@objc @_hasMissingDesignatedInitializers public class FlutterWebViewController : ObjectiveC.NSObject, Flutter.FlutterPlatformView, talkjs_flutter_inappwebview.Disposable {
+  public func webView() -> talkjs_flutter_inappwebview.InAppWebView?
+  @objc public func view() -> UIKit.UIView
+  public func makeInitialLoad(params: Foundation.NSDictionary)
+  public func dispose()
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers public class FlutterWebViewFactory : ObjectiveC.NSObject, Flutter.FlutterPlatformViewFactory {
+  @objc public func createArgsCodec() -> any Flutter.FlutterMessageCodec & ObjectiveC.NSObjectProtocol
+  @objc public func create(withFrame frame: CoreFoundation.CGRect, viewIdentifier viewId: Swift.Int64, arguments args: Any?) -> any Flutter.FlutterPlatformView
+  @objc deinit
+}
+public class HeadlessInAppWebView : talkjs_flutter_inappwebview.Disposable {
+  public init(id: Swift.String, flutterWebView: talkjs_flutter_inappwebview.FlutterWebViewController)
+  public func onWebViewCreated()
+  public func prepare(params: Foundation.NSDictionary)
+  public func setSize(size: talkjs_flutter_inappwebview.Size2D)
+  public func getSize() -> talkjs_flutter_inappwebview.Size2D?
+  public func disposeAndGetFlutterWebView(withFrame frame: CoreFoundation.CGRect) -> talkjs_flutter_inappwebview.FlutterWebViewController?
+  public func dispose()
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers public class HeadlessInAppWebViewManager : talkjs_flutter_inappwebview.ChannelDelegate {
+  override public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+  public static func run(id: Swift.String, params: [Swift.String : Any?])
+  override public func dispose()
+  @objc deinit
+}
+@objc public class HeadlessWebViewChannelDelegate : talkjs_flutter_inappwebview.ChannelDelegate {
+  public init(headlessWebView: talkjs_flutter_inappwebview.HeadlessInAppWebView, channel: Flutter.FlutterMethodChannel)
+  override public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+  public func onWebViewCreated()
+  override public func dispose()
+  @objc deinit
+}
+public enum HitTestResultType : Swift.Int {
+  case unknownType
+  case phoneType
+  case geoType
+  case emailType
+  case imageType
+  case srcAnchorType
+  case srcImageAnchorType
+  case editTextType
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public class HitTestResult : ObjectiveC.NSObject {
+  public init(type: talkjs_flutter_inappwebview.HitTestResultType, extra: Swift.String?)
+  public static func fromMap(map: [Swift.String : Any?]?) -> talkjs_flutter_inappwebview.HitTestResult?
+  public func toMap() -> [Swift.String : Any?]
+  @objc deinit
+}
+@objc public class HttpAuthenticationChallenge : ObjectiveC.NSObject {
+  public init(fromChallenge: Foundation.URLAuthenticationChallenge)
+  public func toMap() -> [Swift.String : Any?]
+  @objc deinit
+}
+@objc public class HttpAuthResponse : ObjectiveC.NSObject {
+  public init(username: Swift.String, password: Swift.String, permanentPersistence: Swift.Bool, action: Swift.Int? = nil)
+  public static func fromMap(map: [Swift.String : Any?]?) -> talkjs_flutter_inappwebview.HttpAuthResponse?
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class InAppBrowserChannelDelegate : talkjs_flutter_inappwebview.ChannelDelegate {
+  override public init(channel: Flutter.FlutterMethodChannel)
+  public func onBrowserCreated()
+  public func onExit()
+  @objc deinit
+}
+public protocol InAppBrowserDelegate {
+  func didChangeTitle(title: Swift.String?)
+  func didStartNavigation(url: Foundation.URL?)
+  func didUpdateVisitedHistory(url: Foundation.URL?)
+  func didFinishNavigation(url: Foundation.URL?)
+  func didFailNavigation(url: Foundation.URL?, error: any Swift.Error)
+  func didChangeProgress(progress: Swift.Double)
+}
+@objc @_hasMissingDesignatedInitializers public class InAppBrowserManager : talkjs_flutter_inappwebview.ChannelDelegate {
+  override public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+  public func prepareInAppBrowserWebViewController(settings: [Swift.String : Any?]) -> talkjs_flutter_inappwebview.InAppBrowserWebViewController
+  public func open(arguments: Foundation.NSDictionary)
+  public func presentViewController(webViewController: talkjs_flutter_inappwebview.InAppBrowserWebViewController)
+  public func openWithSystemBrowser(url: Swift.String, result: @escaping Flutter.FlutterResult)
+  override public func dispose()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class InAppBrowserNavigationController : UIKit.UINavigationController {
+  @objc deinit
+  @available(iOS 5.0, *)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(navigationBarClass: Swift.AnyClass?, toolbarClass: Swift.AnyClass?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(rootViewController: UIKit.UIViewController)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class InAppBrowserSettings : talkjs_flutter_inappwebview.ISettings<talkjs_flutter_inappwebview.InAppBrowserWebViewController> {
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class InAppBrowserWebViewController : UIKit.UIViewController, talkjs_flutter_inappwebview.InAppBrowserDelegate, UIKit.UIScrollViewDelegate, UIKit.UISearchBarDelegate, talkjs_flutter_inappwebview.Disposable {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func loadView()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) public func initLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) public func prepareNavigationControllerBeforeViewWillAppear()
+  @_Concurrency.MainActor(unsafe) public func prepareWebView()
+  @_Concurrency.MainActor(unsafe) public func didChangeTitle(title: Swift.String?)
+  @_Concurrency.MainActor(unsafe) public func didStartNavigation(url: Foundation.URL?)
+  @_Concurrency.MainActor(unsafe) public func didUpdateVisitedHistory(url: Foundation.URL?)
+  @_Concurrency.MainActor(unsafe) public func didFinishNavigation(url: Foundation.URL?)
+  @_Concurrency.MainActor(unsafe) public func didFailNavigation(url: Foundation.URL?, error: any Swift.Error)
+  @_Concurrency.MainActor(unsafe) public func didChangeProgress(progress: Swift.Double)
+  @_Concurrency.MainActor(unsafe) @objc public func searchBarSearchButtonClicked(_ searchBar: UIKit.UISearchBar)
+  @_Concurrency.MainActor(unsafe) public func show(completion: (() -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) public func hide(completion: (() -> Swift.Void)? = nil)
+  @objc @_Concurrency.MainActor(unsafe) public func reload()
+  @objc @_Concurrency.MainActor(unsafe) public func share()
+  @_Concurrency.MainActor(unsafe) public func close(completion: (() -> Swift.Void)? = nil)
+  @objc @_Concurrency.MainActor(unsafe) public func close()
+  @objc @_Concurrency.MainActor(unsafe) public func goBack()
+  @objc @_Concurrency.MainActor(unsafe) public func goForward()
+  @objc @_Concurrency.MainActor(unsafe) public func goBackOrForward(steps: Swift.Int)
+  @_Concurrency.MainActor(unsafe) public func setSettings(newSettings: talkjs_flutter_inappwebview.InAppBrowserSettings, newSettingsMap: [Swift.String : Any])
+  @_Concurrency.MainActor(unsafe) public func getSettings() -> [Swift.String : Any?]?
+  @_Concurrency.MainActor(unsafe) public func dispose()
+  @objc deinit
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class InAppWebView : WebKit.WKWebView, UIKit.UIScrollViewDelegate, WebKit.WKUIDelegate, WebKit.WKNavigationDelegate, WebKit.WKScriptMessageHandler, UIKit.UIGestureRecognizerDelegate, WebKit.WKDownloadDelegate, talkjs_flutter_inappwebview.PullToRefreshDelegate, talkjs_flutter_inappwebview.Disposable {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var frame: CoreFoundation.CGRect {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc public func gestureRecognizer(_ gestureRecognizer: UIKit.UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func hitTest(_ point: CoreFoundation.CGPoint, with event: UIKit.UIEvent?) -> UIKit.UIView?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func canPerformAction(_ action: ObjectiveC.Selector, withSender sender: Any?) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) public func prepare()
+  @_Concurrency.MainActor(unsafe) public func prepareAndAddUserScripts()
+  @_Concurrency.MainActor(unsafe) public static func preWKWebViewConfiguration(settings: talkjs_flutter_inappwebview.InAppWebViewSettings?) -> WebKit.WKWebViewConfiguration
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
+  @_Concurrency.MainActor(unsafe) public func initializeWindowIdJS()
+  @_Concurrency.MainActor(unsafe) public func goBackOrForward(steps: Swift.Int)
+  @_Concurrency.MainActor(unsafe) public func canGoBackOrForward(steps: Swift.Int) -> Swift.Bool
+  @available(iOS 11.0, *)
+  @_Concurrency.MainActor(unsafe) public func takeScreenshot(with: [Swift.String : Any?]?, completionHandler: @escaping (_ screenshot: Foundation.Data?) -> Swift.Void)
+  @available(iOS 14.0, *)
+  @_Concurrency.MainActor(unsafe) public func createPdf(configuration: [Swift.String : Any?]?, completionHandler: @escaping (_ pdf: Foundation.Data?) -> Swift.Void)
+  @available(iOS 14.0, *)
+  @_Concurrency.MainActor(unsafe) public func createWebArchiveData(dataCompletionHandler: @escaping (_ webArchiveData: Foundation.Data?) -> Swift.Void)
+  @available(iOS 14.0, *)
+  @_Concurrency.MainActor(unsafe) public func saveWebArchive(filePath: Swift.String, autoname: Swift.Bool, completionHandler: @escaping (_ path: Swift.String?) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public func loadUrl(urlRequest: Foundation.URLRequest, allowingReadAccessTo: Foundation.URL?)
+  @_Concurrency.MainActor(unsafe) public func postUrl(url: Foundation.URL, postData: Foundation.Data)
+  @_Concurrency.MainActor(unsafe) public func loadData(data: Swift.String, mimeType: Swift.String, encoding: Swift.String, baseUrl: Foundation.URL, allowingReadAccessTo: Foundation.URL?)
+  @_Concurrency.MainActor(unsafe) public func loadFile(assetFilePath: Swift.String) throws
+  @_Concurrency.MainActor(unsafe) public func enablePluginScriptAtRuntime(flagVariable: Swift.String, enable: Swift.Bool, pluginScript: talkjs_flutter_inappwebview.PluginScript)
+  @_Concurrency.MainActor(unsafe) public func clearCache()
+  @_Concurrency.MainActor(unsafe) public func injectDeferredObject(source: Swift.String, withWrapper jsWrapper: Swift.String?, completionHandler: ((Any?) -> Swift.Void)? = nil)
+  @available(iOS 14.0, *)
+  @_Concurrency.MainActor(unsafe) public func injectDeferredObject(source: Swift.String, contentWorld: WebKit.WKContentWorld, withWrapper jsWrapper: Swift.String?, completionHandler: ((Any?) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func evaluateJavaScript(_ javaScriptString: Swift.String, completionHandler: ((Any?, (any Swift.Error)?) -> Swift.Void)? = nil)
+  @available(iOS 14.0, *)
+  @_Concurrency.MainActor(unsafe) public func evaluateJavaScript(_ javaScript: Swift.String, frame: WebKit.WKFrameInfo? = nil, contentWorld: WebKit.WKContentWorld, completionHandler: ((Swift.Result<Any, any Swift.Error>) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) public func evaluateJavascript(source: Swift.String, completionHandler: ((Any?) -> Swift.Void)? = nil)
+  @available(iOS 14.0, *)
+  @_Concurrency.MainActor(unsafe) public func evaluateJavascript(source: Swift.String, contentWorld: WebKit.WKContentWorld, completionHandler: ((Any?) -> Swift.Void)? = nil)
+  @available(iOS 14.0, *)
+  @_Concurrency.MainActor(unsafe) public func callAsyncJavaScript(_ functionBody: Swift.String, arguments: [Swift.String : Any] = [:], frame: WebKit.WKFrameInfo? = nil, contentWorld: WebKit.WKContentWorld, completionHandler: ((Swift.Result<Any, any Swift.Error>) -> Swift.Void)? = nil)
+  @available(iOS 14.0, *)
+  @_Concurrency.MainActor(unsafe) public func callAsyncJavaScript(functionBody: Swift.String, arguments: [Swift.String : Any], contentWorld: WebKit.WKContentWorld, completionHandler: ((Any?) -> Swift.Void)? = nil)
+  @available(iOS 10.3, *)
+  @_Concurrency.MainActor(unsafe) public func callAsyncJavaScript(functionBody: Swift.String, arguments: [Swift.String : Any], completionHandler: ((Any?) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) public func injectJavascriptFileFromUrl(urlFile: Swift.String, scriptHtmlTagAttributes: [Swift.String : Any?]?)
+  @_Concurrency.MainActor(unsafe) public func injectCSSCode(source: Swift.String)
+  @_Concurrency.MainActor(unsafe) public func injectCSSFileFromUrl(urlFile: Swift.String, cssLinkHtmlTagAttributes: [Swift.String : Any?]?)
+  @_Concurrency.MainActor(unsafe) public func getCopyBackForwardList() -> [Swift.String : Any]
+  @available(iOS 15.0, *)
+  @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, requestMediaCapturePermissionFor origin: WebKit.WKSecurityOrigin, initiatedByFrame frame: WebKit.WKFrameInfo, type: WebKit.WKMediaCaptureType, decisionHandler: @escaping (WebKit.WKPermissionDecision) -> Swift.Void)
+  @available(iOS 15.0, *)
+  @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, requestDeviceOrientationAndMotionPermissionFor origin: WebKit.WKSecurityOrigin, initiatedByFrame frame: WebKit.WKFrameInfo, decisionHandler: @escaping (WebKit.WKPermissionDecision) -> Swift.Void)
+  @available(iOS 13.0, *)
+  @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, preferences: WebKit.WKWebpagePreferences, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy, WebKit.WKWebpagePreferences) -> Swift.Void)
+  @available(iOS 14.5, *)
+  @_Concurrency.MainActor(unsafe) @objc public func download(_ download: WebKit.WKDownload, decideDestinationUsing response: Foundation.URLResponse, suggestedFilename: Swift.String, completionHandler: @escaping (Foundation.URL?) -> Swift.Void)
+  @available(iOS 14.5, *)
+  @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, navigationResponse: WebKit.WKNavigationResponse, didBecome download: WebKit.WKDownload)
+  @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationResponse: WebKit.WKNavigationResponse, decisionHandler: @escaping (WebKit.WKNavigationResponsePolicy) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, didStartProvisionalNavigation navigation: WebKit.WKNavigation!)
+  @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
+  @_Concurrency.MainActor(unsafe) @objc public func webView(_ view: WebKit.WKWebView, didFailProvisionalNavigation navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
+  @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, didFail navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
+  @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, didReceive challenge: Foundation.URLAuthenticationChallenge, completionHandler: @escaping (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, runJavaScriptAlertPanelWithMessage message: Swift.String, initiatedByFrame frame: WebKit.WKFrameInfo, completionHandler: @escaping () -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, runJavaScriptConfirmPanelWithMessage message: Swift.String, initiatedByFrame frame: WebKit.WKFrameInfo, completionHandler: @escaping (Swift.Bool) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, runJavaScriptTextInputPanelWithPrompt message: Swift.String, defaultText defaultValue: Swift.String?, initiatedByFrame frame: WebKit.WKFrameInfo, completionHandler: @escaping (Swift.String?) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public func onScrollChanged(startedByUser: Swift.Bool, oldContentOffset: CoreFoundation.CGPoint?)
+  @_Concurrency.MainActor(unsafe) public func onContentSizeChanged(oldContentSize: CoreFoundation.CGSize)
+  @_Concurrency.MainActor(unsafe) @objc public func scrollViewDidZoom(_ scrollView: UIKit.UIScrollView)
+  @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, createWebViewWith configuration: WebKit.WKWebViewConfiguration, for navigationAction: WebKit.WKNavigationAction, windowFeatures: WebKit.WKWindowFeatures) -> WebKit.WKWebView?
+  @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, authenticationChallenge challenge: Foundation.URLAuthenticationChallenge, shouldAllowDeprecatedTLS decisionHandler: @escaping (Swift.Bool) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) @objc public func webViewDidClose(_ webView: WebKit.WKWebView)
+  @_Concurrency.MainActor(unsafe) @objc public func webViewWebContentProcessDidTerminate(_ webView: WebKit.WKWebView)
+  @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, didCommit navigation: WebKit.WKNavigation!)
+  @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, didReceiveServerRedirectForProvisionalNavigation navigation: WebKit.WKNavigation!)
+  @_Concurrency.MainActor(unsafe) public func isVideoPlayerWindow(_ notificationObject: Swift.AnyObject?) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
+  @_Concurrency.MainActor(unsafe) public func scrollTo(x: Swift.Int, y: Swift.Int, animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) public func scrollBy(x: Swift.Int, y: Swift.Int, animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) public func pauseTimers()
+  @_Concurrency.MainActor(unsafe) public func resumeTimers()
+  @_Concurrency.MainActor(unsafe) public func printCurrentPage(settings: talkjs_flutter_inappwebview.PrintJobSettings? = nil, completionHandler: UIKit.UIPrintInteractionController.CompletionHandler? = nil) -> Swift.String?
+  @_Concurrency.MainActor(unsafe) public func getContentHeight() -> Swift.Int64
+  @_Concurrency.MainActor(unsafe) public func getContentWidth() -> Swift.Int64
+  @_Concurrency.MainActor(unsafe) public func zoomBy(zoomFactor: Swift.Float, animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) public func getOriginalUrl() -> Foundation.URL?
+  @_Concurrency.MainActor(unsafe) public func getZoomScale() -> Swift.Float
+  @_Concurrency.MainActor(unsafe) public func getSelectedText(completionHandler: @escaping (Any?, (any Swift.Error)?) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public func getHitTestResult(completionHandler: @escaping (talkjs_flutter_inappwebview.HitTestResult) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public func requestFocusNodeHref(completionHandler: @escaping ([Swift.String : Any?]?, (any Swift.Error)?) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public func requestImageRef(completionHandler: @escaping ([Swift.String : Any?]?, (any Swift.Error)?) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public func clearFocus()
+  @_Concurrency.MainActor(unsafe) public func getCertificate() -> talkjs_flutter_inappwebview.SslCertificate?
+  @_Concurrency.MainActor(unsafe) public func isSecureContext(completionHandler: @escaping (_ isSecureContext: Swift.Bool) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public func canScrollVertically() -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) public func canScrollHorizontally() -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) public func enablePullToRefresh()
+  @_Concurrency.MainActor(unsafe) public func disablePullToRefresh()
+  @_Concurrency.MainActor(unsafe) public func isPullToRefreshEnabled() -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) public func createWebMessageChannel(completionHandler: ((talkjs_flutter_inappwebview.WebMessageChannel) -> Swift.Void)? = nil) -> talkjs_flutter_inappwebview.WebMessageChannel
+  @_Concurrency.MainActor(unsafe) public func postWebMessage(message: talkjs_flutter_inappwebview.WebMessage, targetOrigin: Swift.String, completionHandler: ((Any?) -> Swift.Void)? = nil) throws
+  @_Concurrency.MainActor(unsafe) public func addWebMessageListener(webMessageListener: talkjs_flutter_inappwebview.WebMessageListener) throws
+  @_Concurrency.MainActor(unsafe) public func disposeWebMessageChannels()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var inputAccessoryView: UIKit.UIView? {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) public func dispose()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class InAppWebViewSettings : talkjs_flutter_inappwebview.ISettings<talkjs_flutter_inappwebview.InAppWebView> {
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers public class InAppWebViewStatic : talkjs_flutter_inappwebview.ChannelDelegate {
+  override public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+  public static func getDefaultUserAgent(completionHandler: @escaping (_ value: Swift.String?) -> Swift.Void)
+  override public func dispose()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class ISettings<T> : ObjectiveC.NSObject {
+  @objc deinit
+}
+@objc public class JsAlertResponse : ObjectiveC.NSObject {
+  public init(message: Swift.String, confirmButtonTitle: Swift.String, handledByClient: Swift.Bool, action: Swift.Int? = nil)
+  public static func fromMap(map: [Swift.String : Any?]?) -> talkjs_flutter_inappwebview.JsAlertResponse?
+  @objc deinit
+}
+@objc public class JsConfirmResponse : ObjectiveC.NSObject {
+  public init(message: Swift.String, confirmButtonTitle: Swift.String, cancelButtonTitle: Swift.String, handledByClient: Swift.Bool, action: Swift.Int? = nil)
+  public static func fromMap(map: [Swift.String : Any?]?) -> talkjs_flutter_inappwebview.JsConfirmResponse?
+  @objc deinit
+}
+@objc public class JsPromptResponse : ObjectiveC.NSObject {
+  public init(message: Swift.String, defaultValue: Swift.String, confirmButtonTitle: Swift.String, cancelButtonTitle: Swift.String, handledByClient: Swift.Bool, value: Swift.String? = nil, action: Swift.Int? = nil)
+  public static func fromMap(map: [Swift.String : Any?]?) -> talkjs_flutter_inappwebview.JsPromptResponse?
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers public class LeakAvoider : ObjectiveC.NSObject {
+  public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+  @objc deinit
+}
+public protocol MethodChannelResult {
+  var success: (_ obj: Any?) -> Swift.Void { get set }
+  var error: (_ code: Swift.String, _ message: Swift.String?, _ details: Any?) -> Swift.Void { get set }
+  var notImplemented: () -> Swift.Void { get set }
+}
+@objc @_hasMissingDesignatedInitializers @available(iOS 11.0, *)
+public class MyCookieManager : talkjs_flutter_inappwebview.ChannelDelegate {
+  override public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+  public static func setCookie(url: Swift.String, name: Swift.String, value: Swift.String, path: Swift.String, domain: Swift.String?, expiresDate: Swift.Int64?, maxAge: Swift.Int64?, isSecure: Swift.Bool?, isHttpOnly: Swift.Bool?, sameSite: Swift.String?, result: @escaping Flutter.FlutterResult)
+  public static func getCookies(url: Swift.String, result: @escaping Flutter.FlutterResult)
+  public static func getAllCookies(result: @escaping Flutter.FlutterResult)
+  public static func deleteCookie(url: Swift.String, name: Swift.String, path: Swift.String, domain: Swift.String?, result: @escaping Flutter.FlutterResult)
+  public static func deleteCookies(url: Swift.String, path: Swift.String, domain: Swift.String?, result: @escaping Flutter.FlutterResult)
+  public static func deleteAllCookies(result: @escaping Flutter.FlutterResult)
+  override public func dispose()
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @available(iOS 9.0, *)
+public class MyWebStorageManager : talkjs_flutter_inappwebview.ChannelDelegate {
+  override public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+  public static func fetchDataRecords(dataTypes: Swift.Set<Swift.String>, result: @escaping Flutter.FlutterResult)
+  public static func removeDataFor(dataTypes: Swift.Set<Swift.String>, recordList: [[Swift.String : Any?]], result: @escaping Flutter.FlutterResult)
+  public static func removeDataModifiedSince(dataTypes: Swift.Set<Swift.String>, timestamp: Swift.Int64, result: @escaping Flutter.FlutterResult)
+  override public func dispose()
+  @objc deinit
+}
+extension Foundation.NSAttributedString {
+  public static func fromMap(map: [Swift.String : Any?]?) -> Foundation.NSAttributedString?
+}
+@objc public class PermissionRequest : ObjectiveC.NSObject {
+  public init(origin: Swift.String, resources: [any talkjs_flutter_inappwebview.StringOrInt], frame: WebKit.WKFrameInfo)
+  public func toMap() -> [Swift.String : Any?]
+  @objc deinit
+}
+@objc public class PermissionResponse : ObjectiveC.NSObject {
+  public init(resources: [Any], action: Swift.Int? = nil)
+  public static func fromMap(map: [Swift.String : Any?]?) -> talkjs_flutter_inappwebview.PermissionResponse?
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers public class PlatformUtil : talkjs_flutter_inappwebview.ChannelDelegate {
+  override public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+  public static func getLocaleFromString(locale: Swift.String?) -> Foundation.Locale
+  public static func getDateFromMilliseconds(date: Swift.Int64) -> Foundation.Date
+  public static func formatDate(date: Swift.Int64, format: Swift.String, locale: Foundation.Locale, timezone: Foundation.TimeZone) -> Swift.String
+  override public func dispose()
+  @objc deinit
+}
+@objc public class PluginScript : talkjs_flutter_inappwebview.UserScript {
+  @objc override dynamic public init(source: Swift.String, injectionTime: WebKit.WKUserScriptInjectionTime, forMainFrameOnly: Swift.Bool)
+  public init(groupName: Swift.String, source: Swift.String, injectionTime: WebKit.WKUserScriptInjectionTime, forMainFrameOnly: Swift.Bool, requiredInAllContentWorlds: Swift.Bool = false, messageHandlerNames: [Swift.String] = [])
+  @available(iOS 14.0, *)
+  @objc override dynamic public init(source: Swift.String, injectionTime: WebKit.WKUserScriptInjectionTime, forMainFrameOnly: Swift.Bool, in contentWorld: WebKit.WKContentWorld)
+  @available(iOS 14.0, *)
+  public init(source: Swift.String, injectionTime: WebKit.WKUserScriptInjectionTime, forMainFrameOnly: Swift.Bool, in contentWorld: WebKit.WKContentWorld, requiredInAllContentWorlds: Swift.Bool = false, messageHandlerNames: [Swift.String] = [])
+  @available(iOS 14.0, *)
+  public init(groupName: Swift.String, source: Swift.String, injectionTime: WebKit.WKUserScriptInjectionTime, forMainFrameOnly: Swift.Bool, in contentWorld: WebKit.WKContentWorld, requiredInAllContentWorlds: Swift.Bool = false, messageHandlerNames: [Swift.String] = [])
+  public func copyAndSet(groupName: Swift.String? = nil, source: Swift.String? = nil, injectionTime: WebKit.WKUserScriptInjectionTime? = nil, forMainFrameOnly: Swift.Bool? = nil, requiredInAllContentWorlds: Swift.Bool? = nil, messageHandlerNames: [Swift.String]? = nil) -> talkjs_flutter_inappwebview.PluginScript
+  @available(iOS 14.0, *)
+  public func copyAndSet(groupName: Swift.String? = nil, source: Swift.String? = nil, injectionTime: WebKit.WKUserScriptInjectionTime? = nil, forMainFrameOnly: Swift.Bool? = nil, contentWorld: WebKit.WKContentWorld? = nil, requiredInAllContentWorlds: Swift.Bool? = nil, messageHandlerNames: [Swift.String]? = nil) -> talkjs_flutter_inappwebview.PluginScript
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class PluginScriptsUtil {
+  public static let VAR_PLACEHOLDER_VALUE: Swift.String
+  public static let VAR_FUNCTION_ARGUMENT_NAMES: Swift.String
+  public static let VAR_FUNCTION_ARGUMENT_VALUES: Swift.String
+  public static let VAR_FUNCTION_ARGUMENTS_OBJ: Swift.String
+  public static let VAR_FUNCTION_BODY: Swift.String
+  public static let VAR_RESULT_UUID: Swift.String
+  public static let GET_SELECTED_TEXT_JS_SOURCE: Swift.String
+  @objc deinit
+}
+@objc public class PrintAttributes : ObjectiveC.NSObject {
+  public init(fromPrintJobController: talkjs_flutter_inappwebview.PrintJobController)
+  public func toMap() -> [Swift.String : Any?]
+  @objc deinit
+}
+@objc public class PrintJobChannelDelegate : talkjs_flutter_inappwebview.ChannelDelegate {
+  public init(printJobController: talkjs_flutter_inappwebview.PrintJobController, channel: Flutter.FlutterMethodChannel)
+  override public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+  public func onComplete(completed: Swift.Bool, error: (any Swift.Error)?)
+  override public func dispose()
+  @objc deinit
+}
+public enum PrintJobState : Swift.Int {
+  case created
+  case started
+  case completed
+  case failed
+  case canceled
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_Concurrency.MainActor(unsafe) public class PrintJobController : ObjectiveC.NSObject, talkjs_flutter_inappwebview.Disposable, UIKit.UIPrintInteractionControllerDelegate {
+  @_Concurrency.MainActor(unsafe) public init(id: Swift.String, job: UIKit.UIPrintInteractionController? = nil, settings: talkjs_flutter_inappwebview.PrintJobSettings? = nil)
+  @_Concurrency.MainActor(unsafe) @objc public func printInteractionControllerWillStartJob(_ printInteractionController: UIKit.UIPrintInteractionController)
+  @_Concurrency.MainActor(unsafe) public func present(animated: Swift.Bool, completionHandler: UIKit.UIPrintInteractionController.CompletionHandler? = nil)
+  @_Concurrency.MainActor(unsafe) public func getInfo() -> talkjs_flutter_inappwebview.PrintJobInfo?
+  @_Concurrency.MainActor(unsafe) public func disposeNoDismiss()
+  @_Concurrency.MainActor(unsafe) public func dispose()
+  @objc deinit
+}
+@objc public class PrintJobInfo : ObjectiveC.NSObject {
+  public init(fromPrintJobController: talkjs_flutter_inappwebview.PrintJobController)
+  public func toMap() -> [Swift.String : Any?]
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class PrintJobManager : ObjectiveC.NSObject, talkjs_flutter_inappwebview.Disposable {
+  @objc override dynamic public init()
+  public func dispose()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class PrintJobSettings : talkjs_flutter_inappwebview.ISettings<talkjs_flutter_inappwebview.PrintJobController> {
+  @objc public var handledByClient: Swift.Bool
+  @objc public var jobName: Swift.String?
+  @objc public var animated: Swift.Bool
+  @objc public var _orientation: Foundation.NSNumber?
+  public var orientation: Swift.Int? {
+    get
+    set
+  }
+  @objc public var _numberOfPages: Foundation.NSNumber?
+  public var numberOfPages: Swift.Int? {
+    get
+    set
+  }
+  @objc public var _forceRenderingQuality: Foundation.NSNumber?
+  public var forceRenderingQuality: Swift.Int? {
+    get
+    set
+  }
+  public var margins: UIKit.UIEdgeInsets?
+  @objc public var _duplexMode: Foundation.NSNumber?
+  public var duplexMode: Swift.Int? {
+    get
+    set
+  }
+  @objc public var _outputType: Foundation.NSNumber?
+  public var outputType: Swift.Int? {
+    get
+    set
+  }
+  @objc public var showsNumberOfCopies: Swift.Bool
+  @objc public var showsPaperSelectionForLoadedPapers: Swift.Bool
+  @objc public var showsPaperOrientation: Swift.Bool
+  @objc public var _maximumContentHeight: Foundation.NSNumber?
+  public var maximumContentHeight: Swift.Double? {
+    get
+    set
+  }
+  @objc public var _maximumContentWidth: Foundation.NSNumber?
+  public var maximumContentWidth: Swift.Double? {
+    get
+    set
+  }
+  @objc public var _footerHeight: Foundation.NSNumber?
+  public var footerHeight: Swift.Double? {
+    get
+    set
+  }
+  @objc public var _headerHeight: Foundation.NSNumber?
+  public var headerHeight: Swift.Double? {
+    get
+    set
+  }
+  @objc deinit
+}
+@objc public class PullToRefreshChannelDelegate : talkjs_flutter_inappwebview.ChannelDelegate {
+  public init(pullToRefreshControl: talkjs_flutter_inappwebview.PullToRefreshControl, channel: Flutter.FlutterMethodChannel)
+  override public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+  public func onRefresh()
+  override public func dispose()
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class PullToRefreshControl : UIKit.UIRefreshControl, talkjs_flutter_inappwebview.Disposable {
+  @_Concurrency.MainActor(unsafe) public init(registrar: any Flutter.FlutterPluginRegistrar, id: Any, settings: talkjs_flutter_inappwebview.PullToRefreshSettings?)
+  @_Concurrency.MainActor(unsafe) public func prepare()
+  @_Concurrency.MainActor(unsafe) public func onRefresh()
+  @objc @_Concurrency.MainActor(unsafe) public func updateShouldCallOnRefresh()
+  @_Concurrency.MainActor(unsafe) public func dispose()
+  @objc deinit
+}
+public protocol PullToRefreshDelegate {
+  func enablePullToRefresh()
+  func disablePullToRefresh()
+  func isPullToRefreshEnabled() -> Swift.Bool
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class PullToRefreshSettings : talkjs_flutter_inappwebview.ISettings<talkjs_flutter_inappwebview.PullToRefreshControl> {
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 9.0, *)
+@objcMembers public class SafariBrowserSettings : talkjs_flutter_inappwebview.ISettings<talkjs_flutter_inappwebview.SafariViewController> {
+  @objc deinit
+}
+@objc @available(iOS 9.0, *)
+@_Concurrency.MainActor(unsafe) public class SafariViewController : SafariServices.SFSafariViewController, SafariServices.SFSafariViewControllerDelegate, talkjs_flutter_inappwebview.Disposable {
+  @available(iOS 11.0, *)
+  @_Concurrency.MainActor(unsafe) public init(id: Swift.String, url: Foundation.URL, configuration: SafariServices.SFSafariViewController.Configuration, menuItemList: [[Swift.String : Any]] = [], safariSettings: talkjs_flutter_inappwebview.SafariBrowserSettings)
+  @_Concurrency.MainActor(unsafe) public init(id: Swift.String, url: Foundation.URL, entersReaderIfAvailable: Swift.Bool, menuItemList: [[Swift.String : Any]] = [], safariSettings: talkjs_flutter_inappwebview.SafariBrowserSettings)
+  @_Concurrency.MainActor(unsafe) public static func prepareConfig(configuration: SafariServices.SFSafariViewController.Configuration, safariSettings: talkjs_flutter_inappwebview.SafariBrowserSettings)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc public func safariViewControllerDidFinish(_ controller: SafariServices.SFSafariViewController)
+  @_Concurrency.MainActor(unsafe) @objc public func safariViewController(_ controller: SafariServices.SFSafariViewController, didCompleteInitialLoad didLoadSuccessfully: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc public func safariViewController(_ controller: SafariServices.SFSafariViewController, activityItemsFor URL: Foundation.URL, title: Swift.String?) -> [UIKit.UIActivity]
+  @_Concurrency.MainActor(unsafe) @objc public func safariViewController(_ controller: SafariServices.SFSafariViewController, initialLoadDidRedirectTo url: Foundation.URL)
+  @_Concurrency.MainActor(unsafe) @objc public func safariViewControllerWillOpenInBrowser(_ controller: SafariServices.SFSafariViewController)
+  @_Concurrency.MainActor(unsafe) public func dispose()
+  @objc deinit
+}
+@objc public class SafariViewControllerChannelDelegate : talkjs_flutter_inappwebview.ChannelDelegate {
+  public init(safariViewController: talkjs_flutter_inappwebview.SafariViewController, channel: Flutter.FlutterMethodChannel)
+  override public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+  public func onOpened()
+  public func onCompletedInitialLoad(didLoadSuccessfully: Swift.Bool)
+  public func onInitialLoadDidRedirect(url: Foundation.URL)
+  public func onWillOpenInBrowser()
+  public func onClosed()
+  public func onItemActionPerform(id: Swift.Int64, url: Foundation.URL, title: Swift.String?)
+  override public func dispose()
+  @objc deinit
+}
+@objc public class ServerTrustAuthResponse : ObjectiveC.NSObject {
+  public init(action: Swift.Int? = nil)
+  public static func fromMap(map: [Swift.String : Any?]?) -> talkjs_flutter_inappwebview.ServerTrustAuthResponse?
+  @objc deinit
+}
+@objc public class ServerTrustChallenge : ObjectiveC.NSObject {
+  public init(fromChallenge: Foundation.URLAuthenticationChallenge)
+  public func toMap() -> [Swift.String : Any?]
+  @objc deinit
+}
+@objc public class Size2D : ObjectiveC.NSObject {
+  public init(width: Swift.Double, height: Swift.Double)
+  public static func fromMap(map: [Swift.String : Any?]?) -> talkjs_flutter_inappwebview.Size2D?
+  public func toMap() -> [Swift.String : Any?]
+  @objc deinit
+}
+@objc public class SslCertificate : ObjectiveC.NSObject {
+  public init(x509Certificate: Foundation.Data)
+  public func toMap() -> [Swift.String : Any?]
+  @objc deinit
+}
+@objc public class SslError : ObjectiveC.NSObject {
+  public init(errorType: Security.SecTrustResultType?)
+  public func toMap() -> [Swift.String : Any?]
+  @objc deinit
+}
+public protocol StringOrInt {
+}
+extension Swift.Int : talkjs_flutter_inappwebview.StringOrInt {
+}
+extension Swift.String : talkjs_flutter_inappwebview.StringOrInt {
+}
+@objc public class SwiftFlutterPlugin : ObjectiveC.NSObject, Flutter.FlutterPlugin {
+  public init(with registrar: any Flutter.FlutterPluginRegistrar)
+  @objc public static func register(with registrar: any Flutter.FlutterPluginRegistrar)
+  @objc public func detachFromEngine(for registrar: any Flutter.FlutterPluginRegistrar)
+  @objc deinit
+}
+extension UIKit.UIEdgeInsets {
+  public static func fromMap(map: [Swift.String : Swift.Double]) -> UIKit.UIEdgeInsets
+  public func toMap() -> [Swift.String : Any?]
+}
+@available(iOS 14.5, *)
+extension UIKit.UIEventAttribution {
+  @_Concurrency.MainActor(unsafe) public static func fromMap(map: [Swift.String : Any?]?) -> UIKit.UIEventAttribution?
+}
+@objc public class FindSession : ObjectiveC.NSObject {
+  public init(resultCount: Swift.Int, highlightedResultIndex: Swift.Int, searchResultDisplayStyle: Swift.Int)
+  @available(iOS 16.0, *)
+  public static func fromUIFindSession(uiFindSession: UIKit.UIFindSession) -> talkjs_flutter_inappwebview.FindSession
+  public func toMap() -> [Swift.String : Any?]
+  @objc deinit
+}
+@available(iOS 16.0, *)
+extension UIKit.UIFindSession {
+  @_Concurrency.MainActor(unsafe) public func toMap() -> [Swift.String : Any?]
+}
+extension UIKit.UIImage {
+  public static func fromMap(map: [Swift.String : Any?]?) -> UIKit.UIImage?
+}
+extension Foundation.URLAuthenticationChallenge {
+  public func toMap() -> [Swift.String : Any?]
+}
+extension Foundation.URLCredential {
+  public func toMap() -> [Swift.String : Any?]
+}
+extension Foundation.URLProtectionSpace {
+  public func toMap() -> [Swift.String : Any?]
+}
+extension Foundation.URLRequest {
+  public init(fromPluginMap: [Swift.String : Any?])
+  public func toMap() -> [Swift.String : Any?]
+}
+extension Foundation.URLResponse {
+  convenience public init?(fromPluginMap: [Swift.String : Any?])
+  public func toMap() -> [Swift.String : Any?]
+}
+@objc public class UserScript : WebKit.WKUserScript {
+  @objc override dynamic public init(source: Swift.String, injectionTime: WebKit.WKUserScriptInjectionTime, forMainFrameOnly: Swift.Bool)
+  public init(groupName: Swift.String?, source: Swift.String, injectionTime: WebKit.WKUserScriptInjectionTime, forMainFrameOnly: Swift.Bool)
+  @available(iOS 14.0, *)
+  @objc override dynamic public init(source: Swift.String, injectionTime: WebKit.WKUserScriptInjectionTime, forMainFrameOnly: Swift.Bool, in contentWorld: WebKit.WKContentWorld)
+  @available(iOS 14.0, *)
+  public init(groupName: Swift.String?, source: Swift.String, injectionTime: WebKit.WKUserScriptInjectionTime, forMainFrameOnly: Swift.Bool, in contentWorld: WebKit.WKContentWorld)
+  public static func fromMap(map: [Swift.String : Any?]?, windowId: Swift.Int64?) -> talkjs_flutter_inappwebview.UserScript?
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class Util {
+  public static func getUrlAsset(assetFilePath: Swift.String) throws -> Foundation.URL
+  public static func getAbsPathAsset(assetFilePath: Swift.String) throws -> Swift.String
+  public static func convertToDictionary(text: Swift.String) -> [Swift.String : Any]?
+  public static func JSONStringify(value: Any, prettyPrinted: Swift.Bool = false) -> Swift.String
+  @available(iOS 14.0, *)
+  public static func getContentWorld(name: Swift.String) -> WebKit.WKContentWorld
+  @available(iOS 10.0, *)
+  public static func getDataDetectorType(type: Swift.String) -> WebKit.WKDataDetectorTypes
+  @available(iOS 10.0, *)
+  public static func getDataDetectorTypeString(type: WebKit.WKDataDetectorTypes) -> [Swift.String]
+  public static func getDecelerationRate(type: Swift.String) -> UIKit.UIScrollView.DecelerationRate
+  public static func getDecelerationRateString(type: UIKit.UIScrollView.DecelerationRate) -> Swift.String
+  public static func isIPv4(address: Swift.String) -> Swift.Bool
+  public static func isIPv6(address: Swift.String) -> Swift.Bool
+  public static func isIpAddress(address: Swift.String) -> Swift.Bool
+  public static func normalizeIPv6(address: Swift.String) throws -> Swift.String
+  @objc deinit
+}
+@objc public class WebAuthenticationSession : ObjectiveC.NSObject, AuthenticationServices.ASWebAuthenticationPresentationContextProviding, talkjs_flutter_inappwebview.Disposable {
+  public init(id: Swift.String, url: Foundation.URL, callbackURLScheme: Swift.String?, settings: talkjs_flutter_inappwebview.WebAuthenticationSessionSettings)
+  public func prepare()
+  public func completionHandler(url: Foundation.URL?, error: (any Swift.Error)?)
+  public func canStart() -> Swift.Bool
+  public func start() -> Swift.Bool
+  public func cancel()
+  @available(iOS 12.0, *)
+  @objc public func presentationAnchor(for session: AuthenticationServices.ASWebAuthenticationSession) -> AuthenticationServices.ASPresentationAnchor
+  public func dispose()
+  @objc deinit
+}
+@objc public class WebAuthenticationSessionChannelDelegate : talkjs_flutter_inappwebview.ChannelDelegate {
+  public init(webAuthenticationSession: talkjs_flutter_inappwebview.WebAuthenticationSession, channel: Flutter.FlutterMethodChannel)
+  override public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+  public func onComplete(url: Foundation.URL?, errorCode: Swift.Int?)
+  override public func dispose()
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers public class WebAuthenticationSessionManager : talkjs_flutter_inappwebview.ChannelDelegate {
+  override public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+  public func create(id: Swift.String, url: Swift.String, callbackURLScheme: Swift.String?, settings: [Swift.String : Any?], result: @escaping Flutter.FlutterResult)
+  override public func dispose()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class WebAuthenticationSessionSettings : talkjs_flutter_inappwebview.ISettings<talkjs_flutter_inappwebview.WebAuthenticationSession> {
+  @objc deinit
+}
+@objc public class WebMessage : ObjectiveC.NSObject {
+  public init(data: Swift.String?, ports: [talkjs_flutter_inappwebview.WebMessagePort]?)
+  public func dispose()
+  @objc deinit
+}
+@objc public class WebMessageChannel : talkjs_flutter_inappwebview.FlutterMethodCallDelegate {
+  public init(id: Swift.String)
+  public func initJsInstance(webView: talkjs_flutter_inappwebview.InAppWebView, completionHandler: ((talkjs_flutter_inappwebview.WebMessageChannel) -> Swift.Void)? = nil)
+  public func toMap() -> [Swift.String : Any?]
+  public func dispose()
+  @objc deinit
+}
+@objc public class WebMessageChannelChannelDelegate : talkjs_flutter_inappwebview.ChannelDelegate {
+  public init(webMessageChannel: talkjs_flutter_inappwebview.WebMessageChannel, channel: Flutter.FlutterMethodChannel)
+  override public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+  public func onMessage(index: Swift.Int64, message: Swift.String?)
+  override public func dispose()
+  @objc deinit
+}
+@objc public class WebMessageListener : talkjs_flutter_inappwebview.FlutterMethodCallDelegate {
+  public init(id: Swift.String, jsObjectName: Swift.String, allowedOriginRules: Swift.Set<Swift.String>)
+  public func assertOriginRulesValid() throws
+  public func initJsInstance(webView: talkjs_flutter_inappwebview.InAppWebView)
+  public static func fromMap(map: [Swift.String : Any?]?) -> talkjs_flutter_inappwebview.WebMessageListener?
+  public func isOriginAllowed(scheme: Swift.String?, host: Swift.String?, port: Swift.Int?) -> Swift.Bool
+  public func dispose()
+  @objc deinit
+}
+@objc public class WebMessageListenerChannelDelegate : talkjs_flutter_inappwebview.ChannelDelegate {
+  public init(webMessageListener: talkjs_flutter_inappwebview.WebMessageListener, channel: Flutter.FlutterMethodChannel)
+  override public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+  public func onPostMessage(message: Swift.String?, sourceOrigin: Foundation.URL?, isMainFrame: Swift.Bool)
+  override public func dispose()
+  @objc deinit
+}
+@objc public class WebMessagePort : ObjectiveC.NSObject {
+  public init(name: Swift.String, webMessageChannel: talkjs_flutter_inappwebview.WebMessageChannel)
+  public func setWebMessageCallback(completionHandler: ((Any?) -> Swift.Void)? = nil) throws
+  public func postMessage(message: talkjs_flutter_inappwebview.WebMessage, completionHandler: ((Any?) -> Swift.Void)? = nil) throws
+  public func close(completionHandler: ((Any?) -> Swift.Void)? = nil) throws
+  public func dispose()
+  @objc deinit
+}
+@objc public class WebResourceError : ObjectiveC.NSObject {
+  public init(type: Swift.Int, errorDescription: Swift.String)
+  public func toMap() -> [Swift.String : Any?]
+  @objc deinit
+}
+@objc public class WebResourceRequest : ObjectiveC.NSObject {
+  public init(url: Foundation.URL, headers: [Swift.AnyHashable : Any]?)
+  public init(url: Foundation.URL, headers: [Swift.AnyHashable : Any]?, isForMainFrame: Swift.Bool)
+  public init(fromURLRequest: Foundation.URLRequest)
+  public init(fromWKNavigationResponse: WebKit.WKNavigationResponse)
+  public func toMap() -> [Swift.String : Any?]
+  @objc deinit
+}
+@objc public class WebResourceResponse : ObjectiveC.NSObject {
+  public init(contentType: Swift.String, contentEncoding: Swift.String, data: Foundation.Data?, headers: [Swift.AnyHashable : Any]?, statusCode: Swift.Int?, reasonPhrase: Swift.String?)
+  public init(fromWKNavigationResponse: WebKit.WKNavigationResponse)
+  public func toMap() -> [Swift.String : Any?]
+  @objc deinit
+}
+@objc public class WebViewChannelDelegate : talkjs_flutter_inappwebview.ChannelDelegate {
+  public init(webView: talkjs_flutter_inappwebview.InAppWebView, channel: Flutter.FlutterMethodChannel)
+  override public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+  @available(*, deprecated, message: "Use FindInteractionChannelDelegate.onFindResultReceived instead.")
+  public func onFindResultReceived(activeMatchOrdinal: Swift.Int, numberOfMatches: Swift.Int, isDoneCounting: Swift.Bool)
+  public func onLongPressHitTestResult(hitTestResult: talkjs_flutter_inappwebview.HitTestResult)
+  public func onScrollChanged(x: Swift.Int, y: Swift.Int)
+  public func onContentSizeChanged(oldContentSize: CoreFoundation.CGSize, newContentSize: CoreFoundation.CGSize)
+  public func onDownloadStartRequest(request: talkjs_flutter_inappwebview.DownloadStartRequest)
+  public func onCreateContextMenu(hitTestResult: talkjs_flutter_inappwebview.HitTestResult)
+  public func onOverScrolled(x: Swift.Int, y: Swift.Int, clampedX: Swift.Bool, clampedY: Swift.Bool)
+  public func onContextMenuActionItemClicked(id: Any, title: Swift.String)
+  public func onHideContextMenu()
+  public func onEnterFullscreen()
+  public func onExitFullscreen()
+  @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class JsAlertCallback : talkjs_flutter_inappwebview.BaseCallbackResult<talkjs_flutter_inappwebview.JsAlertResponse> {
+    @objc deinit
+  }
+  public func onJsAlert(url: Foundation.URL?, message: Swift.String, isMainFrame: Swift.Bool, callback: talkjs_flutter_inappwebview.WebViewChannelDelegate.JsAlertCallback)
+  @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class JsConfirmCallback : talkjs_flutter_inappwebview.BaseCallbackResult<talkjs_flutter_inappwebview.JsConfirmResponse> {
+    @objc deinit
+  }
+  public func onJsConfirm(url: Foundation.URL?, message: Swift.String, isMainFrame: Swift.Bool, callback: talkjs_flutter_inappwebview.WebViewChannelDelegate.JsConfirmCallback)
+  @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class JsPromptCallback : talkjs_flutter_inappwebview.BaseCallbackResult<talkjs_flutter_inappwebview.JsPromptResponse> {
+    @objc deinit
+  }
+  public func onJsPrompt(url: Foundation.URL?, message: Swift.String, defaultValue: Swift.String?, isMainFrame: Swift.Bool, callback: talkjs_flutter_inappwebview.WebViewChannelDelegate.JsPromptCallback)
+  @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class CreateWindowCallback : talkjs_flutter_inappwebview.BaseCallbackResult<Swift.Bool> {
+    @objc deinit
+  }
+  public func onCreateWindow(createWindowAction: talkjs_flutter_inappwebview.CreateWindowAction, callback: talkjs_flutter_inappwebview.WebViewChannelDelegate.CreateWindowCallback)
+  public func onCloseWindow()
+  public func onConsoleMessage(message: Swift.String, messageLevel: Swift.Int)
+  public func onProgressChanged(progress: Swift.Int)
+  public func onTitleChanged(title: Swift.String?)
+  @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class PermissionRequestCallback : talkjs_flutter_inappwebview.BaseCallbackResult<talkjs_flutter_inappwebview.PermissionResponse> {
+    @objc deinit
+  }
+  public func onPermissionRequest(request: talkjs_flutter_inappwebview.PermissionRequest, callback: talkjs_flutter_inappwebview.WebViewChannelDelegate.PermissionRequestCallback)
+  @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class ShouldOverrideUrlLoadingCallback : talkjs_flutter_inappwebview.BaseCallbackResult<WebKit.WKNavigationActionPolicy> {
+    @objc deinit
+  }
+  public func shouldOverrideUrlLoading(navigationAction: WebKit.WKNavigationAction, callback: talkjs_flutter_inappwebview.WebViewChannelDelegate.ShouldOverrideUrlLoadingCallback)
+  public func onLoadStart(url: Swift.String?)
+  public func onLoadStop(url: Swift.String?)
+  public func onUpdateVisitedHistory(url: Swift.String?, isReload: Swift.Bool?)
+  public func onReceivedError(request: talkjs_flutter_inappwebview.WebResourceRequest, error: talkjs_flutter_inappwebview.WebResourceError)
+  public func onReceivedHttpError(request: talkjs_flutter_inappwebview.WebResourceRequest, errorResponse: talkjs_flutter_inappwebview.WebResourceResponse)
+  @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class ReceivedHttpAuthRequestCallback : talkjs_flutter_inappwebview.BaseCallbackResult<talkjs_flutter_inappwebview.HttpAuthResponse> {
+    @objc deinit
+  }
+  public func onReceivedHttpAuthRequest(challenge: talkjs_flutter_inappwebview.HttpAuthenticationChallenge, callback: talkjs_flutter_inappwebview.WebViewChannelDelegate.ReceivedHttpAuthRequestCallback)
+  @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class ReceivedServerTrustAuthRequestCallback : talkjs_flutter_inappwebview.BaseCallbackResult<talkjs_flutter_inappwebview.ServerTrustAuthResponse> {
+    @objc deinit
+  }
+  public func onReceivedServerTrustAuthRequest(challenge: talkjs_flutter_inappwebview.ServerTrustChallenge, callback: talkjs_flutter_inappwebview.WebViewChannelDelegate.ReceivedServerTrustAuthRequestCallback)
+  @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class ReceivedClientCertRequestCallback : talkjs_flutter_inappwebview.BaseCallbackResult<talkjs_flutter_inappwebview.ClientCertResponse> {
+    @objc deinit
+  }
+  public func onReceivedClientCertRequest(challenge: talkjs_flutter_inappwebview.ClientCertChallenge, callback: talkjs_flutter_inappwebview.WebViewChannelDelegate.ReceivedClientCertRequestCallback)
+  public func onZoomScaleChanged(newScale: Swift.Float, oldScale: Swift.Float)
+  public func onPageCommitVisible(url: Swift.String?)
+  @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class LoadResourceWithCustomSchemeCallback : talkjs_flutter_inappwebview.BaseCallbackResult<talkjs_flutter_inappwebview.CustomSchemeResponse> {
+    @objc deinit
+  }
+  public func onLoadResourceWithCustomScheme(request: talkjs_flutter_inappwebview.WebResourceRequest, callback: talkjs_flutter_inappwebview.WebViewChannelDelegate.LoadResourceWithCustomSchemeCallback)
+  @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class CallJsHandlerCallback : talkjs_flutter_inappwebview.BaseCallbackResult<Any> {
+    @objc deinit
+  }
+  public func onCallJsHandler(handlerName: Swift.String, args: Swift.String, callback: talkjs_flutter_inappwebview.WebViewChannelDelegate.CallJsHandlerCallback)
+  @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class NavigationResponseCallback : talkjs_flutter_inappwebview.BaseCallbackResult<WebKit.WKNavigationResponsePolicy> {
+    @objc deinit
+  }
+  public func onNavigationResponse(navigationResponse: WebKit.WKNavigationResponse, callback: talkjs_flutter_inappwebview.WebViewChannelDelegate.NavigationResponseCallback)
+  @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class ShouldAllowDeprecatedTLSCallback : talkjs_flutter_inappwebview.BaseCallbackResult<Swift.Bool> {
+    @objc deinit
+  }
+  public func shouldAllowDeprecatedTLS(challenge: Foundation.URLAuthenticationChallenge, callback: talkjs_flutter_inappwebview.WebViewChannelDelegate.ShouldAllowDeprecatedTLSCallback)
+  public func onWebContentProcessDidTerminate()
+  public func onDidReceiveServerRedirectForProvisionalNavigation()
+  @available(iOS 15.0, *)
+  public func onCameraCaptureStateChanged(oldState: WebKit.WKMediaCaptureState?, newState: WebKit.WKMediaCaptureState?)
+  @available(iOS 15.0, *)
+  public func onMicrophoneCaptureStateChanged(oldState: WebKit.WKMediaCaptureState?, newState: WebKit.WKMediaCaptureState?)
+  @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class PrintRequestCallback : talkjs_flutter_inappwebview.BaseCallbackResult<Swift.Bool> {
+    @objc deinit
+  }
+  public func onPrintRequest(url: Foundation.URL?, printJobId: Swift.String?, callback: talkjs_flutter_inappwebview.WebViewChannelDelegate.PrintRequestCallback)
+  override public func dispose()
+  @objc deinit
+}
+public enum WebViewChannelDelegateMethods : Swift.String {
+  case getUrl
+  case getTitle
+  case getProgress
+  case loadUrl
+  case postUrl
+  case loadData
+  case loadFile
+  case evaluateJavascript
+  case injectJavascriptFileFromUrl
+  case injectCSSCode
+  case injectCSSFileFromUrl
+  case reload
+  case goBack
+  case canGoBack
+  case goForward
+  case canGoForward
+  case goBackOrForward
+  case canGoBackOrForward
+  case stopLoading
+  case isLoading
+  case takeScreenshot
+  case setSettings
+  case getSettings
+  case close
+  case show
+  case hide
+  case isHidden
+  case getCopyBackForwardList
+  @available(*, deprecated, message: "Use FindInteractionController.findAll instead.")
+  case findAll
+  @available(*, deprecated, message: "Use FindInteractionController.findNext instead.")
+  case findNext
+  @available(*, deprecated, message: "Use FindInteractionController.clearMatches instead.")
+  case clearMatches
+  case clearCache
+  case scrollTo
+  case scrollBy
+  case pauseTimers
+  case resumeTimers
+  case printCurrentPage
+  case getContentHeight
+  case getContentWidth
+  case zoomBy
+  case reloadFromOrigin
+  case getOriginalUrl
+  case getZoomScale
+  case hasOnlySecureContent
+  case getSelectedText
+  case getHitTestResult
+  case clearFocus
+  case setContextMenu
+  case requestFocusNodeHref
+  case requestImageRef
+  case getScrollX
+  case getScrollY
+  case getCertificate
+  case addUserScript
+  case removeUserScript
+  case removeUserScriptsByGroupName
+  case removeAllUserScripts
+  case callAsyncJavaScript
+  case createPdf
+  case createWebArchiveData
+  case saveWebArchive
+  case isSecureContext
+  case createWebMessageChannel
+  case postWebMessage
+  case addWebMessageListener
+  case canScrollVertically
+  case canScrollHorizontally
+  case pauseAllMediaPlayback
+  case setAllMediaPlaybackSuspended
+  case closeAllMediaPresentations
+  case requestMediaPlaybackState
+  case getMetaThemeColor
+  case isInFullscreen
+  case getCameraCaptureState
+  case setCameraCaptureState
+  case getMicrophoneCaptureState
+  case setMicrophoneCaptureState
+  case loadSimulatedRequest
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc @_hasMissingDesignatedInitializers public class WebViewTransport : ObjectiveC.NSObject {
+  @objc deinit
+}
+@available(iOS 14.0, *)
+extension WebKit.WKContentWorld {
+  public static func fromMap(map: [Swift.String : Any?]?, windowId: Swift.Int64?) -> WebKit.WKContentWorld?
+}
+extension WebKit.WKFrameInfo {
+  public func toMap() -> [Swift.String : Any?]
+}
+extension WebKit.WKNavigationAction {
+  public func toMap() -> [Swift.String : Any?]
+}
+extension WebKit.WKNavigationResponse {
+  public func toMap() -> [Swift.String : Any?]
+}
+@_hasMissingDesignatedInitializers public class WKProcessPoolManager {
+  @objc deinit
+}
+@available(iOS 9.0, *)
+extension WebKit.WKSecurityOrigin {
+  public func toMap() -> [Swift.String : Any?]
+}
+extension WebKit.WKUserContentController {
+  public func initialize()
+  public func dispose(windowId: Swift.Int64?)
+  public func sync(scriptMessageHandler: any WebKit.WKScriptMessageHandler)
+  public func addUserOnlyScript(_ userOnlyScript: talkjs_flutter_inappwebview.UserScript)
+  public func addUserOnlyScripts(_ userOnlyScripts: [talkjs_flutter_inappwebview.UserScript])
+  public func addPluginScript(_ pluginScript: talkjs_flutter_inappwebview.PluginScript)
+  public func addPluginScripts(_ pluginScripts: [talkjs_flutter_inappwebview.PluginScript])
+  public func getPluginScriptsRequiredInAllContentWorlds() -> [talkjs_flutter_inappwebview.PluginScript]
+  @available(iOS 14.0, *)
+  public func generateCodeForScriptEvaluation(scriptMessageHandler: any WebKit.WKScriptMessageHandler, source: Swift.String, contentWorld: WebKit.WKContentWorld) -> Swift.String
+  public func removeUserOnlyScript(_ userOnlyScript: talkjs_flutter_inappwebview.UserScript)
+  public func removeUserOnlyScript(at index: Swift.Int, injectionTime: WebKit.WKUserScriptInjectionTime)
+  public func removeAllUserOnlyScripts()
+  public func removePluginScript(_ pluginScript: talkjs_flutter_inappwebview.PluginScript)
+  public func removeAllPluginScripts()
+  public func removeAllPluginScriptMessageHandlers()
+  @available(iOS 14.0, *)
+  public func resetContentWorlds(windowId: Swift.Int64?)
+  public func removeUserOnlyScripts(with groupName: Swift.String, shouldAddPreviousScripts: Swift.Bool = true)
+  public func removePluginScripts(with groupName: Swift.String, shouldAddPreviousScripts: Swift.Bool = true)
+  public func containsPluginScript(with groupName: Swift.String) -> Swift.Bool
+  @available(iOS 14.0, *)
+  public func containsPluginScript(with groupName: Swift.String, in contentWorld: WebKit.WKContentWorld) -> Swift.Bool
+  @available(iOS 14.0, *)
+  public func getContentWorlds(with windowId: Swift.Int64?) -> Swift.Set<WebKit.WKContentWorld>
+}
+extension WebKit.WKWindowFeatures {
+  public func toMap() -> [Swift.String : Any?]
+}
+extension talkjs_flutter_inappwebview.HitTestResultType : Swift.Equatable {}
+extension talkjs_flutter_inappwebview.HitTestResultType : Swift.Hashable {}
+extension talkjs_flutter_inappwebview.HitTestResultType : Swift.RawRepresentable {}
+extension talkjs_flutter_inappwebview.PrintJobState : Swift.Equatable {}
+extension talkjs_flutter_inappwebview.PrintJobState : Swift.Hashable {}
+extension talkjs_flutter_inappwebview.PrintJobState : Swift.RawRepresentable {}
+extension talkjs_flutter_inappwebview.WebViewChannelDelegateMethods : Swift.Equatable {}
+extension talkjs_flutter_inappwebview.WebViewChannelDelegateMethods : Swift.Hashable {}
+extension talkjs_flutter_inappwebview.WebViewChannelDelegateMethods : Swift.RawRepresentable {}

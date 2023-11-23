@@ -1,0 +1,949 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "flutter_apns_only"
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "flutter_apns_only"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FlutterApnsPlugin",
+        "printedName": "FlutterApnsPlugin",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@flutter_apns_only@objc(cs)FlutterApnsPlugin(cm)registerWithRegistrar:",
+            "mangledName": "$s17flutter_apns_only17FlutterApnsPluginC8register4withySo0dF9Registrar_p_tFZ",
+            "moduleName": "flutter_apns_only",
+            "static": true,
+            "objc_name": "registerWithRegistrar:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(_:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterMethodCall",
+                "printedName": "Flutter.FlutterMethodCall",
+                "usr": "c:objc(cs)FlutterMethodCall"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@flutter_apns_only@objc(cs)FlutterApnsPlugin(im)handleMethodCall:result:",
+            "mangledName": "$s17flutter_apns_only17FlutterApnsPluginC6handle_6resultySo0D10MethodCallC_yypSgctF",
+            "moduleName": "flutter_apns_only",
+            "objc_name": "handleMethodCall:result:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "application",
+            "printedName": "application(_:didFinishLaunchingWithOptions:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIApplication",
+                "printedName": "UIKit.UIApplication",
+                "usr": "c:objc(cs)UIApplication"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@flutter_apns_only@objc(cs)FlutterApnsPlugin(im)application:didFinishLaunchingWithOptions:",
+            "mangledName": "$s17flutter_apns_only17FlutterApnsPluginC11application_29didFinishLaunchingWithOptionsSbSo13UIApplicationC_SDys11AnyHashableVypGtF",
+            "moduleName": "flutter_apns_only",
+            "objc_name": "application:didFinishLaunchingWithOptions:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "applicationDidEnterBackground",
+            "printedName": "applicationDidEnterBackground(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIApplication",
+                "printedName": "UIKit.UIApplication",
+                "usr": "c:objc(cs)UIApplication"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@flutter_apns_only@objc(cs)FlutterApnsPlugin(im)applicationDidEnterBackground:",
+            "mangledName": "$s17flutter_apns_only17FlutterApnsPluginC29applicationDidEnterBackgroundyySo13UIApplicationCF",
+            "moduleName": "flutter_apns_only",
+            "objc_name": "applicationDidEnterBackground:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "applicationDidBecomeActive",
+            "printedName": "applicationDidBecomeActive(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIApplication",
+                "printedName": "UIKit.UIApplication",
+                "usr": "c:objc(cs)UIApplication"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@flutter_apns_only@objc(cs)FlutterApnsPlugin(im)applicationDidBecomeActive:",
+            "mangledName": "$s17flutter_apns_only17FlutterApnsPluginC26applicationDidBecomeActiveyySo13UIApplicationCF",
+            "moduleName": "flutter_apns_only",
+            "objc_name": "applicationDidBecomeActive:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "application",
+            "printedName": "application(_:didRegisterForRemoteNotificationsWithDeviceToken:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIApplication",
+                "printedName": "UIKit.UIApplication",
+                "usr": "c:objc(cs)UIApplication"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@flutter_apns_only@objc(cs)FlutterApnsPlugin(im)application:didRegisterForRemoteNotificationsWithDeviceToken:",
+            "mangledName": "$s17flutter_apns_only17FlutterApnsPluginC11application_48didRegisterForRemoteNotificationsWithDeviceTokenySo13UIApplicationC_10Foundation4DataVtF",
+            "moduleName": "flutter_apns_only",
+            "objc_name": "application:didRegisterForRemoteNotificationsWithDeviceToken:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "application",
+            "printedName": "application(_:didReceiveRemoteNotification:fetchCompletionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIApplication",
+                "printedName": "UIKit.UIApplication",
+                "usr": "c:objc(cs)UIApplication"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UIKit.UIBackgroundFetchResult) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIBackgroundFetchResult",
+                    "printedName": "UIKit.UIBackgroundFetchResult",
+                    "usr": "c:@E@UIBackgroundFetchResult"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@flutter_apns_only@objc(cs)FlutterApnsPlugin(im)application:didReceiveRemoteNotification:fetchCompletionHandler:",
+            "mangledName": "$s17flutter_apns_only17FlutterApnsPluginC11application_28didReceiveRemoteNotification22fetchCompletionHandlerSbSo13UIApplicationC_SDys11AnyHashableVypGySo23UIBackgroundFetchResultVctF",
+            "moduleName": "flutter_apns_only",
+            "objc_name": "application:didReceiveRemoteNotification:fetchCompletionHandler:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "userNotificationCenter",
+            "printedName": "userNotificationCenter(_:willPresent:withCompletionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNUserNotificationCenter",
+                "printedName": "UserNotifications.UNUserNotificationCenter",
+                "usr": "c:objc(cs)UNUserNotificationCenter"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotification",
+                "printedName": "UserNotifications.UNNotification",
+                "usr": "c:objc(cs)UNNotification"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UserNotifications.UNNotificationPresentationOptions) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNNotificationPresentationOptions",
+                    "printedName": "UserNotifications.UNNotificationPresentationOptions",
+                    "usr": "c:@E@UNNotificationPresentationOptions"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@flutter_apns_only@objc(cs)FlutterApnsPlugin(im)userNotificationCenter:willPresentNotification:withCompletionHandler:",
+            "mangledName": "$s17flutter_apns_only17FlutterApnsPluginC22userNotificationCenter_11willPresent21withCompletionHandlerySo06UNUserhI0C_So14UNNotificationCySo0P19PresentationOptionsVctF",
+            "moduleName": "flutter_apns_only",
+            "objc_name": "userNotificationCenter:willPresentNotification:withCompletionHandler:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "userNotificationCenter",
+            "printedName": "userNotificationCenter(_:didReceive:withCompletionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNUserNotificationCenter",
+                "printedName": "UserNotifications.UNUserNotificationCenter",
+                "usr": "c:objc(cs)UNUserNotificationCenter"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotificationResponse",
+                "printedName": "UserNotifications.UNNotificationResponse",
+                "usr": "c:objc(cs)UNNotificationResponse"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@flutter_apns_only@objc(cs)FlutterApnsPlugin(im)userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:",
+            "mangledName": "$s17flutter_apns_only17FlutterApnsPluginC22userNotificationCenter_10didReceive21withCompletionHandlerySo06UNUserhI0C_So22UNNotificationResponseCyyctF",
+            "moduleName": "flutter_apns_only",
+            "objc_name": "userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterApnsPlugin",
+                "printedName": "flutter_apns_only.FlutterApnsPlugin",
+                "usr": "c:@M@flutter_apns_only@objc(cs)FlutterApnsPlugin"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@flutter_apns_only@objc(cs)FlutterApnsPlugin(im)init",
+            "mangledName": "$s17flutter_apns_only17FlutterApnsPluginCACycfc",
+            "moduleName": "flutter_apns_only",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@flutter_apns_only@objc(cs)FlutterApnsPlugin",
+        "mangledName": "$s17flutter_apns_only17FlutterApnsPluginC",
+        "moduleName": "flutter_apns_only",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 155,
+      "length": 18,
+      "value": "\"Error: \""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 172,
+      "length": 58,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 548,
+      "length": 14,
+      "value": "\"flutter_apns\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 907,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1045,
+      "length": 32,
+      "value": "\"requestNotificationPermissions\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1157,
+      "length": 11,
+      "value": "\"configure\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1274,
+      "length": 112,
+      "value": "\"UNUserNotificationCenter.current().delegate is not set. Check readme at https:\/\/pub.dev\/packages\/flutter_apns.\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1644,
+      "length": 10,
+      "value": "\"onLaunch\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1807,
+      "length": 24,
+      "value": "\"getAuthorizationStatus\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1889,
+      "length": 12,
+      "value": "\"unregister\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2008,
+      "length": 27,
+      "value": "\"setNotificationCategories\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2509,
+      "length": 12,
+      "value": "\"identifier\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2565,
+      "length": 9,
+      "value": "\"actions\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2655,
+      "length": 19,
+      "value": "\"intentIdentifiers\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2747,
+      "length": 9,
+      "value": "\"options\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3192,
+      "length": 12,
+      "value": "\"identifier\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3245,
+      "length": 7,
+      "value": "\"title\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3321,
+      "length": 9,
+      "value": "\"options\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4019,
+      "length": 12,
+      "value": "\"authorized\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4082,
+      "length": 8,
+      "value": "\"denied\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4148,
+      "length": 15,
+      "value": "\"notDetermined\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4209,
+      "length": 13,
+      "value": "\"unsupported\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4585,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4736,
+      "length": 7,
+      "value": "\"sound\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4812,
+      "length": 7,
+      "value": "\"badge\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4888,
+      "length": 7,
+      "value": "\"alert\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4988,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 5055,
+      "length": 13,
+      "value": "\"provisional\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5156,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 5583,
+      "length": 7,
+      "value": "\"sound\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 5647,
+      "length": 7,
+      "value": "\"badge\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 5711,
+      "length": 7,
+      "value": "\"alert\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 5775,
+      "length": 13,
+      "value": "\"provisional\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 5899,
+      "length": 25,
+      "value": "\"onIosSettingsRegistered\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "Dictionary",
+      "offset": 6237,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6511,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6638,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6762,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6826,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6998,
+      "length": 9,
+      "value": "\"onToken\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 7498,
+      "length": 11,
+      "value": "\"onMessage\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7601,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 7925,
+      "length": 5,
+      "value": "\"aps\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 8106,
+      "length": 13,
+      "value": "\"willPresent\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8202,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "Array",
+      "offset": 8343,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 8485,
+      "length": 11,
+      "value": "\"onMessage\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 8832,
+      "length": 5,
+      "value": "\"aps\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 8908,
+      "length": 18,
+      "value": "\"actionIdentifier\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 9307,
+      "length": 10,
+      "value": "\"onResume\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 253,
+      "length": 17,
+      "value": "\"flutter_apns_only.FlutterApnsPlugin\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "Dictionary",
+      "offset": 9522,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 9536,
+      "length": 51,
+      "value": "\"UNNotificationCategoryOptions.customDismissAction\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 9622,
+      "length": 46,
+      "value": "\"UNNotificationCategoryOptions.allowInCarPlay\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 9739,
+      "length": 55,
+      "value": "\"UNNotificationCategoryOptions.hiddenPreviewsShowTitle\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 9884,
+      "length": 58,
+      "value": "\"UNNotificationCategoryOptions.hiddenPreviewsShowSubtitle\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 10035,
+      "length": 49,
+      "value": "\"UNNotificationCategoryOptions.allowAnnouncement\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "Dictionary",
+      "offset": 10312,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 10326,
+      "length": 52,
+      "value": "\"UNNotificationActionOptions.authenticationRequired\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 10416,
+      "length": 41,
+      "value": "\"UNNotificationActionOptions.destructive\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 10484,
+      "length": 40,
+      "value": "\"UNNotificationActionOptions.foreground\""
+    },
+    {
+      "filePath": "\/Users\/lucas.siqueira\/.pub-cache\/hosted\/pub.dev\/flutter_apns_only-1.6.0\/ios\/Classes\/FlutterApnsPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 10658,
+      "length": 10,
+      "value": "\"%02.2hhx\""
+    }
+  ]
+}

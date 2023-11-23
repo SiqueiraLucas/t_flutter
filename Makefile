@@ -27,7 +27,7 @@ finish-version:
 	@make build-project || exit 1; \
 	make test-project || exit 1; \
 	make increase-version || exit 1; \
-	make generate-aar || exit 1; \
+	make generate-android-aar || exit 1; \
 	make generate-ios-plugins || exit 1; \
 	make push-changes || exit 1; \
 	make push-tags || exit 1; \
@@ -44,7 +44,7 @@ increase-version:
 	echo "Version updated to $$new_version"; \
 	export Version=$$new_version
 
-generate-aar:
+generate-android-aar:
 	@echo $(SCRIPT-HEADER-WORKING) "GENERATING AAR" $(SCRIPT-FOOTER)
 	flutter build aar
 
@@ -64,6 +64,14 @@ generate-ios-plugins:
 		cp -R "$$folder"/* "$$new_folder" && \
 		rm -rf "$$folder"; \
 	done
+
+generate-ios-framework:
+	@echo $(SCRIPT-HEADER-WORKING) "GENERATING IOS PLUGINS" $(SCRIPT-FOOTER)
+	@rm -rf .ios
+	@flutter create -i swift .
+	@make replace-minimum-version
+	@cd .ios && pod install > /dev/null 2>&1 || true
+	@flutter build ios-framework --output=ios_framework
 
 replace-minimum-version:
 	@cd .ios && sed -i '' -e "s/platform :ios, .*/platform :ios, '13.0'/" Podfile

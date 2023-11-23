@@ -1,0 +1,11 @@
+framework module talkjs_flutter_inappwebview {
+  umbrella header "talkjs_flutter_inappwebview-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module talkjs_flutter_inappwebview.Swift {
+  header "talkjs_flutter_inappwebview-Swift.h"
+  requires objc
+}
