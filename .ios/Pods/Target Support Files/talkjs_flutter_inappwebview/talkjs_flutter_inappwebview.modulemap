@@ -1,0 +1,6 @@
+framework module talkjs_flutter_inappwebview {
+  umbrella header "talkjs_flutter_inappwebview-umbrella.h"
+
+  export *
+  module * { export * }
+}

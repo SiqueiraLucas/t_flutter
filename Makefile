@@ -52,6 +52,7 @@ generate-ios-plugins:
 	@echo $(SCRIPT-HEADER-WORKING) "GENERATING IOS PLUGINS" $(SCRIPT-FOOTER)
 	@rm -rf .ios
 	@flutter create -i swift .
+	@make replace-minimum-version
 	@cd .ios && pod install > /dev/null 2>&1 || true
 	@make replace-flutter-config-path
 	@make replace-plugins-dependencies-path
@@ -63,6 +64,9 @@ generate-ios-plugins:
 		cp -R "$$folder"/* "$$new_folder" && \
 		rm -rf "$$folder"; \
 	done
+
+replace-minimum-version:
+	@cd .ios && sed -i '' -e "s/platform :ios, .*/platform :ios, '13.0'/" Podfile
 
 replace-flutter-config-path:
 	@cd .ios/Flutter && sed -i.bak 's|FLUTTER_ROOT=.*|FLUTTER_ROOT=~/Documents/Flutter/flutter|; s|FLUTTER_APPLICATION_PATH=.*|FLUTTER_APPLICATION_PATH=../../../t_flutter|' Generated.xcconfig && \
