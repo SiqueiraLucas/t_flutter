@@ -53,7 +53,7 @@ generate-ios-plugins:
 	@rm -rf .ios
 	@flutter create -i swift .
 	@make replace-minimum-version
-	@cd .ios && pod install > /dev/null 2>&1 || true
+	@cd .ios && pod install
 	@make replace-flutter-config-path
 	@make replace-plugins-dependencies-path
 	@mkdir -p .ios/plugins
@@ -70,8 +70,8 @@ generate-ios-framework:
 	@rm -rf .ios
 	@flutter create -i swift .
 	@make replace-minimum-version
-	@cd .ios && pod install > /dev/null 2>&1 || true
-	@flutter build ios-framework --output=ios_framework
+	@cd .ios && pod install
+	@flutter build ios-framework --no-profile --cocoapods --output=ios_framework
 
 replace-minimum-version:
 	@cd .ios && sed -i '' -e "s/platform :ios, .*/platform :ios, '13.0'/" Podfile
