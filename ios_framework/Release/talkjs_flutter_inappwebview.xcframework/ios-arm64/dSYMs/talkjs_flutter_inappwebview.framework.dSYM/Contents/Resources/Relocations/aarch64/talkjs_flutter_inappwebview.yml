@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/lucas.siqueira/Documents/GetNinjas/t_flutter/frame/Release/iphoneos/Release-iphoneos/talkjs_flutter_inappwebview/talkjs_flutter_inappwebview.framework/talkjs_flutter_inappwebview'
+binary-path:     '/Users/lucas.siqueira/Documents/GetNinjas/t_flutter/ios_framework/Release/iphoneos/Release-iphoneos/talkjs_flutter_inappwebview/talkjs_flutter_inappwebview.framework/talkjs_flutter_inappwebview'
 relocations:
   - { offsetInCU: 0x34, offset: 0xCF112, size: 0x8, addend: 0x0, symName: _talkjs_flutter_inappwebviewVersionString, symObjAddr: 0x0, symBinAddr: 0xC04F0, symSize: 0x0 }
   - { offsetInCU: 0x69, offset: 0xCF147, size: 0x8, addend: 0x0, symName: _talkjs_flutter_inappwebviewVersionNumber, symObjAddr: 0x40, symBinAddr: 0xC0530, symSize: 0x0 }
@@ -98,7 +98,7 @@ relocations:
   - { offsetInCU: 0xF9, offset: 0xD0C45, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview18BaseCallbackResultCMa', symObjAddr: 0x58, symBinAddr: 0x99A4, symSize: 0xC }
   - { offsetInCU: 0x10D, offset: 0xD0C59, size: 0x8, addend: 0x0, symName: ___swift_instantiateGenericMetadata, symObjAddr: 0x64, symBinAddr: 0x99B0, symSize: 0x2C }
   - { offsetInCU: 0x27, offset: 0xD0DD6, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview45CALL_ASYNC_JAVASCRIPT_BELOW_IOS_14_WRAPPER_JS_WZ', symObjAddr: 0x0, symBinAddr: 0x99DC, symSize: 0x1C4 }
-  - { offsetInCU: 0x4B, offset: 0xD0DFA, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview45CALL_ASYNC_JAVASCRIPT_BELOW_IOS_14_WRAPPER_JSSSvp', symObjAddr: 0x2A00, symBinAddr: 0x10FF48, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0xD0DFA, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview45CALL_ASYNC_JAVASCRIPT_BELOW_IOS_14_WRAPPER_JSSSvp', symObjAddr: 0x2A18, symBinAddr: 0x10FF48, symSize: 0x0 }
   - { offsetInCU: 0x9B, offset: 0xD0E4A, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview45CALL_ASYNC_JAVASCRIPT_BELOW_IOS_14_WRAPPER_JS_WZ', symObjAddr: 0x0, symBinAddr: 0x99DC, symSize: 0x1C4 }
   - { offsetInCU: 0x4B, offset: 0xD1383, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview14CallbackResultCfd', symObjAddr: 0x0, symBinAddr: 0x9BA0, symSize: 0x4C }
   - { offsetInCU: 0x78, offset: 0xD13B0, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview14CallbackResultC14notImplementedyycvg', symObjAddr: 0x4C, symBinAddr: 0x9BEC, symSize: 0x34 }
@@ -204,9 +204,9 @@ relocations:
   - { offsetInCU: 0x457, offset: 0xD42C4, size: 0x8, addend: 0x0, symName: '_$syXlSgIeyBy_ypSgIegn_TRTA', symObjAddr: 0x51C, symBinAddr: 0xCE74, symSize: 0x8 }
   - { offsetInCU: 0x46B, offset: 0xD42D8, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_0, symObjAddr: 0x5AC, symBinAddr: 0xCE7C, symSize: 0x24 }
   - { offsetInCU: 0x47F, offset: 0xD42EC, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_0, symObjAddr: 0x5D0, symBinAddr: 0xCEA0, symSize: 0x20 }
-  - { offsetInCU: 0x4B, offset: 0xD4515, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview26ChromeSafariBrowserManagerC9registrarSo22FlutterPluginRegistrar_pSgvpZ', symObjAddr: 0x1B658, symBinAddr: 0x10FF58, symSize: 0x0 }
-  - { offsetInCU: 0x65, offset: 0xD452F, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview26ChromeSafariBrowserManagerC8browsersSDySSAA0E14ViewControllerCSgGvpZ', symObjAddr: 0x1B660, symBinAddr: 0x10FF60, symSize: 0x0 }
-  - { offsetInCU: 0x7F, offset: 0xD4549, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview26ChromeSafariBrowserManagerC16prewarmingTokensSDySSSo37SFSafariViewControllerPrewarmingTokenCSgGvpZ', symObjAddr: 0x1B668, symBinAddr: 0x10FF68, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0xD4515, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview26ChromeSafariBrowserManagerC9registrarSo22FlutterPluginRegistrar_pSgvpZ', symObjAddr: 0x1B670, symBinAddr: 0x10FF58, symSize: 0x0 }
+  - { offsetInCU: 0x65, offset: 0xD452F, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview26ChromeSafariBrowserManagerC8browsersSDySSAA0E14ViewControllerCSgGvpZ', symObjAddr: 0x1B678, symBinAddr: 0x10FF60, symSize: 0x0 }
+  - { offsetInCU: 0x7F, offset: 0xD4549, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview26ChromeSafariBrowserManagerC16prewarmingTokensSDySSSo37SFSafariViewControllerPrewarmingTokenCSgGvpZ', symObjAddr: 0x1B680, symBinAddr: 0x10FF68, symSize: 0x0 }
   - { offsetInCU: 0xB9, offset: 0xD4583, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview26ChromeSafariBrowserManagerC9registrar_WZ', symObjAddr: 0x248, symBinAddr: 0xD108, symSize: 0xC }
   - { offsetInCU: 0xF9, offset: 0xD45C3, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview26ChromeSafariBrowserManagerC6handle_6resultySo17FlutterMethodCallC_yypSgctF', symObjAddr: 0x2C8, symBinAddr: 0xD188, symSize: 0xF54 }
   - { offsetInCU: 0x7A1, offset: 0xD4C6B, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview26ChromeSafariBrowserManagerC4open2id3url8settings12menuItemList6resultySS_SSSDySSypSgGSaySDySSypGGyAJctF', symObjAddr: 0x1248, symBinAddr: 0xE108, symSize: 0x4 }
@@ -292,8 +292,8 @@ relocations:
   - { offsetInCU: 0x37C, offset: 0xD87E3, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview18ClientCertResponseCfETo', symObjAddr: 0x1A8, symBinAddr: 0x140D0, symSize: 0x54 }
   - { offsetInCU: 0x3B6, offset: 0xD881D, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview18ClientCertResponseCMa', symObjAddr: 0x720, symBinAddr: 0x14648, symSize: 0x20 }
   - { offsetInCU: 0x27, offset: 0xD8A5D, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview28CONSOLE_LOG_JS_PLUGIN_SCRIPT_WZ', symObjAddr: 0x0, symBinAddr: 0x146BC, symSize: 0x170 }
-  - { offsetInCU: 0x4B, offset: 0xD8A81, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview28CONSOLE_LOG_JS_PLUGIN_SCRIPTAA12PluginScriptCvp', symObjAddr: 0x3328, symBinAddr: 0x10FF70, symSize: 0x0 }
-  - { offsetInCU: 0x83, offset: 0xD8AB9, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview21CONSOLE_LOG_JS_SOURCESSvp', symObjAddr: 0x3330, symBinAddr: 0x10FF78, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0xD8A81, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview28CONSOLE_LOG_JS_PLUGIN_SCRIPTAA12PluginScriptCvp', symObjAddr: 0x3340, symBinAddr: 0x10FF70, symSize: 0x0 }
+  - { offsetInCU: 0x83, offset: 0xD8AB9, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview21CONSOLE_LOG_JS_SOURCESSvp', symObjAddr: 0x3348, symBinAddr: 0x10FF78, symSize: 0x0 }
   - { offsetInCU: 0xC3, offset: 0xD8AF9, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview28CONSOLE_LOG_JS_PLUGIN_SCRIPT_WZ', symObjAddr: 0x0, symBinAddr: 0x146BC, symSize: 0x170 }
   - { offsetInCU: 0x1A7, offset: 0xD8BDD, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview21CONSOLE_LOG_JS_SOURCE_WZ', symObjAddr: 0x170, symBinAddr: 0x1482C, symSize: 0xEC }
   - { offsetInCU: 0x69, offset: 0xD8EB6, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview19ContextMenuSettingsC017hideDefaultSystemdE5ItemsSbvgTo', symObjAddr: 0x0, symBinAddr: 0x14918, symSize: 0x10 }
@@ -325,8 +325,8 @@ relocations:
   - { offsetInCU: 0xA7E, offset: 0xD9C1A, size: 0x8, addend: 0x0, symName: '_$sypSgSgWOh', symObjAddr: 0xB78, symBinAddr: 0x15538, symSize: 0x40 }
   - { offsetInCU: 0xA92, offset: 0xD9C2E, size: 0x8, addend: 0x0, symName: '_$sypSgWOd', symObjAddr: 0xBB8, symBinAddr: 0x15578, symSize: 0x48 }
   - { offsetInCU: 0xB0D, offset: 0xD9CA9, size: 0x8, addend: 0x0, symName: '_$sSD11removeValue6forKeyq_Sgx_tFSS_ypSgTg5', symObjAddr: 0x548, symBinAddr: 0x14F08, symSize: 0xE8 }
-  - { offsetInCU: 0x4B, offset: 0xD9F76, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview18CredentialDatabaseC9registrarSo22FlutterPluginRegistrar_pSgvpZ', symObjAddr: 0x13600, symBinAddr: 0x10FF88, symSize: 0x0 }
-  - { offsetInCU: 0x65, offset: 0xD9F90, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview18CredentialDatabaseC15credentialStoreSo22NSURLCredentialStorageCSgvpZ', symObjAddr: 0x13608, symBinAddr: 0x10FF90, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0xD9F76, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview18CredentialDatabaseC9registrarSo22FlutterPluginRegistrar_pSgvpZ', symObjAddr: 0x13618, symBinAddr: 0x10FF88, symSize: 0x0 }
+  - { offsetInCU: 0x65, offset: 0xD9F90, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview18CredentialDatabaseC15credentialStoreSo22NSURLCredentialStorageCSgvpZ', symObjAddr: 0x13620, symBinAddr: 0x10FF90, symSize: 0x0 }
   - { offsetInCU: 0xEC, offset: 0xDA017, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview18CredentialDatabaseC9registrar_WZ', symObjAddr: 0x148, symBinAddr: 0x15B88, symSize: 0xC }
   - { offsetInCU: 0x106, offset: 0xDA031, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview18CredentialDatabaseC15credentialStore_WZ', symObjAddr: 0x154, symBinAddr: 0x15B94, symSize: 0xC }
   - { offsetInCU: 0x22F, offset: 0xDA15A, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview18CredentialDatabaseC6handle_6resultySo17FlutterMethodCallC_yypSgctF', symObjAddr: 0x1A0, symBinAddr: 0x15BA0, symSize: 0x2E78 }
@@ -488,15 +488,15 @@ relocations:
   - { offsetInCU: 0x4FB, offset: 0xDFCF8, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview20DownloadStartRequestCfETo', symObjAddr: 0x4C4, symBinAddr: 0x1D40C, symSize: 0x90 }
   - { offsetInCU: 0x52A, offset: 0xDFD27, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview20DownloadStartRequestCMa', symObjAddr: 0x768, symBinAddr: 0x1D670, symSize: 0x20 }
   - { offsetInCU: 0x27, offset: 0xDFF1D, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview38ENABLE_VIEWPORT_SCALE_JS_PLUGIN_SCRIPT_WZ', symObjAddr: 0x0, symBinAddr: 0x1D6D8, symSize: 0x88 }
-  - { offsetInCU: 0x4B, offset: 0xDFF41, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview38ENABLE_VIEWPORT_SCALE_JS_PLUGIN_SCRIPTAA12PluginScriptCvp', symObjAddr: 0x2B78, symBinAddr: 0x10FF98, symSize: 0x0 }
-  - { offsetInCU: 0x65, offset: 0xDFF5B, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview35NOT_ENABLE_VIEWPORT_SCALE_JS_SOURCESSvp', symObjAddr: 0x2B80, symBinAddr: 0x10FFA0, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0xDFF41, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview38ENABLE_VIEWPORT_SCALE_JS_PLUGIN_SCRIPTAA12PluginScriptCvp', symObjAddr: 0x2B90, symBinAddr: 0x10FF98, symSize: 0x0 }
+  - { offsetInCU: 0x65, offset: 0xDFF5B, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview35NOT_ENABLE_VIEWPORT_SCALE_JS_SOURCESSvp', symObjAddr: 0x2B98, symBinAddr: 0x10FFA0, symSize: 0x0 }
   - { offsetInCU: 0x73, offset: 0xDFF69, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview38ENABLE_VIEWPORT_SCALE_JS_PLUGIN_SCRIPT_WZ', symObjAddr: 0x0, symBinAddr: 0x1D6D8, symSize: 0x88 }
   - { offsetInCU: 0xA3, offset: 0xDFF99, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview38ENABLE_VIEWPORT_SCALE_JS_PLUGIN_SCRIPTAA12PluginScriptCvau', symObjAddr: 0x88, symBinAddr: 0x1D760, symSize: 0x40 }
   - { offsetInCU: 0x103, offset: 0xDFFF9, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview35NOT_ENABLE_VIEWPORT_SCALE_JS_SOURCE_WZ', symObjAddr: 0xC8, symBinAddr: 0x1D7A0, symSize: 0xAC }
   - { offsetInCU: 0x1F0, offset: 0xE00E6, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview35NOT_ENABLE_VIEWPORT_SCALE_JS_SOURCESSvau', symObjAddr: 0x174, symBinAddr: 0x1D84C, symSize: 0x40 }
   - { offsetInCU: 0x27, offset: 0xE0272, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview39FIND_ELEMENTS_AT_POINT_JS_PLUGIN_SCRIPT_WZ', symObjAddr: 0x0, symBinAddr: 0x1D88C, symSize: 0xBC }
-  - { offsetInCU: 0x4B, offset: 0xE0296, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview39FIND_ELEMENTS_AT_POINT_JS_PLUGIN_SCRIPTAA12PluginScriptCvp', symObjAddr: 0x2FF8, symBinAddr: 0x10FFB0, symSize: 0x0 }
-  - { offsetInCU: 0x65, offset: 0xE02B0, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview32FIND_ELEMENTS_AT_POINT_JS_SOURCESSvp', symObjAddr: 0x3000, symBinAddr: 0x10FFB8, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0xE0296, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview39FIND_ELEMENTS_AT_POINT_JS_PLUGIN_SCRIPTAA12PluginScriptCvp', symObjAddr: 0x3010, symBinAddr: 0x10FFB0, symSize: 0x0 }
+  - { offsetInCU: 0x65, offset: 0xE02B0, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview32FIND_ELEMENTS_AT_POINT_JS_SOURCESSvp', symObjAddr: 0x3018, symBinAddr: 0x10FFB8, symSize: 0x0 }
   - { offsetInCU: 0x84, offset: 0xE02CF, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview39FIND_ELEMENTS_AT_POINT_JS_PLUGIN_SCRIPT_WZ', symObjAddr: 0x0, symBinAddr: 0x1D88C, symSize: 0xBC }
   - { offsetInCU: 0x103, offset: 0xE034E, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview32FIND_ELEMENTS_AT_POINT_JS_SOURCE_WZ', symObjAddr: 0xBC, symBinAddr: 0x1D948, symSize: 0xAC }
   - { offsetInCU: 0x91, offset: 0xE0613, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview30FindInteractionChannelDelegateC04findE10Controller7channelAcA0deI0C_So013FlutterMethodF0CtcfC', symObjAddr: 0x0, symBinAddr: 0x1D9F4, symSize: 0x70 }
@@ -540,11 +540,11 @@ relocations:
   - { offsetInCU: 0xF2, offset: 0xE2C93, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview23FindInteractionSettingsCMr', symObjAddr: 0xB0, symBinAddr: 0x2008C, symSize: 0x34 }
   - { offsetInCU: 0x106, offset: 0xE2CA7, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview23FindInteractionSettingsCMU', symObjAddr: 0xE4, symBinAddr: 0x200C0, symSize: 0x8 }
   - { offsetInCU: 0x27, offset: 0xE2E1E, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview49FIND_TEXT_HIGHLIGHT_SEARCH_RESULT_COUNT_JS_SOURCE_WZ', symObjAddr: 0x0, symBinAddr: 0x200C8, symSize: 0x60 }
-  - { offsetInCU: 0x4B, offset: 0xE2E42, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview49FIND_TEXT_HIGHLIGHT_SEARCH_RESULT_COUNT_JS_SOURCESSvp', symObjAddr: 0x6BA8, symBinAddr: 0x10FFC8, symSize: 0x0 }
-  - { offsetInCU: 0x65, offset: 0xE2E5C, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview028FIND_TEXT_HIGHLIGHT_CURRENT_F10_JS_SOURCESSvp', symObjAddr: 0x6BB8, symBinAddr: 0x10FFD8, symSize: 0x0 }
-  - { offsetInCU: 0x7F, offset: 0xE2E76, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview46FIND_TEXT_HIGHLIGHT_IS_DONE_COUNTING_JS_SOURCESSvp', symObjAddr: 0x6BC8, symBinAddr: 0x10FFE8, symSize: 0x0 }
-  - { offsetInCU: 0x99, offset: 0xE2E90, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview36FIND_TEXT_HIGHLIGHT_JS_PLUGIN_SCRIPTAA12PluginScriptCvp', symObjAddr: 0x6BD8, symBinAddr: 0x10FFF8, symSize: 0x0 }
-  - { offsetInCU: 0xB3, offset: 0xE2EAA, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview29FIND_TEXT_HIGHLIGHT_JS_SOURCESSvp', symObjAddr: 0x6BE0, symBinAddr: 0x110000, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0xE2E42, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview49FIND_TEXT_HIGHLIGHT_SEARCH_RESULT_COUNT_JS_SOURCESSvp', symObjAddr: 0x6BC0, symBinAddr: 0x10FFC8, symSize: 0x0 }
+  - { offsetInCU: 0x65, offset: 0xE2E5C, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview028FIND_TEXT_HIGHLIGHT_CURRENT_F10_JS_SOURCESSvp', symObjAddr: 0x6BD0, symBinAddr: 0x10FFD8, symSize: 0x0 }
+  - { offsetInCU: 0x7F, offset: 0xE2E76, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview46FIND_TEXT_HIGHLIGHT_IS_DONE_COUNTING_JS_SOURCESSvp', symObjAddr: 0x6BE0, symBinAddr: 0x10FFE8, symSize: 0x0 }
+  - { offsetInCU: 0x99, offset: 0xE2E90, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview36FIND_TEXT_HIGHLIGHT_JS_PLUGIN_SCRIPTAA12PluginScriptCvp', symObjAddr: 0x6BF0, symBinAddr: 0x10FFF8, symSize: 0x0 }
+  - { offsetInCU: 0xB3, offset: 0xE2EAA, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview29FIND_TEXT_HIGHLIGHT_JS_SOURCESSvp', symObjAddr: 0x6BF8, symBinAddr: 0x110000, symSize: 0x0 }
   - { offsetInCU: 0xD7, offset: 0xE2ECE, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview49FIND_TEXT_HIGHLIGHT_SEARCH_RESULT_COUNT_JS_SOURCE_WZ', symObjAddr: 0x0, symBinAddr: 0x200C8, symSize: 0x60 }
   - { offsetInCU: 0x131, offset: 0xE2F28, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview028FIND_TEXT_HIGHLIGHT_CURRENT_F10_JS_SOURCE_WZ', symObjAddr: 0x60, symBinAddr: 0x20128, symSize: 0x60 }
   - { offsetInCU: 0x18B, offset: 0xE2F82, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview46FIND_TEXT_HIGHLIGHT_IS_DONE_COUNTING_JS_SOURCE_WZ', symObjAddr: 0xC0, symBinAddr: 0x20188, symSize: 0x60 }
@@ -625,8 +625,8 @@ relocations:
   - { offsetInCU: 0x97A, offset: 0xE85D6, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview20HeadlessInAppWebViewCAA10DisposableA2aDP7disposeyyFTW', symObjAddr: 0xBB8, symBinAddr: 0x25A60, symSize: 0x20 }
   - { offsetInCU: 0xC35, offset: 0xE8891, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview20HeadlessInAppWebViewCSgSgWOe', symObjAddr: 0xCA0, symBinAddr: 0x25A80, symSize: 0x10 }
   - { offsetInCU: 0xC49, offset: 0xE88A5, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview20HeadlessInAppWebViewCMa', symObjAddr: 0xCB0, symBinAddr: 0x25A90, symSize: 0x20 }
-  - { offsetInCU: 0x4B, offset: 0xE8C88, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview27HeadlessInAppWebViewManagerC9registrarSo22FlutterPluginRegistrar_pSgvpZ', symObjAddr: 0x80B8, symBinAddr: 0x110010, symSize: 0x0 }
-  - { offsetInCU: 0x65, offset: 0xE8CA2, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview27HeadlessInAppWebViewManagerC8webViewsSDySSAA0defgH0CSgGvpZ', symObjAddr: 0x80C0, symBinAddr: 0x110018, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0xE8C88, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview27HeadlessInAppWebViewManagerC9registrarSo22FlutterPluginRegistrar_pSgvpZ', symObjAddr: 0x80D0, symBinAddr: 0x110010, symSize: 0x0 }
+  - { offsetInCU: 0x65, offset: 0xE8CA2, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview27HeadlessInAppWebViewManagerC8webViewsSDySSAA0defgH0CSgGvpZ', symObjAddr: 0x80D8, symBinAddr: 0x110018, symSize: 0x0 }
   - { offsetInCU: 0x73, offset: 0xE8CB0, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview27HeadlessInAppWebViewManagerC9registrar_WZ', symObjAddr: 0x0, symBinAddr: 0x25B0C, symSize: 0xC }
   - { offsetInCU: 0x8D, offset: 0xE8CCA, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview27HeadlessInAppWebViewManagerC8webViews_WZ', symObjAddr: 0xC, symBinAddr: 0x25B18, symSize: 0x40 }
   - { offsetInCU: 0x157, offset: 0xE8D94, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview27HeadlessInAppWebViewManagerC6handle_6resultySo17FlutterMethodCallC_yypSgctF', symObjAddr: 0x4C, symBinAddr: 0x25B58, symSize: 0x50C }
@@ -706,9 +706,9 @@ relocations:
   - { offsetInCU: 0xF1, offset: 0xEC009, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview27InAppBrowserChannelDelegateCfD', symObjAddr: 0x15C, symBinAddr: 0x2875C, symSize: 0x68 }
   - { offsetInCU: 0x194, offset: 0xEC0AC, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview27InAppBrowserChannelDelegateCfDTo', symObjAddr: 0x1C4, symBinAddr: 0x287C4, symSize: 0x94 }
   - { offsetInCU: 0x295, offset: 0xEC1AD, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview27InAppBrowserChannelDelegateCMa', symObjAddr: 0x298, symBinAddr: 0x28858, symSize: 0x20 }
-  - { offsetInCU: 0x4F, offset: 0xEC389, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview19InAppBrowserManagerC18WEBVIEW_STORYBOARDSSvpZ', symObjAddr: 0xCF08, symBinAddr: 0x110020, symSize: 0x0 }
-  - { offsetInCU: 0x69, offset: 0xEC3A3, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview19InAppBrowserManagerC28NAV_STORYBOARD_CONTROLLER_IDSSvpZ', symObjAddr: 0xCF18, symBinAddr: 0x110030, symSize: 0x0 }
-  - { offsetInCU: 0x83, offset: 0xEC3BD, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview19InAppBrowserManagerC9registrarSo22FlutterPluginRegistrar_pSgvpZ', symObjAddr: 0xCF28, symBinAddr: 0x110040, symSize: 0x0 }
+  - { offsetInCU: 0x4F, offset: 0xEC389, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview19InAppBrowserManagerC18WEBVIEW_STORYBOARDSSvpZ', symObjAddr: 0xCF20, symBinAddr: 0x110020, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0xEC3A3, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview19InAppBrowserManagerC28NAV_STORYBOARD_CONTROLLER_IDSSvpZ', symObjAddr: 0xCF30, symBinAddr: 0x110030, symSize: 0x0 }
+  - { offsetInCU: 0x83, offset: 0xEC3BD, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview19InAppBrowserManagerC9registrarSo22FlutterPluginRegistrar_pSgvpZ', symObjAddr: 0xCF40, symBinAddr: 0x110040, symSize: 0x0 }
   - { offsetInCU: 0x91, offset: 0xEC3CB, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview19InAppBrowserManagerC18WEBVIEW_STORYBOARD_WZ', symObjAddr: 0x5B8, symBinAddr: 0x28EA4, symSize: 0x24 }
   - { offsetInCU: 0xAB, offset: 0xEC3E5, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview19InAppBrowserManagerC28NAV_STORYBOARD_CONTROLLER_ID_WZ', symObjAddr: 0x5DC, symBinAddr: 0x28EC8, symSize: 0x30 }
   - { offsetInCU: 0xC5, offset: 0xEC3FF, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview19InAppBrowserManagerC9registrar_WZ', symObjAddr: 0x60C, symBinAddr: 0x28EF8, symSize: 0xC }
@@ -871,10 +871,10 @@ relocations:
   - { offsetInCU: 0x5226, offset: 0xF45F6, size: 0x8, addend: 0x0, symName: '_$ss29getContiguousArrayStorageType3fors01_bcD0CyxGmxm_tlFSo10UIActivityC_Tg5Tf4d_n', symObjAddr: 0x8724, symBinAddr: 0x34C90, symSize: 0x64 }
   - { offsetInCU: 0x5662, offset: 0xF4A32, size: 0x8, addend: 0x0, symName: '_$sSq3mapyqd__Sgqd__xKXEKlFSS3key_ypSg5valuet_SS_ADtTg5', symObjAddr: 0x75F0, symBinAddr: 0x33C70, symSize: 0xB4 }
   - { offsetInCU: 0x4F, offset: 0xF5042, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview12InAppWebViewC26METHOD_CHANNEL_NAME_PREFIXSSvpZ', symObjAddr: 0x34920, symBinAddr: 0x10A0C0, symSize: 0x0 }
-  - { offsetInCU: 0x69, offset: 0xF505C, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview12InAppWebViewC18sslCertificatesMapSDySSAA14SslCertificateCGvpZ', symObjAddr: 0xEE3F0, symBinAddr: 0x110048, symSize: 0x0 }
-  - { offsetInCU: 0x89, offset: 0xF507C, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview12InAppWebViewC19credentialsProposedSaySo15NSURLCredentialCGvpZ', symObjAddr: 0xEE3F8, symBinAddr: 0x110050, symSize: 0x0 }
-  - { offsetInCU: 0xA3, offset: 0xF5096, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview12InAppWebViewC06windowF5ViewsSDys5Int64VAA0fG9TransportCGvpZ', symObjAddr: 0xEE400, symBinAddr: 0x110058, symSize: 0x0 }
-  - { offsetInCU: 0x12F, offset: 0xF5122, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview12InAppWebViewC21windowAutoincrementIds5Int64VvpZ', symObjAddr: 0xEE408, symBinAddr: 0x110060, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0xF505C, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview12InAppWebViewC18sslCertificatesMapSDySSAA14SslCertificateCGvpZ', symObjAddr: 0xEE408, symBinAddr: 0x110048, symSize: 0x0 }
+  - { offsetInCU: 0x89, offset: 0xF507C, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview12InAppWebViewC19credentialsProposedSaySo15NSURLCredentialCGvpZ', symObjAddr: 0xEE410, symBinAddr: 0x110050, symSize: 0x0 }
+  - { offsetInCU: 0xA3, offset: 0xF5096, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview12InAppWebViewC06windowF5ViewsSDys5Int64VAA0fG9TransportCGvpZ', symObjAddr: 0xEE418, symBinAddr: 0x110058, symSize: 0x0 }
+  - { offsetInCU: 0x12F, offset: 0xF5122, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview12InAppWebViewC21windowAutoincrementIds5Int64VvpZ', symObjAddr: 0xEE420, symBinAddr: 0x110060, symSize: 0x0 }
   - { offsetInCU: 0x13D, offset: 0xF5130, size: 0x8, addend: 0x0, symName: '_$sypSgIegn_AAytIegnr_TR', symObjAddr: 0x0, symBinAddr: 0x34E20, symSize: 0x20 }
   - { offsetInCU: 0x19E, offset: 0xF5191, size: 0x8, addend: 0x0, symName: '_$sypSgIegn_yXlSgIeyBy_TR', symObjAddr: 0x1AC, symBinAddr: 0x34FCC, symSize: 0x80 }
   - { offsetInCU: 0x1C2, offset: 0xF51B5, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview12InAppWebViewC08preWKWebG13Configuration8settingsSo0igJ0CAA0defG8SettingsCSg_tFZ', symObjAddr: 0x22C, symBinAddr: 0x3504C, symSize: 0x4 }
@@ -1507,9 +1507,9 @@ relocations:
   - { offsetInCU: 0x4DB6, offset: 0x11AEFE, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview20InAppWebViewSettingsCfETo', symObjAddr: 0x3CEC, symBinAddr: 0x6CF50, symSize: 0xC0 }
   - { offsetInCU: 0x4DE5, offset: 0x11AF2D, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview20InAppWebViewSettingsCMr', symObjAddr: 0x3DAC, symBinAddr: 0x6D010, symSize: 0xFC }
   - { offsetInCU: 0x4DF9, offset: 0x11AF41, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview20InAppWebViewSettingsCMU', symObjAddr: 0x3EB4, symBinAddr: 0x6D118, symSize: 0x8 }
-  - { offsetInCU: 0x4B, offset: 0x11B2C5, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview18InAppWebViewStaticC9registrarSo22FlutterPluginRegistrar_pSgvpZ', symObjAddr: 0x6918, symBinAddr: 0x110068, symSize: 0x0 }
-  - { offsetInCU: 0x65, offset: 0x11B2DF, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview18InAppWebViewStaticC03webG12ForUserAgentSo05WKWebG0CSgvpZ', symObjAddr: 0x6920, symBinAddr: 0x110070, symSize: 0x0 }
-  - { offsetInCU: 0x7F, offset: 0x11B2F9, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview18InAppWebViewStaticC16defaultUserAgentSSSgvpZ', symObjAddr: 0x6928, symBinAddr: 0x110078, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0x11B2C5, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview18InAppWebViewStaticC9registrarSo22FlutterPluginRegistrar_pSgvpZ', symObjAddr: 0x6930, symBinAddr: 0x110068, symSize: 0x0 }
+  - { offsetInCU: 0x65, offset: 0x11B2DF, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview18InAppWebViewStaticC03webG12ForUserAgentSo05WKWebG0CSgvpZ', symObjAddr: 0x6938, symBinAddr: 0x110070, symSize: 0x0 }
+  - { offsetInCU: 0x7F, offset: 0x11B2F9, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview18InAppWebViewStaticC16defaultUserAgentSSSgvpZ', symObjAddr: 0x6940, symBinAddr: 0x110078, symSize: 0x0 }
   - { offsetInCU: 0x8D, offset: 0x11B307, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview18InAppWebViewStaticC9registrar_WZ', symObjAddr: 0x0, symBinAddr: 0x6D15C, symSize: 0xC }
   - { offsetInCU: 0xA7, offset: 0x11B321, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview18InAppWebViewStaticC03webG12ForUserAgent_WZ', symObjAddr: 0xC, symBinAddr: 0x6D168, symSize: 0xC }
   - { offsetInCU: 0xC1, offset: 0x11B33B, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview18InAppWebViewStaticC16defaultUserAgent_WZ', symObjAddr: 0x18, symBinAddr: 0x6D174, symSize: 0x10 }
@@ -1530,18 +1530,18 @@ relocations:
   - { offsetInCU: 0x7B3, offset: 0x11BA2D, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview18InAppWebViewStaticCfE', symObjAddr: 0xC80, symBinAddr: 0x6DD04, symSize: 0x4 }
   - { offsetInCU: 0x7DE, offset: 0x11BA58, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview18InAppWebViewStaticCfETo', symObjAddr: 0xD00, symBinAddr: 0x6DD84, symSize: 0x4 }
   - { offsetInCU: 0x27, offset: 0x11BDC0, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview39INTERCEPT_AJAX_REQUEST_JS_PLUGIN_SCRIPTAA12PluginScriptCvau', symObjAddr: 0x0, symBinAddr: 0x6DDF8, symSize: 0x40 }
-  - { offsetInCU: 0x4B, offset: 0x11BDE4, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview57FLAG_VARIABLE_FOR_SHOULD_INTERCEPT_AJAX_REQUEST_JS_SOURCESSvp', symObjAddr: 0x6350, symBinAddr: 0x110088, symSize: 0x0 }
-  - { offsetInCU: 0x65, offset: 0x11BDFE, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview39INTERCEPT_AJAX_REQUEST_JS_PLUGIN_SCRIPTAA12PluginScriptCvp', symObjAddr: 0x6360, symBinAddr: 0x110098, symSize: 0x0 }
-  - { offsetInCU: 0x7F, offset: 0x11BE18, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview32INTERCEPT_AJAX_REQUEST_JS_SOURCESSvp', symObjAddr: 0x6368, symBinAddr: 0x1100A0, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0x11BDE4, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview57FLAG_VARIABLE_FOR_SHOULD_INTERCEPT_AJAX_REQUEST_JS_SOURCESSvp', symObjAddr: 0x6368, symBinAddr: 0x110088, symSize: 0x0 }
+  - { offsetInCU: 0x65, offset: 0x11BDFE, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview39INTERCEPT_AJAX_REQUEST_JS_PLUGIN_SCRIPTAA12PluginScriptCvp', symObjAddr: 0x6378, symBinAddr: 0x110098, symSize: 0x0 }
+  - { offsetInCU: 0x7F, offset: 0x11BE18, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview32INTERCEPT_AJAX_REQUEST_JS_SOURCESSvp', symObjAddr: 0x6380, symBinAddr: 0x1100A0, symSize: 0x0 }
   - { offsetInCU: 0x8D, offset: 0x11BE26, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview39INTERCEPT_AJAX_REQUEST_JS_PLUGIN_SCRIPTAA12PluginScriptCvau', symObjAddr: 0x0, symBinAddr: 0x6DDF8, symSize: 0x40 }
   - { offsetInCU: 0xAB, offset: 0x11BE44, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview57FLAG_VARIABLE_FOR_SHOULD_INTERCEPT_AJAX_REQUEST_JS_SOURCESSvau', symObjAddr: 0x40, symBinAddr: 0x6DE38, symSize: 0x40 }
   - { offsetInCU: 0xD5, offset: 0x11BE6E, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview57FLAG_VARIABLE_FOR_SHOULD_INTERCEPT_AJAX_REQUEST_JS_SOURCE_WZ', symObjAddr: 0x80, symBinAddr: 0x6DE78, symSize: 0x60 }
   - { offsetInCU: 0x140, offset: 0x11BED9, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview39INTERCEPT_AJAX_REQUEST_JS_PLUGIN_SCRIPT_WZ', symObjAddr: 0xE0, symBinAddr: 0x6DED8, symSize: 0xBC }
   - { offsetInCU: 0x1CB, offset: 0x11BF64, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview32INTERCEPT_AJAX_REQUEST_JS_SOURCE_WZ', symObjAddr: 0x19C, symBinAddr: 0x6DF94, symSize: 0x4C0 }
   - { offsetInCU: 0x27, offset: 0x11C926, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview40INTERCEPT_FETCH_REQUEST_JS_PLUGIN_SCRIPTAA12PluginScriptCvau', symObjAddr: 0x0, symBinAddr: 0x6E454, symSize: 0x40 }
-  - { offsetInCU: 0x4B, offset: 0x11C94A, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview58FLAG_VARIABLE_FOR_SHOULD_INTERCEPT_FETCH_REQUEST_JS_SOURCESSvp', symObjAddr: 0x4FD8, symBinAddr: 0x1100B0, symSize: 0x0 }
-  - { offsetInCU: 0x65, offset: 0x11C964, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview40INTERCEPT_FETCH_REQUEST_JS_PLUGIN_SCRIPTAA12PluginScriptCvp', symObjAddr: 0x4FE8, symBinAddr: 0x1100C0, symSize: 0x0 }
-  - { offsetInCU: 0x7F, offset: 0x11C97E, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview33INTERCEPT_FETCH_REQUEST_JS_SOURCESSvp', symObjAddr: 0x4FF0, symBinAddr: 0x1100C8, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0x11C94A, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview58FLAG_VARIABLE_FOR_SHOULD_INTERCEPT_FETCH_REQUEST_JS_SOURCESSvp', symObjAddr: 0x4FF0, symBinAddr: 0x1100B0, symSize: 0x0 }
+  - { offsetInCU: 0x65, offset: 0x11C964, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview40INTERCEPT_FETCH_REQUEST_JS_PLUGIN_SCRIPTAA12PluginScriptCvp', symObjAddr: 0x5000, symBinAddr: 0x1100C0, symSize: 0x0 }
+  - { offsetInCU: 0x7F, offset: 0x11C97E, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview33INTERCEPT_FETCH_REQUEST_JS_SOURCESSvp', symObjAddr: 0x5008, symBinAddr: 0x1100C8, symSize: 0x0 }
   - { offsetInCU: 0x8D, offset: 0x11C98C, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview40INTERCEPT_FETCH_REQUEST_JS_PLUGIN_SCRIPTAA12PluginScriptCvau', symObjAddr: 0x0, symBinAddr: 0x6E454, symSize: 0x40 }
   - { offsetInCU: 0xAB, offset: 0x11C9AA, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview58FLAG_VARIABLE_FOR_SHOULD_INTERCEPT_FETCH_REQUEST_JS_SOURCESSvau', symObjAddr: 0x40, symBinAddr: 0x6E494, symSize: 0x40 }
   - { offsetInCU: 0xD5, offset: 0x11C9D4, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview58FLAG_VARIABLE_FOR_SHOULD_INTERCEPT_FETCH_REQUEST_JS_SOURCE_WZ', symObjAddr: 0x80, symBinAddr: 0x6E4D4, symSize: 0x60 }
@@ -1554,10 +1554,10 @@ relocations:
   - { offsetInCU: 0xE4, offset: 0x11D44D, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview9ISettingsCMi', symObjAddr: 0xC4, symBinAddr: 0x6EB04, symSize: 0x4 }
   - { offsetInCU: 0xF8, offset: 0x11D461, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview9ISettingsCMr', symObjAddr: 0xC8, symBinAddr: 0x6EB08, symSize: 0x34 }
   - { offsetInCU: 0x27, offset: 0x11D5F1, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview34JAVASCRIPT_BRIDGE_JS_PLUGIN_SCRIPT_WZ', symObjAddr: 0x0, symBinAddr: 0x6EB48, symSize: 0xF4 }
-  - { offsetInCU: 0x4B, offset: 0x11D615, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview34JAVASCRIPT_BRIDGE_JS_PLUGIN_SCRIPTAA12PluginScriptCvp', symObjAddr: 0x6938, symBinAddr: 0x1100D8, symSize: 0x0 }
-  - { offsetInCU: 0x65, offset: 0x11D62F, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview27JAVASCRIPT_BRIDGE_JS_SOURCESSvp', symObjAddr: 0x6940, symBinAddr: 0x1100E0, symSize: 0x0 }
-  - { offsetInCU: 0x7F, offset: 0x11D649, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview24JAVASCRIPT_UTIL_VAR_NAMESSvp', symObjAddr: 0x6950, symBinAddr: 0x1100F0, symSize: 0x0 }
-  - { offsetInCU: 0x99, offset: 0x11D663, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview14UTIL_JS_SOURCESSvp', symObjAddr: 0x6960, symBinAddr: 0x110100, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0x11D615, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview34JAVASCRIPT_BRIDGE_JS_PLUGIN_SCRIPTAA12PluginScriptCvp', symObjAddr: 0x6950, symBinAddr: 0x1100D8, symSize: 0x0 }
+  - { offsetInCU: 0x65, offset: 0x11D62F, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview27JAVASCRIPT_BRIDGE_JS_SOURCESSvp', symObjAddr: 0x6958, symBinAddr: 0x1100E0, symSize: 0x0 }
+  - { offsetInCU: 0x7F, offset: 0x11D649, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview24JAVASCRIPT_UTIL_VAR_NAMESSvp', symObjAddr: 0x6968, symBinAddr: 0x1100F0, symSize: 0x0 }
+  - { offsetInCU: 0x99, offset: 0x11D663, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview14UTIL_JS_SOURCESSvp', symObjAddr: 0x6978, symBinAddr: 0x110100, symSize: 0x0 }
   - { offsetInCU: 0xD9, offset: 0x11D6A3, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview34JAVASCRIPT_BRIDGE_JS_PLUGIN_SCRIPT_WZ', symObjAddr: 0x0, symBinAddr: 0x6EB48, symSize: 0xF4 }
   - { offsetInCU: 0x1F0, offset: 0x11D7BA, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview27JAVASCRIPT_BRIDGE_JS_SOURCE_WZ', symObjAddr: 0xF4, symBinAddr: 0x6EC3C, symSize: 0x2C4 }
   - { offsetInCU: 0x5F0, offset: 0x11DBBA, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview24JAVASCRIPT_UTIL_VAR_NAME_WZ', symObjAddr: 0x3B8, symBinAddr: 0x6EF00, symSize: 0x28 }
@@ -1594,8 +1594,8 @@ relocations:
   - { offsetInCU: 0x451, offset: 0x11F5BD, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview16JsPromptResponseCfETo', symObjAddr: 0x21C, symBinAddr: 0x70300, symSize: 0x7C }
   - { offsetInCU: 0x48B, offset: 0x11F5F7, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview16JsPromptResponseCMa', symObjAddr: 0x9F0, symBinAddr: 0x70AD4, symSize: 0x20 }
   - { offsetInCU: 0x27, offset: 0x11F83C, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview45LAST_TOUCHED_ANCHOR_OR_IMAGE_JS_PLUGIN_SCRIPT_WZ', symObjAddr: 0x0, symBinAddr: 0x70B68, symSize: 0xBC }
-  - { offsetInCU: 0x4B, offset: 0x11F860, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview45LAST_TOUCHED_ANCHOR_OR_IMAGE_JS_PLUGIN_SCRIPTAA12PluginScriptCvp', symObjAddr: 0x33D0, symBinAddr: 0x110110, symSize: 0x0 }
-  - { offsetInCU: 0x65, offset: 0x11F87A, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview38LAST_TOUCHED_ANCHOR_OR_IMAGE_JS_SOURCESSvp', symObjAddr: 0x33D8, symBinAddr: 0x110118, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0x11F860, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview45LAST_TOUCHED_ANCHOR_OR_IMAGE_JS_PLUGIN_SCRIPTAA12PluginScriptCvp', symObjAddr: 0x33E8, symBinAddr: 0x110110, symSize: 0x0 }
+  - { offsetInCU: 0x65, offset: 0x11F87A, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview38LAST_TOUCHED_ANCHOR_OR_IMAGE_JS_SOURCESSvp', symObjAddr: 0x33F0, symBinAddr: 0x110118, symSize: 0x0 }
   - { offsetInCU: 0x84, offset: 0x11F899, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview45LAST_TOUCHED_ANCHOR_OR_IMAGE_JS_PLUGIN_SCRIPT_WZ', symObjAddr: 0x0, symBinAddr: 0x70B68, symSize: 0xBC }
   - { offsetInCU: 0x103, offset: 0x11F918, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview38LAST_TOUCHED_ANCHOR_OR_IMAGE_JS_SOURCE_WZ', symObjAddr: 0xBC, symBinAddr: 0x70C24, symSize: 0x1E0 }
   - { offsetInCU: 0x27, offset: 0x11FE67, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview11LeakAvoiderC6handle_6resultySo17FlutterMethodCallC_yypSgctF', symObjAddr: 0x0, symBinAddr: 0x70E04, symSize: 0x90 }
@@ -1607,8 +1607,8 @@ relocations:
   - { offsetInCU: 0x271, offset: 0x1200B1, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview11LeakAvoiderCACycfcTo', symObjAddr: 0x2A8, symBinAddr: 0x7106C, symSize: 0x2C }
   - { offsetInCU: 0x2FA, offset: 0x12013A, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview11LeakAvoiderCMa', symObjAddr: 0x174, symBinAddr: 0x70F38, symSize: 0x20 }
   - { offsetInCU: 0x30E, offset: 0x12014E, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview11LeakAvoiderCfETo', symObjAddr: 0x24C, symBinAddr: 0x71010, symSize: 0x10 }
-  - { offsetInCU: 0x4B, offset: 0x120365, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview15MyCookieManagerC9registrarSo22FlutterPluginRegistrar_pSgvpZ', symObjAddr: 0x1A0F0, symBinAddr: 0x110128, symSize: 0x0 }
-  - { offsetInCU: 0x65, offset: 0x12037F, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview15MyCookieManagerC04httpE5StoreSo012WKHTTPCookieH0CSgvpZ', symObjAddr: 0x1A0F8, symBinAddr: 0x110130, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0x120365, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview15MyCookieManagerC9registrarSo22FlutterPluginRegistrar_pSgvpZ', symObjAddr: 0x1A108, symBinAddr: 0x110128, symSize: 0x0 }
+  - { offsetInCU: 0x65, offset: 0x12037F, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview15MyCookieManagerC04httpE5StoreSo012WKHTTPCookieH0CSgvpZ', symObjAddr: 0x1A110, symBinAddr: 0x110130, symSize: 0x0 }
   - { offsetInCU: 0x73, offset: 0x12038D, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview15MyCookieManagerC9registrar_WZ', symObjAddr: 0x0, symBinAddr: 0x71108, symSize: 0xC }
   - { offsetInCU: 0x8D, offset: 0x1203A7, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview15MyCookieManagerC04httpE5Store_WZ', symObjAddr: 0xC, symBinAddr: 0x71114, symSize: 0xC }
   - { offsetInCU: 0x12A, offset: 0x120444, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview15MyCookieManagerC6handle_6resultySo17FlutterMethodCallC_yypSgctF', symObjAddr: 0x18, symBinAddr: 0x71120, symSize: 0x12C0 }
@@ -1657,8 +1657,8 @@ relocations:
   - { offsetInCU: 0x2F0A, offset: 0x123224, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview15MyCookieManagerC06deleteE03url4name4path6domain6resultySS_S3SSgyypSgctFZySaySo12NSHTTPCookieCGcfU_TA', symObjAddr: 0x613C, symBinAddr: 0x771D4, symSize: 0x3C }
   - { offsetInCU: 0x2F1E, offset: 0x123238, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview15MyCookieManagerC13deleteCookies3url4path6domain6resultySS_S2SSgyypSgctFZySaySo12NSHTTPCookieCGcfU_TA', symObjAddr: 0x624C, symBinAddr: 0x772A8, symSize: 0x30 }
   - { offsetInCU: 0x3120, offset: 0x12343A, size: 0x8, addend: 0x0, symName: '_$sSlsE9dropFirsty11SubSequenceQzSiFSS_Tg5Tf4ng_n', symObjAddr: 0x5FFC, symBinAddr: 0x77094, symSize: 0x98 }
-  - { offsetInCU: 0x4B, offset: 0x123909, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview19MyWebStorageManagerC9registrarSo22FlutterPluginRegistrar_pSgvpZ', symObjAddr: 0xC978, symBinAddr: 0x110138, symSize: 0x0 }
-  - { offsetInCU: 0x65, offset: 0x123923, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview19MyWebStorageManagerC16websiteDataStoreSo09WKWebsiteiJ0CSgvpZ', symObjAddr: 0xC980, symBinAddr: 0x110140, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0x123909, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview19MyWebStorageManagerC9registrarSo22FlutterPluginRegistrar_pSgvpZ', symObjAddr: 0xC990, symBinAddr: 0x110138, symSize: 0x0 }
+  - { offsetInCU: 0x65, offset: 0x123923, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview19MyWebStorageManagerC16websiteDataStoreSo09WKWebsiteiJ0CSgvpZ', symObjAddr: 0xC998, symBinAddr: 0x110140, symSize: 0x0 }
   - { offsetInCU: 0x73, offset: 0x123931, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview19MyWebStorageManagerC9registrar_WZ', symObjAddr: 0x0, symBinAddr: 0x77314, symSize: 0xC }
   - { offsetInCU: 0x8D, offset: 0x12394B, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview19MyWebStorageManagerC16websiteDataStore_WZ', symObjAddr: 0xC, symBinAddr: 0x77320, symSize: 0xC }
   - { offsetInCU: 0xEB, offset: 0x1239A9, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview19MyWebStorageManagerC6handle_6resultySo17FlutterMethodCallC_yypSgctF', symObjAddr: 0x18, symBinAddr: 0x7732C, symSize: 0x66C }
@@ -1689,27 +1689,27 @@ relocations:
   - { offsetInCU: 0x92, offset: 0x12546B, size: 0x8, addend: 0x0, symName: '_$sSo18NSAttributedStringC27talkjs_flutter_inappwebviewE7fromMap3mapABSgSDySSypSgGSg_tFZTf4nd_n', symObjAddr: 0x4, symBinAddr: 0x78E94, symSize: 0x16F4 }
   - { offsetInCU: 0x8A7, offset: 0x125C80, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorCMa', symObjAddr: 0x187C, symBinAddr: 0x7A5C4, symSize: 0x3C }
   - { offsetInCU: 0x27, offset: 0x125ED8, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview33ON_LOAD_RESOURCE_JS_PLUGIN_SCRIPTAA12PluginScriptCvau', symObjAddr: 0x0, symBinAddr: 0x7A600, symSize: 0x40 }
-  - { offsetInCU: 0x4B, offset: 0x125EFC, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview44FLAG_VARIABLE_FOR_ON_LOAD_RESOURCE_JS_SOURCESSvp', symObjAddr: 0x3240, symBinAddr: 0x110148, symSize: 0x0 }
-  - { offsetInCU: 0x65, offset: 0x125F16, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview33ON_LOAD_RESOURCE_JS_PLUGIN_SCRIPTAA12PluginScriptCvp', symObjAddr: 0x3250, symBinAddr: 0x110158, symSize: 0x0 }
-  - { offsetInCU: 0x7F, offset: 0x125F30, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview26ON_LOAD_RESOURCE_JS_SOURCESSvp', symObjAddr: 0x3258, symBinAddr: 0x110160, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0x125EFC, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview44FLAG_VARIABLE_FOR_ON_LOAD_RESOURCE_JS_SOURCESSvp', symObjAddr: 0x3258, symBinAddr: 0x110148, symSize: 0x0 }
+  - { offsetInCU: 0x65, offset: 0x125F16, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview33ON_LOAD_RESOURCE_JS_PLUGIN_SCRIPTAA12PluginScriptCvp', symObjAddr: 0x3268, symBinAddr: 0x110158, symSize: 0x0 }
+  - { offsetInCU: 0x7F, offset: 0x125F30, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview26ON_LOAD_RESOURCE_JS_SOURCESSvp', symObjAddr: 0x3270, symBinAddr: 0x110160, symSize: 0x0 }
   - { offsetInCU: 0x8D, offset: 0x125F3E, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview33ON_LOAD_RESOURCE_JS_PLUGIN_SCRIPTAA12PluginScriptCvau', symObjAddr: 0x0, symBinAddr: 0x7A600, symSize: 0x40 }
   - { offsetInCU: 0xAB, offset: 0x125F5C, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview44FLAG_VARIABLE_FOR_ON_LOAD_RESOURCE_JS_SOURCESSvau', symObjAddr: 0x40, symBinAddr: 0x7A640, symSize: 0x40 }
   - { offsetInCU: 0xD5, offset: 0x125F86, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview44FLAG_VARIABLE_FOR_ON_LOAD_RESOURCE_JS_SOURCE_WZ', symObjAddr: 0x80, symBinAddr: 0x7A680, symSize: 0x60 }
   - { offsetInCU: 0x140, offset: 0x125FF1, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview33ON_LOAD_RESOURCE_JS_PLUGIN_SCRIPT_WZ', symObjAddr: 0xE0, symBinAddr: 0x7A6E0, symSize: 0xBC }
   - { offsetInCU: 0x1BA, offset: 0x12606B, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview26ON_LOAD_RESOURCE_JS_SOURCE_WZ', symObjAddr: 0x19C, symBinAddr: 0x7A79C, symSize: 0x19C }
   - { offsetInCU: 0x27, offset: 0x126438, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview37ON_WINDOW_BLUR_EVENT_JS_PLUGIN_SCRIPT_WZ', symObjAddr: 0x0, symBinAddr: 0x7A938, symSize: 0xBC }
-  - { offsetInCU: 0x4B, offset: 0x12645C, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview37ON_WINDOW_BLUR_EVENT_JS_PLUGIN_SCRIPTAA12PluginScriptCvp', symObjAddr: 0x28F8, symBinAddr: 0x110170, symSize: 0x0 }
-  - { offsetInCU: 0x65, offset: 0x126476, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview30ON_WINDOW_BLUR_EVENT_JS_SOURCESSvp', symObjAddr: 0x2900, symBinAddr: 0x110178, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0x12645C, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview37ON_WINDOW_BLUR_EVENT_JS_PLUGIN_SCRIPTAA12PluginScriptCvp', symObjAddr: 0x2910, symBinAddr: 0x110170, symSize: 0x0 }
+  - { offsetInCU: 0x65, offset: 0x126476, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview30ON_WINDOW_BLUR_EVENT_JS_SOURCESSvp', symObjAddr: 0x2918, symBinAddr: 0x110178, symSize: 0x0 }
   - { offsetInCU: 0x84, offset: 0x126495, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview37ON_WINDOW_BLUR_EVENT_JS_PLUGIN_SCRIPT_WZ', symObjAddr: 0x0, symBinAddr: 0x7A938, symSize: 0xBC }
   - { offsetInCU: 0x103, offset: 0x126514, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview30ON_WINDOW_BLUR_EVENT_JS_SOURCE_WZ', symObjAddr: 0xBC, symBinAddr: 0x7A9F4, symSize: 0xAC }
   - { offsetInCU: 0x27, offset: 0x12676F, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview38ON_WINDOW_FOCUS_EVENT_JS_PLUGIN_SCRIPT_WZ', symObjAddr: 0x0, symBinAddr: 0x7AAA0, symSize: 0xB0 }
-  - { offsetInCU: 0x4B, offset: 0x126793, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview38ON_WINDOW_FOCUS_EVENT_JS_PLUGIN_SCRIPTAA12PluginScriptCvp', symObjAddr: 0x28C8, symBinAddr: 0x110188, symSize: 0x0 }
-  - { offsetInCU: 0x65, offset: 0x1267AD, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview31ON_WINDOW_FOCUS_EVENT_JS_SOURCESSvp', symObjAddr: 0x28D0, symBinAddr: 0x110190, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0x126793, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview38ON_WINDOW_FOCUS_EVENT_JS_PLUGIN_SCRIPTAA12PluginScriptCvp', symObjAddr: 0x28E0, symBinAddr: 0x110188, symSize: 0x0 }
+  - { offsetInCU: 0x65, offset: 0x1267AD, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview31ON_WINDOW_FOCUS_EVENT_JS_SOURCESSvp', symObjAddr: 0x28E8, symBinAddr: 0x110190, symSize: 0x0 }
   - { offsetInCU: 0x84, offset: 0x1267CC, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview38ON_WINDOW_FOCUS_EVENT_JS_PLUGIN_SCRIPT_WZ', symObjAddr: 0x0, symBinAddr: 0x7AAA0, symSize: 0xB0 }
   - { offsetInCU: 0x103, offset: 0x12684B, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview31ON_WINDOW_FOCUS_EVENT_JS_SOURCE_WZ', symObjAddr: 0xB0, symBinAddr: 0x7AB50, symSize: 0xAC }
   - { offsetInCU: 0x27, offset: 0x126AA6, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview50ORIGINAL_VIEWPORT_METATAG_CONTENT_JS_PLUGIN_SCRIPT_WZ', symObjAddr: 0x0, symBinAddr: 0x7ABFC, symSize: 0xBC }
-  - { offsetInCU: 0x4B, offset: 0x126ACA, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview50ORIGINAL_VIEWPORT_METATAG_CONTENT_JS_PLUGIN_SCRIPTAA12PluginScriptCvp', symObjAddr: 0x2B48, symBinAddr: 0x1101A0, symSize: 0x0 }
-  - { offsetInCU: 0x65, offset: 0x126AE4, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview43ORIGINAL_VIEWPORT_METATAG_CONTENT_JS_SOURCESSvp', symObjAddr: 0x2B50, symBinAddr: 0x1101A8, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0x126ACA, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview50ORIGINAL_VIEWPORT_METATAG_CONTENT_JS_PLUGIN_SCRIPTAA12PluginScriptCvp', symObjAddr: 0x2B60, symBinAddr: 0x1101A0, symSize: 0x0 }
+  - { offsetInCU: 0x65, offset: 0x126AE4, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview43ORIGINAL_VIEWPORT_METATAG_CONTENT_JS_SOURCESSvp', symObjAddr: 0x2B68, symBinAddr: 0x1101A8, symSize: 0x0 }
   - { offsetInCU: 0x84, offset: 0x126B03, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview50ORIGINAL_VIEWPORT_METATAG_CONTENT_JS_PLUGIN_SCRIPT_WZ', symObjAddr: 0x0, symBinAddr: 0x7ABFC, symSize: 0xBC }
   - { offsetInCU: 0x103, offset: 0x126B82, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview43ORIGINAL_VIEWPORT_METATAG_CONTENT_JS_SOURCE_WZ', symObjAddr: 0xBC, symBinAddr: 0x7ACB8, symSize: 0xE8 }
   - { offsetInCU: 0x27, offset: 0x126E5B, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview17PermissionRequestC6origin9resources5frameACSS_SayAA11StringOrInt_pGSo11WKFrameInfoCtcfC', symObjAddr: 0x0, symBinAddr: 0x7ADA0, symSize: 0x84 }
@@ -1732,7 +1732,7 @@ relocations:
   - { offsetInCU: 0x23B, offset: 0x12769D, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview18PermissionResponseC7fromMap3mapACSgSDySSypSgGSg_tFZTf4nd_n', symObjAddr: 0x1BC, symBinAddr: 0x7B2DC, symSize: 0x218 }
   - { offsetInCU: 0x339, offset: 0x12779B, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview18PermissionResponseCMa', symObjAddr: 0xE0, symBinAddr: 0x7B200, symSize: 0x20 }
   - { offsetInCU: 0x363, offset: 0x1277C5, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview18PermissionResponseCfETo', symObjAddr: 0x1AC, symBinAddr: 0x7B2CC, symSize: 0x10 }
-  - { offsetInCU: 0x4B, offset: 0x127A50, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview12PlatformUtilC9registrarSo22FlutterPluginRegistrar_pSgvpZ', symObjAddr: 0x59F8, symBinAddr: 0x1101B8, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0x127A50, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview12PlatformUtilC9registrarSo22FlutterPluginRegistrar_pSgvpZ', symObjAddr: 0x5A10, symBinAddr: 0x1101B8, symSize: 0x0 }
   - { offsetInCU: 0x59, offset: 0x127A5E, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview12PlatformUtilC9registrar_WZ', symObjAddr: 0x0, symBinAddr: 0x7B548, symSize: 0xC }
   - { offsetInCU: 0xC3, offset: 0x127AC8, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview12PlatformUtilC6handle_6resultySo17FlutterMethodCallC_yypSgctF', symObjAddr: 0xC, symBinAddr: 0x7B554, symSize: 0x6B8 }
   - { offsetInCU: 0x2AC, offset: 0x127CB1, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview12PlatformUtilC19getLocaleFromString6locale10Foundation0G0VSSSg_tFZ', symObjAddr: 0x6C4, symBinAddr: 0x7BC0C, symSize: 0x5C }
@@ -1857,7 +1857,7 @@ relocations:
   - { offsetInCU: 0x616, offset: 0x12C72B, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview12PrintJobInfoCMa', symObjAddr: 0x2CC, symBinAddr: 0x7F89C, symSize: 0x20 }
   - { offsetInCU: 0x6C4, offset: 0x12C7D9, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview12PrintJobInfoCfETo', symObjAddr: 0x6AC, symBinAddr: 0x7FC3C, symSize: 0x50 }
   - { offsetInCU: 0x27, offset: 0x12CA64, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview15PrintJobManagerC4jobs_WZ', symObjAddr: 0x0, symBinAddr: 0x7FCBC, symSize: 0x40 }
-  - { offsetInCU: 0x4B, offset: 0x12CA88, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview15PrintJobManagerC4jobsSDySSAA0dE10ControllerCSgGvpZ', symObjAddr: 0x3A40, symBinAddr: 0x1101C0, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0x12CA88, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview15PrintJobManagerC4jobsSDySSAA0dE10ControllerCSgGvpZ', symObjAddr: 0x3A58, symBinAddr: 0x1101C0, symSize: 0x0 }
   - { offsetInCU: 0x59, offset: 0x12CA96, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview15PrintJobManagerC4jobs_WZ', symObjAddr: 0x0, symBinAddr: 0x7FCBC, symSize: 0x40 }
   - { offsetInCU: 0x95, offset: 0x12CAD2, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview15PrintJobManagerCACycfC', symObjAddr: 0x40, symBinAddr: 0x7FCFC, symSize: 0x20 }
   - { offsetInCU: 0xB3, offset: 0x12CAF0, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview15PrintJobManagerCACycfc', symObjAddr: 0x60, symBinAddr: 0x7FD1C, symSize: 0x30 }
@@ -1922,12 +1922,12 @@ relocations:
   - { offsetInCU: 0xFD9, offset: 0x12E01D, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview16PrintJobSettingsCMr', symObjAddr: 0x2040, symBinAddr: 0x8202C, symSize: 0x74 }
   - { offsetInCU: 0xFED, offset: 0x12E031, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview16PrintJobSettingsCMU', symObjAddr: 0x2A40, symBinAddr: 0x82A2C, symSize: 0x8 }
   - { offsetInCU: 0x27, offset: 0x12E2C5, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview22PRINT_JS_PLUGIN_SCRIPT_WZ', symObjAddr: 0x0, symBinAddr: 0x82D68, symSize: 0xBC }
-  - { offsetInCU: 0x4B, offset: 0x12E2E9, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview22PRINT_JS_PLUGIN_SCRIPTAA12PluginScriptCvp', symObjAddr: 0x2860, symBinAddr: 0x1101C8, symSize: 0x0 }
-  - { offsetInCU: 0x65, offset: 0x12E303, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview15PRINT_JS_SOURCESSvp', symObjAddr: 0x2868, symBinAddr: 0x1101D0, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0x12E2E9, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview22PRINT_JS_PLUGIN_SCRIPTAA12PluginScriptCvp', symObjAddr: 0x2878, symBinAddr: 0x1101C8, symSize: 0x0 }
+  - { offsetInCU: 0x65, offset: 0x12E303, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview15PRINT_JS_SOURCESSvp', symObjAddr: 0x2880, symBinAddr: 0x1101D0, symSize: 0x0 }
   - { offsetInCU: 0x84, offset: 0x12E322, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview22PRINT_JS_PLUGIN_SCRIPT_WZ', symObjAddr: 0x0, symBinAddr: 0x82D68, symSize: 0xBC }
   - { offsetInCU: 0x103, offset: 0x12E3A1, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview15PRINT_JS_SOURCE_WZ', symObjAddr: 0xBC, symBinAddr: 0x82E24, symSize: 0xB0 }
   - { offsetInCU: 0x27, offset: 0x12E5FC, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview33PROMISE_POLYFILL_JS_PLUGIN_SCRIPT_WZ', symObjAddr: 0x0, symBinAddr: 0x82ED4, symSize: 0x84 }
-  - { offsetInCU: 0x4B, offset: 0x12E620, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview33PROMISE_POLYFILL_JS_PLUGIN_SCRIPTAA12PluginScriptCvp', symObjAddr: 0x5A18, symBinAddr: 0x1101E0, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0x12E620, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview33PROMISE_POLYFILL_JS_PLUGIN_SCRIPTAA12PluginScriptCvp', symObjAddr: 0x5A30, symBinAddr: 0x1101E0, symSize: 0x0 }
   - { offsetInCU: 0x59, offset: 0x12E62E, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview33PROMISE_POLYFILL_JS_PLUGIN_SCRIPT_WZ', symObjAddr: 0x0, symBinAddr: 0x82ED4, symSize: 0x84 }
   - { offsetInCU: 0x91, offset: 0x12E82D, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview28PullToRefreshChannelDelegateC04pulleF7Control7channelAcA0defJ0C_So013FlutterMethodG0CtcfC', symObjAddr: 0x0, symBinAddr: 0x82F58, symSize: 0x70 }
   - { offsetInCU: 0xEA, offset: 0x12E886, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview28PullToRefreshChannelDelegateC04pulleF7Control7channelAcA0defJ0C_So013FlutterMethodG0Ctcfc', symObjAddr: 0x70, symBinAddr: 0x82FC8, symSize: 0x64 }
@@ -2118,13 +2118,13 @@ relocations:
   - { offsetInCU: 0x370, offset: 0x13558E, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview8SslErrorCMa', symObjAddr: 0x188, symBinAddr: 0x89380, symSize: 0x20 }
   - { offsetInCU: 0x3DC, offset: 0x1355FA, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview8SslErrorCfETo', symObjAddr: 0x3B8, symBinAddr: 0x89570, symSize: 0x14 }
   - { offsetInCU: 0x27, offset: 0x135821, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview33NOT_SUPPORT_ZOOM_JS_PLUGIN_SCRIPTAA12PluginScriptCvau', symObjAddr: 0x0, symBinAddr: 0x895C8, symSize: 0x40 }
-  - { offsetInCU: 0x4B, offset: 0x135845, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview33NOT_SUPPORT_ZOOM_JS_PLUGIN_SCRIPTAA12PluginScriptCvp', symObjAddr: 0x2B58, symBinAddr: 0x1101E8, symSize: 0x0 }
-  - { offsetInCU: 0x65, offset: 0x13585F, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview22SUPPORT_ZOOM_JS_SOURCESSvp', symObjAddr: 0x2B60, symBinAddr: 0x1101F0, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0x135845, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview33NOT_SUPPORT_ZOOM_JS_PLUGIN_SCRIPTAA12PluginScriptCvp', symObjAddr: 0x2B70, symBinAddr: 0x1101E8, symSize: 0x0 }
+  - { offsetInCU: 0x65, offset: 0x13585F, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview22SUPPORT_ZOOM_JS_SOURCESSvp', symObjAddr: 0x2B78, symBinAddr: 0x1101F0, symSize: 0x0 }
   - { offsetInCU: 0x73, offset: 0x13586D, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview33NOT_SUPPORT_ZOOM_JS_PLUGIN_SCRIPTAA12PluginScriptCvau', symObjAddr: 0x0, symBinAddr: 0x895C8, symSize: 0x40 }
   - { offsetInCU: 0x91, offset: 0x13588B, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview22SUPPORT_ZOOM_JS_SOURCESSvau', symObjAddr: 0x40, symBinAddr: 0x89608, symSize: 0x40 }
   - { offsetInCU: 0xAF, offset: 0x1358A9, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview33NOT_SUPPORT_ZOOM_JS_PLUGIN_SCRIPT_WZ', symObjAddr: 0x80, symBinAddr: 0x89648, symSize: 0x88 }
   - { offsetInCU: 0x121, offset: 0x13591B, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview22SUPPORT_ZOOM_JS_SOURCE_WZ', symObjAddr: 0x108, symBinAddr: 0x896D0, symSize: 0xAC }
-  - { offsetInCU: 0x4B, offset: 0x135B9A, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview18SwiftFlutterPluginC8instanceACSgvpZ', symObjAddr: 0xC838, symBinAddr: 0x110200, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0x135B9A, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview18SwiftFlutterPluginC8instanceACSgvpZ', symObjAddr: 0xC848, symBinAddr: 0x110200, symSize: 0x0 }
   - { offsetInCU: 0x65, offset: 0x135BB4, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview18SwiftFlutterPluginC4withACSo0eF9Registrar_p_tcfC', symObjAddr: 0xC, symBinAddr: 0x89788, symSize: 0x30 }
   - { offsetInCU: 0x79, offset: 0x135BC8, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview18SwiftFlutterPluginC4withACSo0eF9Registrar_p_tcfc', symObjAddr: 0x3C, symBinAddr: 0x897B8, symSize: 0x8A8 }
   - { offsetInCU: 0x3D2, offset: 0x135F21, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview18SwiftFlutterPluginC8register4withySo0eF9Registrar_p_tFZ', symObjAddr: 0x8E4, symBinAddr: 0x8A060, symSize: 0x6C }
@@ -2208,7 +2208,7 @@ relocations:
   - { offsetInCU: 0x7FE, offset: 0x13BE04, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview10UserScriptC6source13injectionTime16forMainFrameOnly2inACSS_So06WKUsere9InjectionH0VSbSo14WKContentWorldCtcfcTf4gnnnn_n', symObjAddr: 0x1074, symBinAddr: 0x9102C, symSize: 0x118 }
   - { offsetInCU: 0x8D4, offset: 0x13BEDA, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview10UserScriptCfETo', symObjAddr: 0x658, symBinAddr: 0x90610, symSize: 0x48 }
   - { offsetInCU: 0x928, offset: 0x13BF2E, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview10UserScriptCMa', symObjAddr: 0x1054, symBinAddr: 0x9100C, symSize: 0x20 }
-  - { offsetInCU: 0x4B, offset: 0x13C1FA, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview29SharedLastTouchPointTimestampSDyAA12InAppWebViewCs5Int64VGvp', symObjAddr: 0x12610, symBinAddr: 0x110208, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0x13C1FA, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview29SharedLastTouchPointTimestampSDyAA12InAppWebViewCs5Int64VGvp', symObjAddr: 0x12628, symBinAddr: 0x110208, symSize: 0x0 }
   - { offsetInCU: 0x65, offset: 0x13C214, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview4UtilC19getDecelerationRate4typeSo012UIScrollViewfG0aSS_tFZ', symObjAddr: 0x0, symBinAddr: 0x9119C, symSize: 0x4 }
   - { offsetInCU: 0x81, offset: 0x13C230, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview4UtilC19getDataDetectorType4typeSo06WKDataG5TypesVSS_tFZ', symObjAddr: 0x4, symBinAddr: 0x911A0, symSize: 0x4 }
   - { offsetInCU: 0x9D, offset: 0x13C24C, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview4UtilC11getUrlAsset13assetFilePath10Foundation3URLVSS_tKFZ', symObjAddr: 0x8, symBinAddr: 0x911A4, symSize: 0x304 }
@@ -2291,8 +2291,8 @@ relocations:
   - { offsetInCU: 0x7AD, offset: 0x140C5E, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview39WebAuthenticationSessionChannelDelegateCfE', symObjAddr: 0x7A4, symBinAddr: 0x95A98, symSize: 0x10 }
   - { offsetInCU: 0x7DA, offset: 0x140C8B, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview39WebAuthenticationSessionChannelDelegateCfETo', symObjAddr: 0x854, symBinAddr: 0x95B48, symSize: 0x10 }
   - { offsetInCU: 0x81F, offset: 0x140CD0, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview39WebAuthenticationSessionChannelDelegateCMa', symObjAddr: 0x8BC, symBinAddr: 0x95BB0, symSize: 0x20 }
-  - { offsetInCU: 0x4B, offset: 0x140FA8, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview31WebAuthenticationSessionManagerC9registrarSo22FlutterPluginRegistrar_pSgvpZ', symObjAddr: 0x8948, symBinAddr: 0x110210, symSize: 0x0 }
-  - { offsetInCU: 0x65, offset: 0x140FC2, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview31WebAuthenticationSessionManagerC8sessionsSDySSAA0deF0CSgGvpZ', symObjAddr: 0x8950, symBinAddr: 0x110218, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0x140FA8, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview31WebAuthenticationSessionManagerC9registrarSo22FlutterPluginRegistrar_pSgvpZ', symObjAddr: 0x8960, symBinAddr: 0x110210, symSize: 0x0 }
+  - { offsetInCU: 0x65, offset: 0x140FC2, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview31WebAuthenticationSessionManagerC8sessionsSDySSAA0deF0CSgGvpZ', symObjAddr: 0x8968, symBinAddr: 0x110218, symSize: 0x0 }
   - { offsetInCU: 0x73, offset: 0x140FD0, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview31WebAuthenticationSessionManagerC9registrar_WZ', symObjAddr: 0x0, symBinAddr: 0x95C04, symSize: 0xC }
   - { offsetInCU: 0x8D, offset: 0x140FEA, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview31WebAuthenticationSessionManagerC8sessions_WZ', symObjAddr: 0xC, symBinAddr: 0x95C10, symSize: 0x40 }
   - { offsetInCU: 0xE3, offset: 0x141040, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview31WebAuthenticationSessionManagerC6handle_6resultySo17FlutterMethodCallC_yypSgctF', symObjAddr: 0x4C, symBinAddr: 0x95C50, symSize: 0x560 }
@@ -2362,7 +2362,7 @@ relocations:
   - { offsetInCU: 0x12BA, offset: 0x1452FD, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview017WebMessageChannelF8DelegateCMa', symObjAddr: 0x1AF4, symBinAddr: 0x99B38, symSize: 0x20 }
   - { offsetInCU: 0x1589, offset: 0x1455CC, size: 0x8, addend: 0x0, symName: '_$sSo12FlutterErrorC4code7message7detailsABSS_SSSgypSgtcfCTO', symObjAddr: 0x0, symBinAddr: 0x98168, symSize: 0x14C }
   - { offsetInCU: 0x27, offset: 0x145788, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview34WEB_MESSAGE_CHANNELS_VARIABLE_NAME_WZ', symObjAddr: 0x0, symBinAddr: 0x99B90, symSize: 0x60 }
-  - { offsetInCU: 0x4B, offset: 0x1457AC, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview34WEB_MESSAGE_CHANNELS_VARIABLE_NAMESSvp', symObjAddr: 0x1F38, symBinAddr: 0x110220, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0x1457AC, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview34WEB_MESSAGE_CHANNELS_VARIABLE_NAMESSvp', symObjAddr: 0x1F50, symBinAddr: 0x110220, symSize: 0x0 }
   - { offsetInCU: 0x6F, offset: 0x1457D0, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview34WEB_MESSAGE_CHANNELS_VARIABLE_NAME_WZ', symObjAddr: 0x0, symBinAddr: 0x99B90, symSize: 0x60 }
   - { offsetInCU: 0x4B, offset: 0x1459B1, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview18WebMessageListenerC26METHOD_CHANNEL_NAME_PREFIXSSvpZ', symObjAddr: 0x40A0, symBinAddr: 0x10C258, symSize: 0x0 }
   - { offsetInCU: 0x65, offset: 0x1459CB, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview18WebMessageListenerC2id12jsObjectName18allowedOriginRulesACSS_SSShySSGtcfC', symObjAddr: 0x0, symBinAddr: 0x99BF0, symSize: 0x60 }
@@ -2411,7 +2411,7 @@ relocations:
   - { offsetInCU: 0xB26, offset: 0x149A7B, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview33WebMessageListenerChannelDelegateCfETo', symObjAddr: 0xD04, symBinAddr: 0x9E680, symSize: 0x10 }
   - { offsetInCU: 0xB6B, offset: 0x149AC0, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview33WebMessageListenerChannelDelegateCMa', symObjAddr: 0xD6C, symBinAddr: 0x9E6E8, symSize: 0x20 }
   - { offsetInCU: 0x27, offset: 0x149E18, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview30WEB_MESSAGE_LISTENER_JS_SOURCE_WZ', symObjAddr: 0x0, symBinAddr: 0x9E738, symSize: 0x14C }
-  - { offsetInCU: 0x4B, offset: 0x149E3C, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview30WEB_MESSAGE_LISTENER_JS_SOURCESSvp', symObjAddr: 0x3300, symBinAddr: 0x110230, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0x149E3C, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview30WEB_MESSAGE_LISTENER_JS_SOURCESSvp', symObjAddr: 0x3310, symBinAddr: 0x110230, symSize: 0x0 }
   - { offsetInCU: 0x9B, offset: 0x149E8C, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview30WEB_MESSAGE_LISTENER_JS_SOURCE_WZ', symObjAddr: 0x0, symBinAddr: 0x9E738, symSize: 0x14C }
   - { offsetInCU: 0x8D, offset: 0x14A2BC, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview14WebMessagePortC4name03webE7ChannelACSS_AA0deI0CtcfC', symObjAddr: 0x0, symBinAddr: 0x9E884, symSize: 0xB0 }
   - { offsetInCU: 0xE8, offset: 0x14A317, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview14WebMessagePortC4name03webE7ChannelACSS_AA0deI0Ctcfc', symObjAddr: 0xB0, symBinAddr: 0x9E934, symSize: 0x9C }
@@ -2558,8 +2558,8 @@ relocations:
   - { offsetInCU: 0x1BA, offset: 0x152F44, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview16WebViewTransportCMU', symObjAddr: 0x138, symBinAddr: 0xACEAC, symSize: 0x8 }
   - { offsetInCU: 0x1CE, offset: 0x152F58, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview16WebViewTransportCMr', symObjAddr: 0x140, symBinAddr: 0xACEB4, symSize: 0x7C }
   - { offsetInCU: 0x27, offset: 0x1530CF, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview28WINDOW_ID_VARIABLE_JS_SOURCE_WZ', symObjAddr: 0x0, symBinAddr: 0xACF3C, symSize: 0x60 }
-  - { offsetInCU: 0x4B, offset: 0x1530F3, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview28WINDOW_ID_VARIABLE_JS_SOURCESSvp', symObjAddr: 0x2808, symBinAddr: 0x110240, symSize: 0x0 }
-  - { offsetInCU: 0x65, offset: 0x15310D, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview30WINDOW_ID_INITIALIZE_JS_SOURCESSvp', symObjAddr: 0x2818, symBinAddr: 0x110250, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0x1530F3, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview28WINDOW_ID_VARIABLE_JS_SOURCESSvp', symObjAddr: 0x2820, symBinAddr: 0x110240, symSize: 0x0 }
+  - { offsetInCU: 0x65, offset: 0x15310D, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview30WINDOW_ID_INITIALIZE_JS_SOURCESSvp', symObjAddr: 0x2830, symBinAddr: 0x110250, symSize: 0x0 }
   - { offsetInCU: 0x89, offset: 0x153131, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview28WINDOW_ID_VARIABLE_JS_SOURCE_WZ', symObjAddr: 0x0, symBinAddr: 0xACF3C, symSize: 0x60 }
   - { offsetInCU: 0x120, offset: 0x1531C8, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview30WINDOW_ID_INITIALIZE_JS_SOURCE_WZ', symObjAddr: 0x60, symBinAddr: 0xACF9C, symSize: 0x15C }
   - { offsetInCU: 0x2B, offset: 0x153516, size: 0x8, addend: 0x0, symName: '_$sSo14WKContentWorldC27talkjs_flutter_inappwebviewE7fromMap3map8windowIdABSgSDySSypSgGSg_s5Int64VSgtFZ', symObjAddr: 0x0, symBinAddr: 0xAD0F8, symSize: 0x8 }
@@ -2577,14 +2577,14 @@ relocations:
   - { offsetInCU: 0x27, offset: 0x154207, size: 0x8, addend: 0x0, symName: '_$sSo20WKNavigationResponseC27talkjs_flutter_inappwebviewE5toMapSDySSypSgGyF', symObjAddr: 0x0, symBinAddr: 0xADD10, symSize: 0x170 }
   - { offsetInCU: 0x81, offset: 0x154261, size: 0x8, addend: 0x0, symName: '_$sSo20WKNavigationResponseC27talkjs_flutter_inappwebviewE5toMapSDySSypSgGyF', symObjAddr: 0x0, symBinAddr: 0xADD10, symSize: 0x170 }
   - { offsetInCU: 0x27, offset: 0x154503, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview20WKProcessPoolManagerC013sharedProcessE0_WZ', symObjAddr: 0x0, symBinAddr: 0xADE80, symSize: 0x30 }
-  - { offsetInCU: 0x4B, offset: 0x154527, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview20WKProcessPoolManagerC013sharedProcessE0So0dE0CvpZ', symObjAddr: 0x23B8, symBinAddr: 0x110260, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0x154527, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview20WKProcessPoolManagerC013sharedProcessE0So0dE0CvpZ', symObjAddr: 0x23D0, symBinAddr: 0x110260, symSize: 0x0 }
   - { offsetInCU: 0x59, offset: 0x154535, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview20WKProcessPoolManagerC013sharedProcessE0_WZ', symObjAddr: 0x0, symBinAddr: 0xADE80, symSize: 0x30 }
   - { offsetInCU: 0xAA, offset: 0x154586, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview20WKProcessPoolManagerCfd', symObjAddr: 0x30, symBinAddr: 0xADEB0, symSize: 0x8 }
   - { offsetInCU: 0xD9, offset: 0x1545B5, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview20WKProcessPoolManagerCfD', symObjAddr: 0x38, symBinAddr: 0xADEB8, symSize: 0x10 }
   - { offsetInCU: 0x109, offset: 0x1545E5, size: 0x8, addend: 0x0, symName: '_$s27talkjs_flutter_inappwebview20WKProcessPoolManagerCMa', symObjAddr: 0x48, symBinAddr: 0xADEC8, symSize: 0x20 }
   - { offsetInCU: 0x27, offset: 0x15479E, size: 0x8, addend: 0x0, symName: '_$sSo16WKSecurityOriginC27talkjs_flutter_inappwebviewE5toMapSDySSypSgGyF', symObjAddr: 0x0, symBinAddr: 0xADEF4, symSize: 0x174 }
   - { offsetInCU: 0x81, offset: 0x1547F8, size: 0x8, addend: 0x0, symName: '_$sSo16WKSecurityOriginC27talkjs_flutter_inappwebviewE5toMapSDySSypSgGyF', symObjAddr: 0x0, symBinAddr: 0xADEF4, symSize: 0x174 }
-  - { offsetInCU: 0x4F, offset: 0x154AC2, size: 0x8, addend: 0x0, symName: '_$sSo23WKUserContentControllerC27talkjs_flutter_inappwebviewE16WINDOW_ID_PREFIXSSvpZ', symObjAddr: 0x3E0B8, symBinAddr: 0x110268, symSize: 0x0 }
+  - { offsetInCU: 0x4F, offset: 0x154AC2, size: 0x8, addend: 0x0, symName: '_$sSo23WKUserContentControllerC27talkjs_flutter_inappwebviewE16WINDOW_ID_PREFIXSSvpZ', symObjAddr: 0x3E0D0, symBinAddr: 0x110268, symSize: 0x0 }
   - { offsetInCU: 0x69, offset: 0x154ADC, size: 0x8, addend: 0x0, symName: '_$sSo23WKUserContentControllerC27talkjs_flutter_inappwebviewE14_contentWorlds33_15020149CBDEF7EA5DB87F3F224AF3AELLSDySSShySo14WKContentWorldCGGvpZ', symObjAddr: 0xEC50, symBinAddr: 0x10DBE0, symSize: 0x0 }
   - { offsetInCU: 0x83, offset: 0x154AF6, size: 0x8, addend: 0x0, symName: '_$sSo23WKUserContentControllerC27talkjs_flutter_inappwebviewE16_userOnlyScripts33_15020149CBDEF7EA5DB87F3F224AF3AELLSDySSSDySo0A19ScriptInjectionTimeV10OrderedSetAHVyAC04UserQ0CGGGvpZ', symObjAddr: 0xEC58, symBinAddr: 0x10DBE8, symSize: 0x0 }
   - { offsetInCU: 0x9D, offset: 0x154B10, size: 0x8, addend: 0x0, symName: '_$sSo23WKUserContentControllerC27talkjs_flutter_inappwebviewE14_pluginScripts33_15020149CBDEF7EA5DB87F3F224AF3AELLSDySSSDySo0A19ScriptInjectionTimeV10OrderedSetAHVyAC06PluginP0CGGGvpZ', symObjAddr: 0xEC60, symBinAddr: 0x10DBF0, symSize: 0x0 }

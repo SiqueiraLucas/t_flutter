@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/lucas.siqueira/Documents/GetNinjas/t_flutter/frame/Release/iphoneos/Release-iphoneos/flutter_local_notifications/flutter_local_notifications.framework/flutter_local_notifications'
+binary-path:     '/Users/lucas.siqueira/Documents/GetNinjas/t_flutter/ios_framework/Release/iphoneos/Release-iphoneos/flutter_local_notifications/flutter_local_notifications.framework/flutter_local_notifications'
 relocations:
   - { offsetInCU: 0x34, offset: 0x56C3B, size: 0x8, addend: 0x0, symName: _flutter_local_notificationsVersionString, symObjAddr: 0x0, symBinAddr: 0xAE18, symSize: 0x0 }
   - { offsetInCU: 0x69, offset: 0x56C70, size: 0x8, addend: 0x0, symName: _flutter_local_notificationsVersionNumber, symObjAddr: 0x40, symBinAddr: 0xAE58, symSize: 0x0 }

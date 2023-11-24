@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/lucas.siqueira/Documents/GetNinjas/t_flutter/frame/Release/iphoneos/Release-iphoneos/flutter_apns_only/flutter_apns_only.framework/flutter_apns_only'
+binary-path:     '/Users/lucas.siqueira/Documents/GetNinjas/t_flutter/ios_framework/Release/iphoneos/Release-iphoneos/flutter_apns_only/flutter_apns_only.framework/flutter_apns_only'
 relocations:
   - { offsetInCU: 0x34, offset: 0x5AE5B, size: 0x8, addend: 0x0, symName: _flutter_apns_onlyVersionString, symObjAddr: 0x0, symBinAddr: 0x11420, symSize: 0x0 }
   - { offsetInCU: 0x69, offset: 0x5AE90, size: 0x8, addend: 0x0, symName: _flutter_apns_onlyVersionNumber, symObjAddr: 0x30, symBinAddr: 0x11450, symSize: 0x0 }
