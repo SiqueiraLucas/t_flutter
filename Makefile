@@ -66,7 +66,7 @@ generate-ios-plugins:
 	done
 
 generate-ios-framework:
-	@echo $(SCRIPT-HEADER-WORKING) "GENERATING IOS PLUGINS" $(SCRIPT-FOOTER)
+	@echo $(SCRIPT-HEADER-WORKING) "GENERATING IOS FRAMEWORK" $(SCRIPT-FOOTER)
 	@rm -rf .ios
 	@flutter create -i swift .
 	@make replace-minimum-version
